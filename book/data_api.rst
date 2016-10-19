@@ -204,7 +204,7 @@ Typical request can be performed via curl or via the JSON sandbox.
 |
 
 Curl Example
-""""""""""""
+~~~~~~~~~~~~
 
 .. code-block:: http
 
@@ -316,7 +316,7 @@ number of other methods, too, but they are utilized less frequently.
 
 Below is a table summarizing HTTP methods available in Oro API and their return values in combination with the resource URIs:
 
-|
+
 
 +------------------+----------------+----------------------------------------+----------------------------------------------+
 | HTTP Method      | CRUD operation | Entire Collection (e.g. /users)        | Specific Item (e.g. /users/{id})             |
@@ -351,7 +351,7 @@ matter if the method is called only once, or ten times over. The result should b
 For more details, please see `RFC 7231: Common Method Properties <https://tools.ietf.org/html/rfc7231#section-4.2>`__.
 
 Below is a table summarizing HTTP methods by its idempotency and safety:
-|
+
 
 +-------------+------------+------+
 | HTTP Method | Idempotent | Safe |
@@ -448,7 +448,7 @@ number of records per certain resource with the GET method or total number of af
 the DELETE method. The **X-Include** request header can be used for such purposes.
 
 The following table describes all existing keys for X-Include header.
-|
+
 
 +----------------+-----------------+---------------------------+-------------------------------------------------------+
 | Method         | X-Include key   | Response Header           | Description                                           |
@@ -555,7 +555,7 @@ In case of successful request, a response status code will be one of the followi
 
 |
 Example. Succesful request
-++++++++++++++++++++++++++
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Rquest**
 
@@ -589,7 +589,7 @@ the error occurred. The most common of such codes are the following:
 
 |
 Example. Reqest resulted in error
-+++++++++++++++++++++++++++++++++
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Request**
 
@@ -636,7 +636,7 @@ Resource Fields
 
 Most common resource fields
 """"""""""""""""""""""""""""
-|
+
 
 
 +--------------+--------------+-----------------------------------------------------------------------------------------------------+
@@ -672,7 +672,7 @@ The data based on communication activities may be used to build useful forecast 
 
 The table below describes fields available for the resources that support such communication activities
 as 'Call,' 'Email,' etc.
-|
+
 
 +----------------------+----------+----------------------------------------------------------------------------------------+
 | Name                 | Type     | Description                                                                            |
@@ -702,7 +702,7 @@ To filter, perform a GET request and put your filters parameters in the query st
 |
 
 Example 1. Filter in the query string
-+++++++++++++++++++++++++++++++++++++
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Retreive all users of the organization '1.'
 
@@ -721,7 +721,7 @@ Below are examples of requests and errors.
 |
 
 Example 2. Wrong input type
-+++++++++++++++++++++++++++
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 A string value is passed as an input for a filter which can contain only integer values:
 
@@ -737,7 +737,7 @@ A string value is passed as an input for a filter which can contain only integer
 
 
 Example 3. Unknown filter
-+++++++++++++++++++++++++
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Unknown, mistyped or unsupported filter.
 
@@ -757,7 +757,7 @@ Unknown, mistyped or unsupported filter.
 
 
 The API allows you to use several types of filters. Filter types are briefly described in the table below.
-|
+
 +---------+------------------------------+-----------------------------------------------------------------------------+
 | Filter  | Usage Example                | Description                                                                 |
 +=========+==============================+=============================================================================+
@@ -800,7 +800,7 @@ To request particular fields, use the **fields** filter and specify the fields y
 
 
 Example. Retreive only required fields
-++++++++++++++++++++++++++++++++++++++
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
     Select the **username** and the **email** fields of the **users** resource.
 
@@ -845,7 +845,7 @@ Data Filter (**filter**)
 
 Depending on the type of the filter, certain operators are allowed. For example, for integer filter type it
 is allowed to use six operators: **=**, **!=**, **<**, **<=**, **>**, **>=**, for string filter type - only two: **=**, **!**. 
-|
+
 
 +----------+-----------------------+-------------+---------------------------------------+
 | Operator | Description           | URL Encoded | Request Example                       |
@@ -922,7 +922,7 @@ All included resources will be represented in **included** section at the end of
     the field(s) used in the **include** filter.
 
 Example. Include a related resources information
-++++++++++++++++++++++++++++++++++++++++++++++++
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Include the **roles** relation with the **fields** filter.
 
 **Request**
@@ -984,7 +984,7 @@ Also, it is possible to limit fields that will be retrieved from the relation. F
 should be used.
 
 Example. Retreive only required fields of the related resource
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Request**
 
@@ -1040,7 +1040,7 @@ Pagination Filter (**page**)
 By default, the page size is limited to 10 records and the page number is 1. However, it is possible to ask the server to
 change the page size or page number to get the records that will fit your needs. Pagination
 parameters should be passed as the parameters of the query string.
-|
+
 
 +----------------+---------+---------------+---------------------------------------------------------------------+
 | Parameter name | Type    | Default value | Description                                                         |
@@ -1052,10 +1052,10 @@ parameters should be passed as the parameters of the query string.
 | page[number]   | integer | 1             | The number of the page.                                             |
 +----------------+---------+---------------+---------------------------------------------------------------------+
 
-|
 
+|
 Example. Retreive a particular page of the paged response
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Get the 2nd page of the retreived records for the **users** resource with 20 records per page.
 
@@ -1078,7 +1078,7 @@ available values listed in the API reference.
 
 
 Example. Sort by a field value
-++++++++++++++++++++++++++++++
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Sort by **username** in descending order.
 
@@ -1125,7 +1125,7 @@ The only requirement for the client that will send API requests to the server is
 **Content-Type** must not contain any media type parameters.
 
 Example. A valid **Content-Type**
-+++++++++++++++++++++++++++++++++
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. code-block:: http
 
@@ -1137,7 +1137,7 @@ At the same time, it **must** ignore any media type parameters received in the *
 |
 
 Example. Ignore media type in response 
-++++++++++++++++++++++++++++++++++++++
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Request**
 
@@ -1169,7 +1169,7 @@ will have not a JSON but plain format.
 
 |
 Example. Invalid **Content-Type**
-+++++++++++++++++++++++++++++++++
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 **Request**
 
 .. code-block:: http
