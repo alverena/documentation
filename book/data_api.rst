@@ -1,7 +1,9 @@
 Web Services API
 ================
+
 .. toctree::
-    :maxdepth: 2
+    data_api
+    :maxdepth: 7
  
 Overview
 --------
@@ -39,12 +41,12 @@ To start using the API, you must take a few preliminary steps:
     1. Ensure that the application is installed correctly.
     2. Generate an API key for a user:
     
-        a. If you want to generate an API key for yourself, navigate to the profile page of your user: 
+        - If you want to generate an API key for yourself, navigate to the profile page of your user: 
         
             - either click the :guilabel:`My User` link in the **User Menu** in the top right corner of the current page, or 
             - follow the direct link, e.g. ``http://<hostname_of_your_oro_application>/user/profile/view``. 
             
-        b. If you want to generate an API key for another user, open their view page: 
+        - If you want to generate an API key for another user, open their view page: 
         
             - open the :guilabel:`Users` grid (:guilabel:`System` --> :guilabel:`User Management` --> :guilabel:`Users`), 
             - find the user who needs an API key, and 
@@ -53,17 +55,18 @@ To start using the API, you must take a few preliminary steps:
     3.  Click the :guilabel:`Generate Key` button. You'll see the generated key near the button, it will look like: 'f5c7cd6bf05654e6ce8e5c4c17fbe6535c6161d2.'
     
 
+        |   
         .. image:: ./img/api/api_generateapikey_myuser.png
 
 
 For more details about how to generate an API Key and authentication header, please see the
-`How to use WSSE authentication <../cookbook/how-to-use-wsse-authentication>`__ section of `The Oro Cookbook <../cookbook>`__ guide and the `Log in, View Your User Page, and Set up Your Profile <../user_guide/intro-log-in-and-edit-profile>`__ section of the `User Guide <../user_guide>`__.
+`How to use WSSE authentication </cookbook/how-to-use-wsse-authentication>`__ section of `The Oro Cookbook </cookbook>`__ guide and the `Log in, View Your User Page, and Set up Your Profile </user-guide/intro-log-in-and-edit-profile>`__ section of the `User Guide </user-guide>`__.
 
 .. important::
 
     Please note that an API key will be generated in the scope of the current organization and will allow to access data
-    in the scope of that particular organization only. For more information about ``Organization`` purposes, see the `Company Structure and Organization <../user_guide/intro-company-structure-org-selector>`__ guide.
-    To understand the permissions and security model, see the `Security </security>`__ guide.
+    in the scope of that particular organization only. For more information about ``Organization`` purposes, see the `Company Structure and Organization </user-guide/intro-company-structure-org-selector>`__ guide.
+    To understand the permissions and security model, see the `Security </book/security>`__ guide.
 
 
 Afterwards, it will be possible to execute API requests via the sandbox, Curl command, any other REST client or use the
@@ -302,7 +305,7 @@ Here's an example of a request header with the WSSE authentication. Please pay a
 
 
 For more details about WSSE authentication and particularly for how to generate an API Key and authentication header, please see the
-`How to use WSSE authentication <../cookbook/how-to-use-wsse-authentication>`__ section of `The Oro Cookbook <../cookbook>`__ guide.
+`How to use WSSE authentication </cookbook/how-to-use-wsse-authentication>`__ section of `The Oro Cookbook </cookbook>`__ guide.
 
 
 HTTP Methods Available in Oro API
@@ -318,19 +321,20 @@ Below is a table summarizing HTTP methods available in Oro API and their return 
 | HTTP Method      | CRUD operation | Entire Collection (e.g. /users)        | Specific Item (e.g. /users/{id})             |
 +==================+================+========================================+==============================================+
 | GET              | Read           | 200 (OK), list of entities.            | 200 (OK), single entity.                     |
-|                  |                | Use pagination, sorting and filtering  | 404 (Not Found), if ID not found or invalid. |
-|                  |                | to navigate big lists.                 |                                              |
+|                  |                | Use pagination, sorting and filtering  |                                              |
+|                  |                | to navigate big lists.                 | 404 (Not Found), if ID not found or invalid. |
 +------------------+----------------+----------------------------------------+----------------------------------------------+
 | POST             | Create         | 201 (Created), Response contains       | **not applicable**                           |
 |                  |                | response similar to **GET** /user/{id} |                                              |
 |                  |                | containing new ID.                     |                                              |
 +------------------+----------------+----------------------------------------+----------------------------------------------+
 | PATCH            | Update         | **not applicable**                     | 200 (OK) or 204 (No Content).                |
+|                  |                |                                        |                                              |
 |                  |                |                                        | 404 (Not Found), if ID not found or invalid. |
 +------------------+----------------+----------------------------------------+----------------------------------------------+
 | DELETE           | Delete         | 200(OK) or 403(Forbidden) or           | 200 (OK).                                    |
-| 404 (Not Found), |                | 400(Bad Request) if no filter          | if ID not found or invalid.                  |
-|                  |                | is specified                           |                                              |
+| 404 (Not Found), |                | 400(Bad Request) if no filter          |                                              |
+|                  |                | is specified                           | if ID not found or invalid.                  |
 +------------------+----------------+----------------------------------------+----------------------------------------------+
 | PUT              | Update/Replace | **not implemented**                    | **not implemented**                          |
 +------------------+----------------+----------------------------------------+----------------------------------------------+
@@ -427,7 +431,7 @@ On successful deletion, the HTTP response status code 204 (No Content) returns w
 HTTP Header Specifics
 ^^^^^^^^^^^^^^^^^^^^^^
 
-As mentioned in the `Authentication`__ section, to successfully perform an API request, it is important to provide the correct **Content-Type**
+As mentioned in the `Authentication <Authentication>`__ section, to successfully perform an API request, it is important to provide the correct **Content-Type**
 and **Authentication** parameters, e.g.:
 
 .. code-block:: http
@@ -453,7 +457,7 @@ The following table describes all existing keys for X-Include header.
 | DELETE         | deletedCount    | X-Include-Deleted-Count   | Returns the number of deleted entities.               |
 +----------------+-----------------+---------------------------+-------------------------------------------------------+
 
-
+|
 Header Examples
 """""""""""""""
 Example 1. Total number of existing records
@@ -509,7 +513,7 @@ Example 3. Conditions for deletion operation
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Request query string contains a filter that specifies conditions for deletion operation. Filters are described in more detail in the `Filters <Filter>`__ section.
 
-**Request header:**
+**Request header**
 
 .. code-block:: http
 
@@ -643,13 +647,13 @@ Most common resource fields
 +--------------+--------------+-----------------------------------------------------------------------------------------------------+
 | owner        | user         | An owner record represents the ownership capabilities of the record. In other words,                |
 |              | or           | depending on the owner type the different level of access applies.                                  |
-|              | businessUnit | For more details, see `Access and Permissions Management <../user_guide/user-management-roles>`__.    |
+|              | businessUnit | For more details, see `Access and Permissions Management <../user-guide/user-management-roles>`__.  |
 |              | or           |                                                                                                     |
 |              | organization |                                                                                                     |
 +--------------+--------------+-----------------------------------------------------------------------------------------------------+
 | organization | organization | An organization record represents a real enterprise, business, firm, company or another             |
 |              |              | organization to which the users belong. For more details about the **organization** field purposes, |
-|              |              | see `Company Structure and Organization <../user_guide/intro-company-structure-org-selector>`__       |
+|              |              | see `Company Structure and Organization <../user-guide/intro-company-structure-org-selector>`__     |
 +--------------+--------------+-----------------------------------------------------------------------------------------------------+
 
 
@@ -756,9 +760,11 @@ The API allows you to use several types of filters. Filter types are briefly des
 +---------+------------------------------+-----------------------------------------------------------------------------+
 | filter  | filter[id]=1                 | Used for filtering the response data by specific values of a specific       |
 |         | or                           | field. Can accept additional operators like ``<``, ``>``, etc.              |
-|         | filter[id]=5,7               | May accept several values, in such case they will be perceived as           |
-|         | or                           | connected using a logical OR operator,                                      |
-|         | filter[id]>8&filter[name]=a  | e.g. id == 5 OR id == 7                                                     |
+|         | filter[id]=5,7               |                                                                             |
+|         | or                           | May accept several values, in such case they will be perceived as           |
+|         | filter[id]>8&filter[name]=a  | connected using a logical OR operator,                                      |
+|         |                              | e.g. id == 5 OR id == 7                                                     |
+|         |                              |                                                                             |
 |         |                              | And in case of several filters in request, all of them will be perceived as |
 |         |                              | connected using a logical AND operator,                                     |
 |         |                              | e.g. id > 8 AND name == 'a'                                                 |
@@ -768,11 +774,11 @@ The API allows you to use several types of filters. Filter types are briefly des
 | page    | page[size]=10&page[number]=1 | Used for pagination purposes.                                               |
 +---------+------------------------------+-----------------------------------------------------------------------------+
 | sort    | sort=id                      | Used for data sorting. By default the ASC sorting apllies.                  |
-|         | or                           | To perform DESC sorting specify ``-`` before field name.                    |
-|         | sort=id,-name                |                                                                             |
+|         | or                           |                                                                             |
+|         | sort=id,-name                | To perform DESC sorting specify ``-`` before field name.                    |
 +---------+------------------------------+-----------------------------------------------------------------------------+
 
-
+|
 Fields Filter (**fields**)
 """"""""""""""""""""""""""
 
@@ -1120,8 +1126,8 @@ Example. A valid **Content-Type**
 At the same time, it **must** ignore any media type parameters received in the **Content-Type** header in response.
 
 
-Example
-"""""""
+Example. Ignore media type in response 
+""""""""""""""""""""""""""""""""""""""
 
 **Request**
 
