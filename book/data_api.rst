@@ -51,7 +51,7 @@ To start using the API, you must take a few preliminary steps:
             - find the user who needs an API key, and 
             - click the corresponding grid row or the |icView| :guilabel:`View` icon from the ellipsis menu at the right-hand end of the row.
             
-    3.  Click the :guilabel:`Generate Key` button. You'll see the generated key near the button, it will look like: 'f5c7cd6bf05654e6ce8e5c4c17fbe6535c6161d2.'
+    3.  Click the :guilabel:`Generate Key` button. You'll see the generated key near the button, it will look like: 'dd1c18d06773cc377c9df6166c54c6e5fefa50fa.'
     
 
         |   
@@ -191,8 +191,8 @@ Provided you have the edit permission to the record, you will see the updated da
 
 |
 
-API in Details
----------------
+API in Detail
+-------------
 
 Schema
 ^^^^^^
@@ -201,10 +201,10 @@ All API access is over HTTP or HTTPS (depending on a server configuration) and i
 All data is sent and received as JSON.
 
 Typical request can be performed via curl or via the JSON sandbox.
-|
+
 
 Curl Example
-~~~~~~~~~~~~
+""""""""""""
 
 .. code-block:: http
 
@@ -637,8 +637,6 @@ Resource Fields
 Most common resource fields
 """"""""""""""""""""""""""""
 
-
-
 +--------------+--------------+-----------------------------------------------------------------------------------------------------+
 | Name         | Type         | Description                                                                                         |
 +==============+==============+=====================================================================================================+
@@ -866,7 +864,7 @@ is allowed to use six operators: **=**, **!=**, **<**, **<=**, **>**, **>=**, fo
 |
 
 Example. Use operators to filter data
-+++++++++++++++++++++++++++++++++++++
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Request**
 
@@ -1125,7 +1123,7 @@ The only requirement for the client that will send API requests to the server is
 **Content-Type** must not contain any media type parameters.
 
 Example. A valid **Content-Type**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+"""""""""""""""""""""""""""""""""
 
 .. code-block:: http
 
@@ -1137,7 +1135,7 @@ At the same time, it **must** ignore any media type parameters received in the *
 |
 
 Example. Ignore media type in response 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+""""""""""""""""""""""""""""""""""""""
 
 **Request**
 
@@ -1169,7 +1167,7 @@ will have not a JSON but plain format.
 
 |
 Example. Invalid **Content-Type**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+"""""""""""""""""""""""""""""""""
 **Request**
 
 .. code-block:: http
