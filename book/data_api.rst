@@ -315,6 +315,7 @@ The primary or most-commonly-used HTTP methods are POST, GET, PUT, PATCH, and DE
 number of other methods, too, but they are utilized less frequently.
 
 Below is a table summarizing HTTP methods available in Oro API and their return values in combination with the resource URIs:
+
 |
 
 +------------------+----------------+----------------------------------------+----------------------------------------------+
@@ -351,6 +352,7 @@ For more details, please see `RFC 7231: Common Method Properties <https://tools.
 
 Below is a table summarizing HTTP methods by its idempotency and safety:
 |
+
 +-------------+------------+------+
 | HTTP Method | Idempotent | Safe |
 +=============+============+======+
@@ -380,7 +382,7 @@ The HTTP GET method is used to *read* (or retrieve) a representation of a resour
     So, they are considered safe. That is, they can be called without risk of data modification or corruption —
     calling it once has the same effect as calling it 10 times.
 
-|
+
 POST
 """"
 
@@ -396,7 +398,7 @@ On successful creation, return the HTTP response code 201.
     POST is not safe operation. Making two identical POST requests will most-likely result in two resources containing
     the same information but with different identifiers.
 
-|
+
 PATCH
 """""
 
@@ -413,7 +415,7 @@ server should be modified to produce a new version.
     application should use a conditional request (e.g. GET resource, ensure it was not modified and apply PATCH) such
     that the request will fail if the resource has been updated since the client last accessed the resource.
 
-|
+
 DELETE
 """"""
 
@@ -431,7 +433,7 @@ On successful deletion, the HTTP response status code 204 (No Content) returns w
 HTTP Header Specifics
 ^^^^^^^^^^^^^^^^^^^^^^
 
-As mentioned in the `Authentication`__ section, to successfully perform an API request, it is important to provide the correct **Content-Type**
+As mentioned in the `Authentication<./data-api#authentication>`__ section, to successfully perform an API request, it is important to provide the correct **Content-Type**
 and **Authentication** parameters, e.g.:
 
 .. code-block:: http
@@ -447,6 +449,7 @@ the DELETE method. The **X-Include** request header can be used for such purpose
 
 The following table describes all existing keys for X-Include header.
 |
+
 +----------------+-----------------+---------------------------+-------------------------------------------------------+
 | Method         | X-Include key   | Response Header           | Description                                           |
 +================+=================+===========================+=======================================================+
@@ -511,7 +514,7 @@ Retrieve the total number of deleted records of the resource
 |
 Example 3. Conditions for deletion operation
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Request query string contains a filter that specifies conditions for deletion operation. Filters are described in more detail in the `Filters`__ section.
+Request query string contains a filter that specifies conditions for deletion operation. Filters are described in more detail in the `Filters <data-api#filters>`__ section.
 
 **Request header**
 
@@ -635,6 +638,7 @@ Most common resource fields
 """"""""""""""""""""""""""""
 |
 
+
 +--------------+--------------+-----------------------------------------------------------------------------------------------------+
 | Name         | Type         | Description                                                                                         |
 +==============+==============+=====================================================================================================+
@@ -656,6 +660,7 @@ Most common resource fields
 |              |              | see `Company Structure and Organization <../user-guide/intro-company-structure-org-selector>`__     |
 +--------------+--------------+-----------------------------------------------------------------------------------------------------+
 
+
 |
 Typical Communication Activities Fields
 """""""""""""""""""""""""""""""""""""""
@@ -668,6 +673,7 @@ The data based on communication activities may be used to build useful forecast 
 The table below describes fields available for the resources that support such communication activities
 as 'Call,' 'Email,' etc.
 |
+
 +----------------------+----------+----------------------------------------------------------------------------------------+
 | Name                 | Type     | Description                                                                            |
 +======================+==========+========================================================================================+
@@ -840,6 +846,7 @@ Data Filter (**filter**)
 Depending on the type of the filter, certain operators are allowed. For example, for integer filter type it
 is allowed to use six operators: **=**, **!=**, **<**, **<=**, **>**, **>=**, for string filter type - only two: **=**, **!**. 
 |
+
 +----------+-----------------------+-------------+---------------------------------------+
 | Operator | Description           | URL Encoded | Request Example                       |
 +==========+=======================+=============+=======================================+
@@ -855,6 +862,7 @@ is allowed to use six operators: **=**, **!=**, **<**, **<=**, **>**, **>=**, fo
 +----------+-----------------------+-------------+---------------------------------------+
 | **>=**   | Greater than or equal | %3E%3D      | GET /api/users?filter[id]>=6 HTTP/1.1 |
 +----------+-----------------------+-------------+---------------------------------------+
+
 |
 
 Example. Use operators to filter data
@@ -1033,6 +1041,7 @@ By default, the page size is limited to 10 records and the page number is 1. How
 change the page size or page number to get the records that will fit your needs. Pagination
 parameters should be passed as the parameters of the query string.
 |
+
 +----------------+---------+---------------+---------------------------------------------------------------------+
 | Parameter name | Type    | Default value | Description                                                         |
 +================+=========+===============+=====================================================================+
@@ -1042,6 +1051,7 @@ parameters should be passed as the parameters of the query string.
 +----------------+---------+---------------+---------------------------------------------------------------------+
 | page[number]   | integer | 1             | The number of the page.                                             |
 +----------------+---------+---------------+---------------------------------------------------------------------+
+
 |
 
 Example. Retreive a particular page of the paged response
@@ -1115,7 +1125,7 @@ The only requirement for the client that will send API requests to the server is
 **Content-Type** must not contain any media type parameters.
 
 Example. A valid **Content-Type**
-"""""""""""""""""""""""""""""""""
++++++++++++++++++++++++++++++++++
 
 .. code-block:: http
 
@@ -1127,7 +1137,7 @@ At the same time, it **must** ignore any media type parameters received in the *
 |
 
 Example. Ignore media type in response 
-""""""""""""""""""""""""""""""""""""""
+++++++++++++++++++++++++++++++++++++++
 
 **Request**
 
@@ -1159,7 +1169,7 @@ will have not a JSON but plain format.
 
 |
 Example. Invalid **Content-Type**
-"""""""""""""""""""""""""""""""""
++++++++++++++++++++++++++++++++++
 **Request**
 
 .. code-block:: http
