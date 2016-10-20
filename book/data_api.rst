@@ -154,7 +154,7 @@ This command may help emulate the real request to the API.
 
     When performing Curl requests, please make sure your **X-WSSE** header is up to date for each request.
 
-|
+
 
 Edit a record
 """""""""""""
@@ -630,7 +630,7 @@ with its own set of fields.
     }
 
 
-|
+
 Resource Fields
 ^^^^^^^^^^^^^^^
 
@@ -697,10 +697,10 @@ You can perform the GET and DELETE methods on a subset of resource records. A su
 Available filters are listed on the :guilabel:`Documentation` tab of the method's expanded area, in the :guilabel:`Filters` section. 
 
 To filter, perform a GET request and put your filters parameters in the query string.
-|
 
+|
 Example 1. Filter in the query string
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+"""""""""""""""""""""""""""""""""""""
 
 Retreive all users of the organization '1.'
 
@@ -716,10 +716,10 @@ Retreive all users of the organization '1.'
 Similar to a field, a filter declares a data type and only takes specific values in input.
 
 Below are examples of requests and errors.
-|
 
+|
 Example 2. Wrong input type
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+"""""""""""""""""""""""""""
 
 A string value is passed as an input for a filter which can contain only integer values:
 
@@ -735,7 +735,7 @@ A string value is passed as an input for a filter which can contain only integer
 
 
 Example 3. Unknown filter
-~~~~~~~~~~~~~~~~~~~~~~~~~
+"""""""""""""""""""""""""
 
 Unknown, mistyped or unsupported filter.
 
@@ -1132,11 +1132,10 @@ Example. A valid **Content-Type**
 
 
 At the same time, it **must** ignore any media type parameters received in the **Content-Type** header in response.
-|
 
+|
 Example. Ignore media type in response 
 """"""""""""""""""""""""""""""""""""""
-
 **Request**
 
 .. code-block:: http
