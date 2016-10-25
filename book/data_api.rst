@@ -2,7 +2,6 @@ Web Services API
 ================
 
 .. toctree::
-    data_api
     :maxdepth: 7
  
 Overview
@@ -52,11 +51,8 @@ To start using the API, you must take a few preliminary steps:
             - click the corresponding grid row or the |icView| :guilabel:`View` icon from the ellipsis menu at the right-hand end of the row.
             
     3.  Click the :guilabel:`Generate Key` button. You'll see the generated key near the button, it will look like: 'dd1c18d06773cc377c9df6166c54c6e5fefa50fa.'
-    
 
-        |   
-        .. image:: ./img/api/api_generateapikey_myuser.png
-
+.. image:: ./img/api/api_generateapikey_myuser.png
 
 For more details about how to generate an API Key and authentication header, please see the
 `How to use WSSE authentication <../cookbook/how-to-use-wsse-authentication>`__ section of `The Oro Cookbook <../cookbook>`__ guide and the `Log in, View Your User Page, and Set up Your Profile <../user-guide/intro-log-in-and-edit-profile>`__ section of the `User Guide <../user-guide>`__.
@@ -270,7 +266,6 @@ Attributes or sub resources that are restricted are included as *null* as well.
 
 All timestamps are returned in ISO 8601 format: *YYYY-MM-DDTHH:MM:SSZ*.
 
-|
 Authentication
 ^^^^^^^^^^^^^^
 
@@ -307,7 +302,6 @@ Here's an example of a request header with the WSSE authentication. Please pay a
 For more details about WSSE authentication and particularly for how to generate an API Key and authentication header, please see the
 `How to use WSSE authentication <../cookbook/how-to-use-wsse-authentication>`__ section of `The Oro Cookbook <../cookbook>`__ guide.
 
-|
 HTTP Methods Available in Oro API
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -318,29 +312,29 @@ Below is a table summarizing HTTP methods available in Oro API and their return 
 
 
 
-+------------------+----------------+----------------------------------------+----------------------------------------------+
-| HTTP Method      | CRUD operation | Entire Collection (e.g. /users)        | Specific Item (e.g. /users/{id})             |
-+==================+================+========================================+==============================================+
-| GET              | Read           | 200 (OK), a list of entities.          | 200 (OK), a single entity.                   |
-|                  |                | Use pagination, sorting and filtering  |                                              |
-|                  |                | to navigate big lists.                 | 404 (Not Found), if ID not found or invalid. |
-+------------------+----------------+----------------------------------------+----------------------------------------------+
-| POST             | Create         | 201 (Created), Response contains       | **not applicable**                           |
-|                  |                | response similar to **GET** /user/{id} |                                              |
-|                  |                | containing new ID.                     |                                              |
-+------------------+----------------+----------------------------------------+----------------------------------------------+
-| PATCH            | Update         | **not applicable**                     | 200 (OK) or 204 (No Content).                |
-|                  |                |                                        |                                              |
-|                  |                |                                        | 404 (Not Found), if ID not found or invalid. |
-+------------------+----------------+----------------------------------------+----------------------------------------------+
-| DELETE           | Delete         | 200(OK) or 403(Forbidden) or           | 200 (OK).                                    |
-| 404 (Not Found), |                | 400(Bad Request) if no filter          |                                              |
-|                  |                | is specified                           | if ID not found or invalid.                  |
-+------------------+----------------+----------------------------------------+----------------------------------------------+
-| PUT              | Update/Replace | **not implemented**                    | **not implemented**                          |
-+------------------+----------------+----------------------------------------+----------------------------------------------+
++-------------+----------------+---------------------+----------------------------------------+---------------------------------------------+
+| HTTP Verb   | CRUD operation | API actions         | Entire Collection (e.g. /users)        |         Specific Item (e.g. /users/{id})    |
++=============+================+=====================+========================================+=============================================+
+| GET         | Read           | get                 | 200 (OK), list of entities.            | 200 (OK), single entity.                    |
+|             |                | get_list            | Use pagination, sorting and filtering  | 404 (Not Found), if ID not found or invalid.|
+|             |                | get_subresource     | to navigate big lists.                 |                                             |
+|             |                | get_relationship    |                                        |                                             |
++-------------+----------------+---------------------+----------------------------------------+---------------------------------------------+
+| POST        | Create         | create              | 201 (Created), Response contains       | **not applicable**                          |
+|             |                | add_relationship    | response similar to **GET** /user/{id} |                                             |
+|             |                |                     | containing new ID.                     |                                             |
++-------------+----------------+---------------------+----------------------------------------+---------------------------------------------+
+| PATCH       | Update         | update              | **not applicable**                     | 200 (OK) or 204 (No Content).               |
+|             |                | update_relationship |                                        | 404 (Not Found), if ID not found or invalid.|
+|             |                |                     |                                        |                                             |
++-------------+----------------+---------------------+----------------------------------------+---------------------------------------------+
+| DELETE      | Delete         | delete              | 200(OK) or 403(Forbidden) or           | 200 (OK). 404 (Not Found),                  |
+|             |                | delete_list         | 400(Bad Request) if no filter          | if ID not found or invalid.                 |
+|             |                | delete_relationship | is specified                           |                                             |
++-------------+----------------+---------------------+----------------------------------------+---------------------------------------------+
+| PUT         | Update/Replace | **not implemented** | **not implemented**                    | **not implemented**                         |
++-------------+----------------+---------------------+----------------------------------------+---------------------------------------------+
 
-|
 Also, the HTTP methods can be classified by the *idempotent* and *safe* properties.
 
 The *safe* methods are the HTTP methods that do not modify resources. For instance, using GET or HEAD on a resource URL,
@@ -371,7 +365,6 @@ Below is a table summarizing HTTP methods by its idempotency and safety:
 | PATCH       | no         | no   |
 +-------------+------------+------+
 
-|
 GET
 """
 
@@ -428,13 +421,10 @@ On successful deletion, the HTTP response status code 204 (No Content) returns w
     If you DELETE a resource, it's removed. Repeatedly calling DELETE on that resource will often return a 404 (NOT FOUND)
     since it was already removed and therefore is no longer findable.
 
-
-|
 HTTP Header Specifics
 ^^^^^^^^^^^^^^^^^^^^^^
 
-As mentioned in the `Authentication<./data-api#authentication>`__ section, to successfully perform an API request, it is important to provide the correct **Content-Type**
-and **Authentication** parameters, e.g.:
+As mentioned in the `Authentication <./data-api#authentication>`__ section, to successfully perform an API request, it is important to provide the correct **Content-Type** and **Authentication** parameters, e.g.:
 
 .. code-block:: http
 
@@ -444,23 +434,22 @@ and **Authentication** parameters, e.g.:
     X-WSSE: UsernameToken Username="...",PasswordDigest="...", Created="...", Nonce="..."
 
 Also, by providing additional requests header parameters, it is possible to retrieve additional information, such as a total
-number of records per certain resource with the GET method or a total number of affected records with
-the DELETE method. The **X-Include** request header can be used for such purposes.
+number of records per certain resource for **get_list** and **delete_list** API actions or a total number of affected records
+for the **delete_list** API action. The **X-Include** request header can be used for such purposes.
 
 The following table describes all existing keys for the X-Include header.
 
 
-+----------------+-----------------+---------------------------+-------------------------------------------------------+
-| Method         | X-Include key   | Response Header           | Description                                           |
-+================+=================+===========================+=======================================================+
-| GET            | totalCount      | X-Include-Total-Count     | Returns the total number of entities.                 |
-+----------------+-----------------+---------------------------+-------------------------------------------------------+
-| DELETE         | totalCount      | X-Include-Total-Count     | Returns the total number of entities.                 |
-+----------------+-----------------+---------------------------+-------------------------------------------------------+
-| DELETE         | deletedCount    | X-Include-Deleted-Count   | Returns the number of deleted entities.               |
-+----------------+-----------------+---------------------------+-------------------------------------------------------+
++----------------+-----------------+---------------------------+-----------------------------------------+
+| API action     | X-Include key   | Response Header           | Description                             |
++================+=================+===========================+=========================================+
+| get\_list      | totalCount      | X-Include-Total-Count     | Returns the total number of entities.   |
++----------------+-----------------+---------------------------+-----------------------------------------+
+| delete\_list   | totalCount      | X-Include-Total-Count     | Returns the total number of entities.   |
++----------------+-----------------+---------------------------+-----------------------------------------+
+| delete\_list   | deletedCount    | X-Include-Deleted-Count   | Returns the number of deleted entities. |
++----------------+-----------------+---------------------------+-----------------------------------------+
 
-|
 Header Examples
 """""""""""""""
 Example 1. Total number of existing records
@@ -494,7 +483,6 @@ Retrieve the total count of resource records.
     Connection: Keep-Alive
     Content-Type: application/vnd.api+json
 
-|
 Example 2. Total number of deleted records
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Retrieve the total number of deleted records of the resource
@@ -511,7 +499,6 @@ Retrieve the total number of deleted records of the resource
     ....
     X-Include: deletedCount
 
-|
 Example 3. Conditions for deletion operation
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Request query string contains a filter that specifies conditions for deletion operation. Filters are described in more detail in the `Filters <data-api#filters>`__ section.
@@ -541,7 +528,6 @@ Request query string contains a filter that specifies conditions for deletion op
     Connection: Keep-Alive
     Content-Type: text/html
 
-|
 Response Status Codes and Errors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Response status codes
@@ -553,9 +539,8 @@ In case of a successful request, a response status code will be one of the follo
     -   **201 Created**—In the response to a POST that results in a creation. When this status received, the request body contains the description of the newly created entity in JSON format (similar to regular GET request).
     -   **204 No Content**—In the response to a successful request that won't be returning a body (like a DELETE request)
 
-|
 Example. Successful request
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Request**
 
@@ -576,19 +561,16 @@ Example. Successful request
 
 
 
-In case of an error, a response status code indicates the type of
-the error occurred. The most common of such codes are the following:
+In case of an error, a response status code indicates the type of the error occurred. The most common of such codes are the following:
 
     -   **400 Bad Request**—The request is malformed, such as if the body of the request contains misformatted JSON.
-    -   **401 Unauthorized**—No or invalid authentication details are provided. This code can be used to trigger an
-       authentication pop-up if the API is used from a browser.
+    -   **401 Unauthorized**—No or invalid authentication details are provided. This code can be used to trigger an authentication pop-up if the API is used from a browser.
     -   **403 Forbidden**—Authentication succeeded but authenticated user does not have access to the resource.
     -   **404 Not Found**—A non-existent resource is requested.
     -   **500 Internal Server Error**—The server encountered an unexpected condition which prevented it from fulfilling the request.
 
-|
 Example. Request resulted in error
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Request**
 
@@ -607,7 +589,6 @@ Example. Request resulted in error
        Status Code: 404 Not Found
        Remote Address: 127.0.0.1:80
 
-|
 Error Messages
 """"""""""""""
 
@@ -639,7 +620,7 @@ Most common resource fields
 +--------------+--------------+-----------------------------------------------------------------------------------------------------+
 | Name         | Type         | Description                                                                                         |
 +==============+==============+=====================================================================================================+
-| id           | integer      | The unique identifier of a resource. In most cases, it is represented by an integer value, but       |
+| id           | integer      | The unique identifier of a resource. In most cases, it is represented by an integer value, but      |
 |              |              | depending on the resource data model, it can be represented by a string or contain multiple columns |
 +--------------+--------------+-----------------------------------------------------------------------------------------------------+
 | createdAt    | datetime     | The date and time of resource record creation.                                                      |
@@ -658,7 +639,6 @@ Most common resource fields
 +--------------+--------------+-----------------------------------------------------------------------------------------------------+
 
 
-|
 Typical Communication Activities Fields
 """""""""""""""""""""""""""""""""""""""
 
@@ -687,7 +667,6 @@ as 'Call,' 'Email,' etc.
 | timesContactedOut    | integer  | The total number of outgoing communication activities for the resource record.         |
 +----------------------+----------+----------------------------------------------------------------------------------------+
 
-|
 Filters
 ^^^^^^^^
 
@@ -697,7 +676,6 @@ Available filters are listed on the :guilabel:`Documentation` tab of the method'
 
 To filter, perform a GET request and put your filters parameters in the query string.
 
-|
 Example 1. Filter in the query string
 """""""""""""""""""""""""""""""""""""
 
@@ -716,7 +694,6 @@ Similar to a field, a filter declares a data type and only takes specific values
 
 Below are examples of requests and errors.
 
-|
 Example 2. Wrong input type
 """""""""""""""""""""""""""
 
@@ -781,7 +758,6 @@ The API allows you to use several types of filters. Filter types are briefly des
 |         | sort=id,-name                | To perform DESC sorting specify ``-`` before field name.                    |
 +---------+------------------------------+-----------------------------------------------------------------------------+
 
-|
 Fields Filter (**fields**)
 """"""""""""""""""""""""""
 
@@ -860,8 +836,6 @@ is allowed to use six operators: **=**, **!=**, **<**, **<=**, **>**, **>=**, fo
 | **>=**   | Greater than or equal | %3E%3D      | GET /api/users?filter[id]>=6 HTTP/1.1 |
 +----------+-----------------------+-------------+---------------------------------------+
 
-|
-
 Example. Use operators to filter data
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -920,6 +894,7 @@ All included resources will be represented in **included** section at the end of
 
 Example. Include a related resources information
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Include the **roles** relation with the **fields** filter.
 
 **Request**
@@ -1030,7 +1005,6 @@ Example. Retrieve only required fields of the related resource
       ]
     }
 
-|
 Pagination Filter (**page**)
 """"""""""""""""""""""""""""
 
@@ -1050,9 +1024,8 @@ parameters should be passed as the parameters of the query string.
 +----------------+---------+---------------+---------------------------------------------------------------------+
 
 
-|
 Example. Retrieve a particular page of the paged response
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Get the 2nd page of the retrieved records for the **users** resource with 20 records per page.
 
@@ -1114,7 +1087,6 @@ Sort by **username** in descending order.
       ]
     }
 
-|
 Data API Client Requirements
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -1132,7 +1104,6 @@ Example. A valid **Content-Type**
 
 At the same time, it **must** ignore any media type parameters received in the **Content-Type** header of the response.
 
-|
 Example. Ignore media type in response 
 """"""""""""""""""""""""""""""""""""""
 **Request**
@@ -1163,7 +1134,6 @@ Example. Ignore media type in response
 Requests with the invalid **Content-Type** value in the header will be perceived as a plain request, so the response data
 will have not a JSON but a plain format.
 
-|
 Example. Invalid **Content-Type**
 """""""""""""""""""""""""""""""""
 **Request**
