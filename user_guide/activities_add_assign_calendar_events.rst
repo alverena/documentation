@@ -84,7 +84,7 @@ Create an Event from the Events Grid
 
 3. The "Create Calendar Event" form will appear.
 
-.. image:: ./img/activities/create_event.png
+.. thumbnail:: /img/activities/create_event.png
 
 
 The form has the same fields as the "Add Event" form. The "Guest" field relates to attendees other than
