@@ -1,6 +1,14 @@
 The OroPlatform Documentation
 ==============================
 
+For Review
+----------
+
+.. toctree::
+    :maxdepth: 2
+
+    review
+    
 The Book
 --------
 
