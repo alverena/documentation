@@ -1,8 +1,6 @@
 User Guide
 ==========
 
-`Go To Review <forreview.html>`_
-
 OroCRM is a highly flexible open source CRM. It can be easily custom-tailored to meet the specific needs of your 
 business and to make all sales, marketing, support, and administrative activities appear familiar, convenient for your employees, and as a result, efficient.
 
@@ -236,7 +234,7 @@ The :ref:`OroCRM Users and Their Benefits <oro-benefits>` page will help you fin
 
 .. toctree::
     :hidden:
-    forreview
+ 
     intro
     data_management
     business_intelligence
