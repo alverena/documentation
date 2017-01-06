@@ -2,7 +2,7 @@ For Review
 ==========
 
 .. toctree::
-   :maxdepth:
+   :maxdepth:1
 
    user_guide/leads_2.0
    
