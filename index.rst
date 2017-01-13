@@ -41,13 +41,11 @@ Information for Advanced Users and Developers
    <div style="margin: 0 auto;width: 100%; height:100%;">
    <div style="float: left;width: 33.3%;padding-right: 10px;height: 100%;">
 
-The Book
-~~~~~~~~
+`The Book <book>`_
+~~~~~~~~~~~~~~~~~~
    
 This section explains the Oro architecture, gives an overview of some topics related the Oro application setup (`configuration <book/configuration>`_, `localization <locaization>`_, and `securty <security>`_), and provides information that is useful for application `customization <book/customization>`_. It also covers topics like `using Web Services API <book/data-api>`_ and guidance on `scaling <book/scale-nodes>`_ Oro application.
 
-`Read OroBook <book>`_
-
 .. raw:: html
 
    </div>
@@ -56,13 +54,11 @@ This section explains the Oro architecture, gives an overview of some topics rel
 
 .. container:: 
 
-   The Cookbook
-   ~~~~~~~~~~~~
+   `The Cookbook <cookbook>`_
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    This section provides a series of areticles with more detailed information for developers and integrators.
 
-   `Read OroCookbook <cookbook>`_
-
 .. raw:: html
 
    </div>
@@ -71,8 +67,8 @@ This section explains the Oro architecture, gives an overview of some topics rel
 
 .. container:: 
 
-   The Oro Bundles
-   ~~~~~~~~~~~~~~~
+   `The Oro Bundles </bundles>`_
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    This section contains information about OroPlatform and OroCRM bundles, overview of system capabilities they introduce, and guidance  and advice on customization and extension of the out-of-the box capabilities.
 
