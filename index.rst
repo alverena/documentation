@@ -3,12 +3,12 @@ Welcome to the OroCRM Documentation Portal
 
 OroCRM documentation provides several guides to help you understand Oro and use its capabilities as smoothly as possible, and find answers to the questions most frequently asked by the community.
 
-Learn how to enhance your business with the capabilities of OroCRM in the User Guide.
-Read The Oro Book to get information about the basic features and capabilities of OroPlatform.
-Get acquainted with the most used OroPlatform solutions in The Oro Cookbook.
-Understand the bundles used at the back-end to build and modify OroCRM using the OroPlatform features with The Oro Bundles.
+Learn how to enhance your business with the capabilities of OroCRM in the `User Guide <user-guide>`_.
+Read `The Oro Book <book>`_ to get information about the basic features and capabilities of OroPlatform.
+Get acquainted with the most used OroPlatform solutions in `The Oro Cookbook <cookbook>`_.
+Understand the bundles used at the back-end to build and modify OroCRM using the OroPlatform features with `The Oro Bundles <bundles>`_.
 
-Check out the Community Guide if you want to participate in the development process.
+Check out the `Community Guide <community>`_ if you want to participate in the development process.
  
 .. note:: Caution! Oro Documentation is still a work in progress - learn how you can help.
 
