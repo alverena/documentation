@@ -44,7 +44,7 @@ Information for Advanced Users and Developers
 The Book
 ~~~~~~~~
    
-This section explains the Oro architecture, gives an overview of some topics related the Oro application setup (`configuration <book/configuration>`_, `localization <locaization>`_, and `securty <security>`_), and provides information thatb is useful for application `customization <book/customization>`_. It also covers topics like ` using Web Services API <book/data-api>`_ and guidance on `scaling <book/scale-nodes>`_ Oro application.
+This section explains the Oro architecture, gives an overview of some topics related the Oro application setup (`configuration <book/configuration>`_, `localization <locaization>`_, and `securty <security>`_), and provides information thatb is useful for application `customization <book/customization>`_. It also covers topics like `using Web Services API <book/data-api>`_ and guidance on `scaling <book/scale-nodes>`_ Oro application.
 
 `Read OroBook <book>`_
 
