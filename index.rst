@@ -40,7 +40,7 @@ Information for Advanced Users and Developers
 
 .. raw:: html
 
-   <div style="margin: 0 auto;width: 100%;height: 300px;">
+   <div style="margin: 0 auto;width: 100%; height:100%;">
    <div style="float: left;width: 33.3%;padding-right: 10px;height: 100%;">
 
 The Book
@@ -53,6 +53,7 @@ This section explains the Oro architecture, gives an overview of some topics rel
 
 .. raw:: html
 
+   </div>
    </div>
    <div style="float: left;width: 33.3%;padding-right: 10px;height: 100%;">
 
@@ -67,6 +68,7 @@ This section provides a series of areticles with more detailed information for d
 .. raw:: html
 
    </div>
+   </div>
    <div style="float: left;width: 33.3%;padding-right: 10px;height: 100%;">
 
 
@@ -79,7 +81,8 @@ See `Oro Bundles Reference </bundles>`_.
 
 
 .. raw:: html
-
+   
+   </div>
    </div>
    </div>
 
