@@ -14,24 +14,35 @@ Check out the `Community Guide <community>`_ if you want to participate in the d
 
 Quick Links
 -----------
+.. raw:: html
 
-User Guide
-~~~~~~~~~~
-
-* `Getting Started <user-guide/intro>`_
-* `Data Management Basics <user-guide/data-management>`_
-* `Customers, Channels, Accounts, and Contacts <user-guide/common-features>`_
-* `Sales Tools <user-guide/sales-index>`_
-* `Marketing Tools <user-guide/marketing-index>`_
-* `Support Tools <user-guide/support-index>`_
-* `Productivity Tools <user-guide/productivity-tools>`_
-* `Business Intelligence Tools <user-guide/business-intelligence>`_
-
-Administration Guide
-~~~~~~~~~~~~~~~~~~~~
-
-* `System Management and Administration Tools <user-guide/admin-index>`_
-* `Integrations <user-guide/integrations-index>`_
+   <div style="overflow: hidden;margin: 0 auto;width: 100%; height:100%;">
+   <div style="float: left;width: 33.3%;padding-right: 10px;height: 100%;">   
+   <h3>User Guide</h3>
+   <ul class="simple">
+   <li><a class="reference external" href="user-guide/intro">Getting Started</a></li>
+   <li><a class="reference external" href="user-guide/data-management">Data Management Basics</a></li>
+   <li><a class="reference external" href="user-guide/common-features">Customers, Channels, Accounts, and Contacts</a></li>
+   <li><a class="reference external" href="user-guide/business-intelligence">Business Intelligence Tools</a></li>
+   </ul>
+   </div>
+   <div style="float: left;width: 33.3%;padding-right: 10px;height: 100%;">   
+   <h3><br></h3>
+   <ul class="simple">
+   <li><a class="reference external" href="user-guide/sales-index">Sales Tools</a></li>
+   <li><a class="reference external" href="user-guide/marketing-index">Marketing Tools</a></li>
+   <li><a class="reference external" href="user-guide/support-index">Support Tools</a></li>
+   <li><a class="reference external" href="user-guide/productivity-tools">Productivity Tools</a></li>
+   </ul>
+   </div>
+   <div style="float: left;width: 33.3%;padding-right: 10px;height: 100%;">   
+   <h3>Administration Guide</h3>
+   <ul class="simple">
+   <li><a class="reference external" href="user-guide/admin-index">System Management and Administration Tools</a></li>
+   <li><a class="reference external" href="user-guide/integrations-index">Integrations</a></li>
+   </ul>
+   </div>
+   </div>
 
 Information for Advanced Users and Developers
 ---------------------------------------------
