@@ -51,12 +51,12 @@ Information for Advanced Users and Developers
    <p>This section provides a series of areticles with more detailed information for developers and integrators:
    <ul><li><a class="reference external" href="cookbook/entities">Entity customaization</a></li>
    <li><a class="reference external" href="cookbook/how-to-install-extension-from-command-line">Extension installation</a></li>
-   <li><a class="reference external" href="cookbook/how-to-upgrade-to-new-version">Upgrade</a></li></ul>
+   <li><a class="reference external" href="cookbook/how-to-upgrade-to-new-version">Upgrade</a></li></ul><br>
    </p>
    </div>
    <div style="float: left;width: 33.3%;padding-right: 10px;height: 100%;">
    <h3><a class="reference external" href="bundles">The Oro Bundles</a></h3>
-   <p>This section contains information about OroPlatform and OroCRM bundles, overview of system capabilities they introduce, and guidance  and advice on customization and extension of the out-of-the box capabilities.</p>
+   <p>This section contains information about OroPlatform and OroCRM bundles, overview of system capabilities they introduce, and guidance  and advice on customization and extension of the out-of-the box capabilities.<br><br></p>
    </div>
    </div>
    <div style="float: none;margin: 0 auto;width: 100%; height:100%;">
