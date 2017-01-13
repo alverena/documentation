@@ -38,7 +38,7 @@ Information for Advanced Users and Developers
 
 .. raw:: html
 
-   <div style="float: none;margin: 0 auto;width: 100%; height:100%;">
+   <div style="overflow: hidden;margin: 0 auto;width: 100%; height:100%;">
    <div style="float: left;width: 33.3%;padding-right: 10px;height: 100%;">   
    <h3><a class="reference external" href="book">The Book</a></h3>
    <p>This section explains the Oro architecture and provides information related the Oro application setup:
