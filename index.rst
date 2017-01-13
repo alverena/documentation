@@ -41,7 +41,7 @@ Information for Advanced Users and Developers
    <div style="overflow: hidden;margin: 0 auto;width: 100%; height:100%;">
    <div style="float: left;width: 33.3%;padding-right: 10px;height: 100%;">   
    <h3><a class="reference external" href="book">The Book</a></h3>
-   <p>This section explains the Oro architecture and provides information related the Oro application setup:
+   <p>This section provides information related the Oro application architecture and setup:
    <ul><li><a class="reference external" href="book/configuration">configuration</a>, <a class="reference external" href="locaization">localization</a>, and <a class="reference external" href="security">securty</a>, and <a class="reference external" href="book/customization">customization</a></li>
    <li><a class="reference external" href="book/data-api">Using Web Services API</a></li>
    <li><a class="reference external" href="book/scale-nodes">Scaling</a> Oro application</li></ul></p>
