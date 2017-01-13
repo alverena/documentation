@@ -36,10 +36,12 @@ Administration Guide
 Information for Advanced Users and Developers
 ---------------------------------------------
 
+
+
 .. raw:: html
 
-   <div>
-   <div width=30%>
+   <div style="margin: 0 auto;width: 65%;height: 300px;">
+   <div style="float: left;width: 33.3%;padding-right: 10px;height: 100%;">
 
 The Book
 ~~~~~~~~
@@ -52,7 +54,7 @@ This section explains the Oro architecture, gives an overview of some topics rel
 .. raw:: html
 
    </div>
-   <div width=30%>
+   <div style="float: left;width: 33.3%;padding-right: 10px;height: 100%;">
 
 The Cookbook
 ~~~~~~~~~~~~
@@ -65,7 +67,7 @@ This section provides a series of areticles with more detailed information for d
 .. raw:: html
 
    </div>
-   <div width=30%>
+   <div style="float: left;width: 33.3%;padding-right: 10px;height: 100%;">
 
 
 The Oro Bundles
