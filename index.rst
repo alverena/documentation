@@ -31,7 +31,7 @@ Administration Guide
 ~~~~~~~~~~~~~~~~~~~~
 
 * `System Management and Administration Tools <user-guide/admin-index>`_
-* `Integrations <user-guide/integraions-index>`_
+* `Integrations <user-guide/integrations-index>`_
     
 The Book
 ~~~~~~~~
