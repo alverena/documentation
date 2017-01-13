@@ -18,20 +18,20 @@ Quick Links
 User Guide
 ~~~~~~~~~~
 
-* `Getting Started <>`_
-* `Data Management Basics <>`_
-* `Customers, Channels, Accounts, and Contacts <>`_
-* `Sales Tools <>`_
-* `Marketing Tools <>`_
-* `Support Tools <>`_
-* `Productivity Tools <>`_
-* `Business Intelligence Tools <>`_
+* `Getting Started <user-guide/intro>`_
+* `Data Management Basics <<user-guide/data-management>`_
+* `Customers, Channels, Accounts, and Contacts <user-guide/common-features>`_
+* `Sales Tools <user-guide/sales-index>`_
+* `Marketing Tools <user-guide/marketing-index>`_
+* `Support Tools <user-guide/support-index>`_
+* `Productivity Tools <user-guide/productivity-tools>`_
+* `Business Intelligence Tools <user-guide/business-intelligence>`_
 
 Administration Guide
 ~~~~~~~~~~~~~~~~~~~~
 
-* `System Management and Administration Tools <>`_
-* `Integrations <>`_
+* `System Management and Administration Tools <user-guide/admin-index>`_
+* `Integrations <user-guide/integraions-index>`_
     
 The Book
 ~~~~~~~~
