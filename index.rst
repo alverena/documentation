@@ -38,25 +38,32 @@ Information for Advanced Users and Developers
 
 .. raw:: html
 
-   <div style="margin: 0 auto;width: 100%; height:100%;">
+   <div style="float: none;margin: 0 auto;width: 100%; height:600px;">
    <div style="float: left;width: 33.3%;padding-right: 10px;height: 100%;">   
    <h3><a class="reference external" href="book">The Book</a></h3>
-   <p>This section explains the Oro architecture, gives an overview of some topics related the Oro application setup (<a class="reference external" href="book/configuration">configuration</a>, <a class="reference external" href="locaization">localization</a>, and <a class="reference external" href="security">securty</a>), and provides information that is useful for application <a class="reference external" href="book/customization">customization</a>. It also covers topics like <a class="reference external" href="book/data-api">using Web Services API</a> and guidance on <a class="reference external" href="book/scale-nodes">scaling</a> Oro application.</p>
+   <p>This section explains the Oro architecture and provides information related the Oro application setup:
+   <ul><li><a class="reference external" href="book/configuration">configuration</a>, <a class="reference external" href="locaization">localization</a>, and <a class="reference external" href="security">securty</a>, and <a class="reference external" href="book/customization">customization</a></li>
+   <li><a class="reference external" href="book/data-api">Using Web Services API</a></li>
+   <li><a class="reference external" href="book/scale-nodes">Scaling</a> Oro application</li></ul></p>
    </div>
    <div style="float: left;width: 33.3%;padding-right: 10px;height: 100%;">
    <h3><a class="reference external" href="cookbook">The Cookbook</a></h3>
-   <p>This section provides a series of areticles with more detailed information for developers and integrators.</p>
+   <p>This section provides a series of areticles with more detailed information for developers and integrators:
+   <ul><li><a class="reference external" href="cookbook/entities">Entity customaization</a></li>
+   <li><a class="reference external" href="cookbook/how-to-install-extension-from-command-line">Extension installation</a></li>
+   <li><a class="reference external" href="cookbook/how-to-upgrade-to-new-version">Upgrade</a></li></ul>
+   </p>
    </div>
    <div style="float: left;width: 33.3%;padding-right: 10px;height: 100%;">
    <h3><a class="reference external" href="bundles">The Oro Bundles</a></h3>
    <p>This section contains information about OroPlatform and OroCRM bundles, overview of system capabilities they introduce, and guidance  and advice on customization and extension of the out-of-the box capabilities.</p>
    </div>
    </div>
-   <div style="margin: 0 auto;width: 100%; height:100%;">
+   <div style="float: none;margin: 0 auto;width: 100%; height:100%;">
    <h3><a class="reference external" href="community">Support and Contribution</a></h3>
    <p>Join Oro community and contribute to the open-source OroCRM Community Edition. The OroCRM Community Guide provides information, best practices and conventions for contributing into the OroCommerce <a class="reference external" href="community/contributing">source code</a>, <a class="reference external" href="community/translations">translation</a>, and <a class="reference external" href="community/contributing#improving-documentation">documentation</a></p>
    </div>
-   <div style="margin: 0 auto;width: 100%; height:100%;">
+   <div style="float: none;margin: 0 auto;width: 100%; height:100%;">
    <h3><a class="reference external" href="reference">Reference</a></h3>
    <p>This section contains annotation and configuration format reference. </p>
    </div>
