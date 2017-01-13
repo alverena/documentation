@@ -36,8 +36,6 @@ Administration Guide
 Information for Advanced Users and Developers
 ---------------------------------------------
 
-
-
 .. raw:: html
 
    <div style="margin: 0 auto;width: 100%; height:100%;">
@@ -50,6 +48,20 @@ This section explains the Oro architecture, gives an overview of some topics rel
 
 `Read OroBook <book>`_
 
+.. raw:: html
+
+   </div>
+   </div>
+   <div style="float: left;width: 33.3%;padding-right: 10px;height: 100%;">
+
+.. container:: 
+
+   The Cookbook
+   ~~~~~~~~~~~~
+
+   This section provides a series of areticles with more detailed information for developers and integrators.
+
+   `Read OroCookbook <cookbook>`_
 
 .. raw:: html
 
@@ -57,28 +69,14 @@ This section explains the Oro architecture, gives an overview of some topics rel
    </div>
    <div style="float: left;width: 33.3%;padding-right: 10px;height: 100%;">
 
-The Cookbook
-~~~~~~~~~~~~
+.. container:: 
 
-This section provides a series of areticles with more detailed information for developers and integrators.
+   The Oro Bundles
+   ~~~~~~~~~~~~~~~
 
-`Read OroCookbook <cookbook>`_
+   This section contains information about OroPlatform and OroCRM bundles, overview of system capabilities they introduce, and guidance  and advice on customization and extension of the out-of-the box capabilities.
 
-
-.. raw:: html
-
-   </div>
-   </div>
-   <div style="float: left;width: 33.3%;padding-right: 10px;height: 100%;">
-
-
-The Oro Bundles
-~~~~~~~~~~~~~~~
-
-This section contains information about OroPlatform and OroCRM bundles, overview of system capabilities they introduce, and guidance  and advice on customization and extension of the out-of-the box capabilities.
-
-See `Oro Bundles Reference </bundles>`_.
-
+   See `Oro Bundles Reference </bundles>`_.
 
 .. raw:: html
    
