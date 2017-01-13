@@ -19,7 +19,7 @@ User Guide
 ~~~~~~~~~~
 
 * `Getting Started <user-guide/intro>`_
-* `Data Management Basics <<user-guide/data-management>`_
+* `Data Management Basics <user-guide/data-management>`_
 * `Customers, Channels, Accounts, and Contacts <user-guide/common-features>`_
 * `Sales Tools <user-guide/sales-index>`_
 * `Marketing Tools <user-guide/marketing-index>`_
