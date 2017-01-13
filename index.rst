@@ -36,43 +36,60 @@ Administration Guide
 Information for Advanced Users and Developers
 ---------------------------------------------
 
-.. container: one-third
+.. raw:: html
 
-   The Book
-   ~~~~~~~~
+   <div>
+   <div width=30%>
+
+The Book
+~~~~~~~~
    
-   This section explains the Oro architecture, gives an overview of some topics related the Oro application setup (`configuration <book/configuration>`_, `localization <locaization>`_, and `securty <security>`_), and provides information thatb is useful for application `customization <book/customization>`_. It also covers topics like ` using Web Services API <book/data-api>`_ and guidance on `scaling <book/scale-nodes>`_ Oro application.
+This section explains the Oro architecture, gives an overview of some topics related the Oro application setup (`configuration <book/configuration>`_, `localization <locaization>`_, and `securty <security>`_), and provides information thatb is useful for application `customization <book/customization>`_. It also covers topics like ` using Web Services API <book/data-api>`_ and guidance on `scaling <book/scale-nodes>`_ Oro application.
 
-   `Read OroBook <book>`_
+`Read OroBook <book>`_
 
-.. container: one-third
 
-   The Cookbook
-   ~~~~~~~~~~~~
-   This section provides a series of areticles with more detailed information for developers and integrators.
+.. raw:: html
 
-   `Read OroCookbook <cookbook>`_
+   </div>
+   <div width=30%>
 
-.. container: one-third
+The Cookbook
+~~~~~~~~~~~~
 
-   The Oro Bundles
-   ~~~~~~~~~~~~~~~
+This section provides a series of areticles with more detailed information for developers and integrators.
 
-   This section contains information about OroPlatform and OroCRM bundles, overview of system capabilities they introduce, and guidance  and advice on customization and extension of the out-of-the box capabilities.
+`Read OroCookbook <cookbook>`_
 
-   See `Oro Bundles Reference </bundles>`_.
 
-.. container: one-third
+.. raw:: html
 
-   Support and Contribution
-   ~~~~~~~~~~~~~~~~~~~~~~~~
+   </div>
+   <div width=30%>
 
-   Join Oro community and contribute to the open-source OroCRM Community Edition. The OroCRM Community Guide provides information, best practices and conventions for contributing into the OroCommerce `source code <community/contributing>`_, `translation <translations>`_, and `documentation <community/contributing#improving-documentation>`_:
 
-   Reference
-   ~~~~~~~~~
+The Oro Bundles
+~~~~~~~~~~~~~~~
 
-   `Reference <reference>`_ section contains annotation and configuration format reference. 
+This section contains information about OroPlatform and OroCRM bundles, overview of system capabilities they introduce, and guidance  and advice on customization and extension of the out-of-the box capabilities.
+
+See `Oro Bundles Reference </bundles>`_.
+
+
+.. raw:: html
+
+   </div>
+   </div>
+
+Support and Contribution
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+Join Oro community and contribute to the open-source OroCRM Community Edition. The OroCRM Community Guide provides information, best practices and conventions for contributing into the OroCommerce `source code <community/contributing>`_, `translation <translations>`_, and `documentation <community/contributing#improving-documentation>`_:
+
+Reference
+~~~~~~~~~
+
+`Reference <reference>`_ section contains annotation and configuration format reference. 
 
 .. toctree::
     :maxdepth: 2
