@@ -32,35 +32,47 @@ Administration Guide
 
 * `System Management and Administration Tools <user-guide/admin-index>`_
 * `Integrations <user-guide/integrations-index>`_
-    
-The Book
-~~~~~~~~
-This section explains the Oro architecture, gives an overview of some topics related the Oro application setup (`configuration <book/configuration>`_, `localization <locaization>`_, and `securty <security>`_), and provides information thatb is useful for application `customization <book/customization>`_. It also covers topics like ` using Web Services API <book/data-api>`_ and guidance on `scaling <book/scale-nodes>`_ Oro application.
 
-`Read OroBook <book>`_
+Information for Advanced Users and Developers
+---------------------------------------------
 
-The Cookbook
-~~~~~~~~~~~~
-This section provides a series of areticles with more detailed information for developers and integrators.
+.. container: one-third
 
-`Read OroCookbook <cookbook>`_
+   The Book
+   ~~~~~~~~
+   
+   This section explains the Oro architecture, gives an overview of some topics related the Oro application setup (`configuration <book/configuration>`_, `localization <locaization>`_, and `securty <security>`_), and provides information thatb is useful for application `customization <book/customization>`_. It also covers topics like ` using Web Services API <book/data-api>`_ and guidance on `scaling <book/scale-nodes>`_ Oro application.
 
-The Oro Bundles
-~~~~~~~~~~~~~~~
+   `Read OroBook <book>`_
 
-This section contains information about OroPlatform and OroCRM bundles, overview of system capabilities they introduce, and guidance  and advice on customization and extension of the out-of-the box capabilities.
+.. container: one-third
 
-See `Oro Bundles Reference </bundles>`_.
+   The Cookbook
+   ~~~~~~~~~~~~
+   This section provides a series of areticles with more detailed information for developers and integrators.
 
-Support and Contribution
-~~~~~~~~~~~~~~~~~~~~~~~~
+   `Read OroCookbook <cookbook>`_
 
-Join Oro community and contribute to the open-source OroCRM Community Edition. The OroCRM Community Guide provides information, best practices and conventions for contributing into the OroCommerce `source code <community/contributing>`_, `translation <translations>`_, and `documentation <community/contributing#improving-documentation>`_:
+.. container: one-third
 
-Reference
-~~~~~~~~~
+   The Oro Bundles
+   ~~~~~~~~~~~~~~~
 
-`Reference <reference>`_ section contains annotation and configuration format reference. 
+   This section contains information about OroPlatform and OroCRM bundles, overview of system capabilities they introduce, and guidance  and advice on customization and extension of the out-of-the box capabilities.
+
+   See `Oro Bundles Reference </bundles>`_.
+
+.. container: one-third
+
+   Support and Contribution
+   ~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Join Oro community and contribute to the open-source OroCRM Community Edition. The OroCRM Community Guide provides information, best practices and conventions for contributing into the OroCommerce `source code <community/contributing>`_, `translation <translations>`_, and `documentation <community/contributing#improving-documentation>`_:
+
+   Reference
+   ~~~~~~~~~
+
+   `Reference <reference>`_ section contains annotation and configuration format reference. 
 
 .. toctree::
     :maxdepth: 2
