@@ -48,7 +48,7 @@ Information for Advanced Users and Developers
    <p>This section provides a series of areticles with more detailed information for developers and integrators.</p>
    </div>
    <div style="float: left;width: 33.3%;padding-right: 10px;height: 100%;">
-   <h3><a class="reference external" href="/bundles">The Oro Bundles</a></h3>
+   <h3><a class="reference external" href="bundles">The Oro Bundles</a></h3>
    <p>This section contains information about OroPlatform and OroCRM bundles, overview of system capabilities they introduce, and guidance  and advice on customization and extension of the out-of-the box capabilities.</p>
    </div>
    </div>
