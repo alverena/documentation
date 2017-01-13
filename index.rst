@@ -51,6 +51,7 @@ Reference
 
 .. toctree::
     :maxdepth: 2
+    :hidden:
 
     book/index
 
