@@ -52,11 +52,11 @@ Information for Advanced Users and Developers
    <p>This section contains information about OroPlatform and OroCRM bundles, overview of system capabilities they introduce, and guidance  and advice on customization and extension of the out-of-the box capabilities.</p>
    </div>
    </div>
+   <div style="margin: 0 auto;width: 100%; height:100%;">
+   <h3><a class="reference external" href="community">Support and Contribution</a></h3>
+   <p>Join Oro community and contribute to the open-source OroCRM Community Edition. The OroCRM Community Guide provides information, best practices and conventions for contributing into the OroCommerce <a class="reference external" href="community/contributing">source code</a>, <a class="reference external" href="community/translations">translation</a>, and <a class="reference external" href="community/contributing#improving-documentation">documentation</a></p>
+   </div>
 
-Support and Contribution
-~~~~~~~~~~~~~~~~~~~~~~~~
-
-Join Oro community and contribute to the open-source OroCRM Community Edition. The OroCRM Community Guide provides information, best practices and conventions for contributing into the OroCommerce `source code <community/contributing>`_, `translation <translations>`_, and `documentation <community/contributing#improving-documentation>`_:
 
 Reference
 ~~~~~~~~~
