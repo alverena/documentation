@@ -56,12 +56,10 @@ Information for Advanced Users and Developers
    <h3><a class="reference external" href="community">Support and Contribution</a></h3>
    <p>Join Oro community and contribute to the open-source OroCRM Community Edition. The OroCRM Community Guide provides information, best practices and conventions for contributing into the OroCommerce <a class="reference external" href="community/contributing">source code</a>, <a class="reference external" href="community/translations">translation</a>, and <a class="reference external" href="community/contributing#improving-documentation">documentation</a></p>
    </div>
-
-
-Reference
-~~~~~~~~~
-
-`Reference <reference>`_ section contains annotation and configuration format reference. 
+   <div style="margin: 0 auto;width: 100%; height:100%;">
+   <h3><a class="reference external" href="reference">Reference</a></h3>
+   <p>This section contains annotation and configuration format reference. </p>
+   </div>
 
 .. toctree::
     :maxdepth: 2
