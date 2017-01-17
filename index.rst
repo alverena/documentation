@@ -1,5 +1,6 @@
+
 Welcome to OroCRM Documentation Portal
-======================================
+
 
 OroCRM documentation provides several guides to help you understand Oro and use its capabilities as smoothly as possible, and find answers to the questions most frequently asked by the community.
 
@@ -11,6 +12,7 @@ Understand the bundles used at the back-end to build and modify OroCRM using the
 Check out the `Community Guide <community>`_ if you want to participate in the development process.
  
 .. note:: Caution! Oro Documentation is still a work in progress - learn how you can help.
+
 
 Quick Start
 -----------
@@ -53,6 +55,7 @@ Information for Advanced Users and Developers
    <div style="float: left;width: 33.3%;padding-right: 10px;height: 100%;">   
    <h3><a class="reference external" href="book">The Book</a></h3>
    <p>This section provides information related the Oro application architecture and setup:
+
    <ul><li><a class="reference external" href="book/configuration">configuration</a>, <a class="reference external" href="localization">localization</a>, and <a class="reference external" href="security">securty</a>, and <a class="reference external" href="book/customization">customization</a></li>
    <li><a class="reference external" href="book/data-api">Using Web Services API</a></li>
    <li><a class="reference external" href="book/scale-nodes">Scaling</a> Oro application</li></ul></p>
