@@ -232,6 +232,7 @@ The :ref:`OroCRM Users and Their Benefits <oro-benefits>` page will help you fin
   * :doc:`/user_guide/processes`
   * :doc:`/user_guide/package_manager`  
 
+
 .. toctree::
     :hidden:
  
@@ -245,4 +246,5 @@ The :ref:`OroCRM Users and Their Benefits <oro-benefits>` page will help you fin
     productivity_tools
     admin_index
     glossary
+    something_special
     
