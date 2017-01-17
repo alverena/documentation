@@ -20,8 +20,6 @@ can be added to any website to collect requests to the OroCRM team.
 
 * :doc:`/user_guide/dotmailer_integration`
 
-* :doc:`/user_guide/sending_email_campaign_via_dotmailer`
-
 * :doc:`/user_guide/ms_exchange_integration`
 
 * :doc:`/user_guide/outlook_sync`
@@ -40,7 +38,6 @@ can be added to any website to collect requests to the OroCRM team.
     mailchimp_integration
     sending_email_campaign_via_mailchimp
     dotmailer_integration
-    sending_email_campaign_via_dotmailer
     ms_exchange_integration
     outlook_sync
     embedded_forms

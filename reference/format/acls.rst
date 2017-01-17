@@ -21,20 +21,18 @@ is the unique name of an ACL while the values for each ACL is a map of options:
 
     # src/Acme/DemoBundle/Resources/config/oro/acls.yml
 
-    acls:
+    # an ACL used to protect an action
+    password_management:
+        label: Password Management
+        type: action
+        group_name: ""
 
-        # an ACL used to protect an action
-        password_management:
-            label: Password Management
-            type: action
-            group_name: ""
-
-        # an ACL used to grant removal permissions to users
-        user_delete:
-            label: Delete Users
-            type: entity
-            class: Acme\DemoBundle\Entity\User
-            permission: DELETE
+    # an ACL used to grant removal permissions to users
+    user_delete:
+        label: Delete Users
+        type: entity
+        class: Acme\DemoBundle\Entity\User
+        permission: DELETE
 
 ``bindings``
 ------------

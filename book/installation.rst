@@ -54,16 +54,16 @@ First, you need to obtain the application's source code and define the dependenc
 
 #. Go to the directory, to which you want to save the OroCRM folder (``[$folder_location]``).
 
-#. Use the *git clone* command. Specify the version to download (in the example, it is "``1.10.12``").
+#. Use the *git clone* command. Specify the version to download (in the example, it is "``1.8.2``").
 
    .. code-block:: bash
 
        $ cd [$folder_location]
-       $ git clone -b 1.10.12 https://github.com/orocrm/crm-application.git orocrm
+       $ git clone -b 1.9.0 https://github.com/orocrm/crm-application.git orocrm
 
    .. hint::
 
-       Along with ``1.10.12``, you can use any other released version or even the master branch to run
+       Along with ``1.9.0``, you can use any other released version or even the master branch to run
        the latest development version of the OroCRM.
 
    .. tip::
@@ -75,7 +75,7 @@ First, you need to obtain the application's source code and define the dependenc
        .. code-block:: bash
 
            $ cd [$folder_location]
-           $ git clone -b 1.10.12 https://github.com/orocrm/platform-application.git orocrm
+           $ git clone -b 1.9.0 https://github.com/orocrm/platform-application.git orocrm
 
 #. Go to the ``orocrm`` directory and run the *composer install* command, in order to install the
    dependencies. You need to define the ``--prefer-dist --no-dev`` parameter, as otherwise you can
@@ -664,20 +664,13 @@ Activating Background Tasks
 ---------------------------
 
 Time consuming or blocking tasks should usually be performed in the background to not influence the
-user experience in a bad way. For example, the OroPlatform uses the `MessageQueueComponent`_
-together with `MessageQueueBundle`_ to asynchronously run maintenance tasks. You  have to make
-sure that its entry point is called regularly, for example, by executing it every minute through the
-system's cron system:
+user experience in a bad way. For example, the OroPlatform uses the `JMSJobQueueBundle`_ to
+asynchronously run maintenance tasks. You simply have to make sure that its entry point is called
+regularly, for example, by executing it every minute through the system's cron system:
 
 .. code-block:: text
 
     */1 * * * * /path/to/php [$folder_location]/orocrm/app/console oro:cron --env=prod > /dev/null
-
-and one or more consumers are running:
-
-.. code-block:: text
-
-    */1 * * * * /path/to/php [$folder_location]/orocrm/app/console oro:message-queue:consume --env=prod > /dev/null
 
 .. seealso::
 
@@ -712,6 +705,5 @@ with the OroPlatform application and upgrade it by installing the "oro/crm" pack
 .. _`Symfony Cookbook`: http://symfony.com/doc/current/cookbook/index.html
 .. _`custom event listeners`: http://symfony.com/doc/current/cookbook/service_container/event_listener.html
 .. _`documentation`: https://github.com/doctrine/data-fixtures/blob/master/README.md
-.. _`MessageQueueBundle`: https://github.com/orocrm/platform/tree/master/src/Oro/Bundle/MessageQueueBundle
-.. _`MessageQueueComponent`: https://github.com/orocrm/platform/tree/master/src/Oro/Component/MessageQueue
+.. _`JMSJobQueueBundle`: http://jmsyst.com/bundles/JMSJobQueueBundle
 .. _`system requirements`: http://www.orocrm.com/documentation/index/current/system-requirements

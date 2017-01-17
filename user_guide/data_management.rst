@@ -33,7 +33,7 @@ for it. If something has changed (e.g., the phone number), the properties are up
 New records can be created and the existing record can be updated both manually and automatically 
 (as a result of integration with third-party systems). 
 
-With OroCRM's comprehensive `access settings <./access-roles-management>`__ you can define what users 
+With OroCRM's comprehensive :ref:`access settings <user-guide-user-management-permissions>` you can define what users 
 will be able to view, update, delete, and create records of specific entities.
 
 As soon as a property has been updated, all the system users who have access permission will see its new updated state.
@@ -107,7 +107,7 @@ Create New Records and Edit Existing Records
 To change the details of an existing record or to create a new record, you need to (re)define the record properties on 
 its Create/Edit form.
 
-The Create/Edit form details are described in the :ref:`Create a New Record and Edit the Record Details Pages <user-guide-ui-components-create-pages>`
+The Create/Edit form details are described in the :ref:`Create/Edit Forms `<user-guide-ui-components-create-pages>` 
 guide.
 
 Tag the Records
@@ -117,7 +117,7 @@ In order to give system users additional information about a record, as well as 
 future usage (e.g., to select them for reports or create segments), you can assign them existing or new tags. For 
 example, if you tag a customer as "VIP," this will let the other system users know about the customer's importance. You 
 can then adjust the report to show only data for your VIPs and make targeted mailings to them. Moreover, you can find a 
-record by its tag with the :ref:`search <user-guide-getting-started-search>` functionality.
+record by its tag with the :ref:search <user-guide-getting-started-search> functionality.
  
 
 Use Workflows to Define Processes
@@ -199,7 +199,7 @@ Related Documents
 * :doc:`/user_guide/data_management_workflows`
 * :doc:`/user_guide/data_management_data_audit`
 * :doc:`/user_guide/data_management_import_export`
-* :doc:`/user_guide/access_roles_management`
+* :doc:`/user_guide/data_management_access_permissions_basic`
  
 .. toctree::
     :hidden:
@@ -212,7 +212,6 @@ Related Documents
     data_management_data_audit
     data_management_import_export
     data_management_access_permissions_basic
-    access_roles_management
 
  
 .. |IcDelete| image:: ./img/buttons/IcDelete.png

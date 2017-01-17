@@ -22,7 +22,7 @@ users you have to enable ACLs for these entities using the ``@Config`` annotatio
     :linenos:
 
     // src/AppBundle/Entity/Task.php
-    namespace AppBundle\Entity;
+    namespace AppBundle\Entitiy;
 
     use Oro\Bundle\EntityConfigBundle\Metadata\Annotation\Config;
 

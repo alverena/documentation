@@ -16,11 +16,11 @@ Database Setup
 
 Common database management systems like MySQL or Postgres offer additional
 indexes for fulltext searches. To initialize the advanced database index,
-run the ``oro:search:reindex`` command:
+run the ``oro:search:create-index`` command:
 
 .. code-block:: bash
 
-    $ php ./app/console oro:search:reindex
+    $ php ./app/console oro:search:create-index
 
 .. tip::
 

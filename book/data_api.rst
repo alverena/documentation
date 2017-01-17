@@ -1,9 +1,9 @@
 Web Services API
 ================
 
-.. contents:: :local:
-    :depth: 6
-
+.. toctree::
+    :maxdepth: 7
+ 
 Overview
 --------
 
@@ -37,26 +37,20 @@ Create an API Key
 To start using the API, you must take a few preliminary steps:
 
     1. Ensure that the application is installed correctly.
-
     2. Generate an API key for a user:
-
-        - If you want to generate an API key for yourself, navigate to the profile page of your user:
-
-            - either click the :guilabel:`My User` link in the **User Menu** in the top right corner of the current page, or
-
-            - follow the direct link, e.g. ``http://<hostname_of_your_oro_application>/user/profile/view``.
-
-        - If you want to generate an API key for another user:
-
-            - open their view page,
-
-            - open the :guilabel:`Users` grid (:guilabel:`System` --> :guilabel:`User Management` --> :guilabel:`Users`),
-
-            - find the user who needs an API key,
-
+    
+        - If you want to generate an API key for yourself, navigate to the profile page of your user: 
+        
+            - either click the :guilabel:`My User` link in the **User Menu** in the top right corner of the current page, or 
+            - follow the direct link, e.g. ``http://<hostname_of_your_oro_application>/user/profile/view``. 
+            
+        - If you want to generate an API key for another user, open their view page: 
+        
+            - open the :guilabel:`Users` grid (:guilabel:`System` --> :guilabel:`User Management` --> :guilabel:`Users`), 
+            - find the user who needs an API key, and 
             - click the corresponding grid row or the |icView| :guilabel:`View` icon from the ellipsis menu at the right-hand end of the row.
-
-    3.  Click the :guilabel:`Generate Key` button. You will see the generated key near the button, it will look like: 'dd1c18d06773cc377c9df6166c54c6e5fefa50fa'.
+            
+    3.  Click the :guilabel:`Generate Key` button. You'll see the generated key near the button, it will look like: 'dd1c18d06773cc377c9df6166c54c6e5fefa50fa.'
 
 .. image:: ./img/api/api_generateapikey_myuser.png
 
@@ -66,11 +60,12 @@ For more details about how to generate an API Key and authentication header, ple
 .. important::
 
     Please note that an API key will be generated in the scope of the current organization and will allow you to access data
-    in the scope of that particular organization only. For more information about the organization entity purposes, see the `Company Structure and Organization <../user-guide/intro-company-structure-org-selector>`__ guide.
+    in the scope of that particular organization only. For more information about ``Organization`` purposes, see the `Company Structure and Organization <../user-guide/intro-company-structure-org-selector>`__ guide.
     To understand the permissions and security model, see the `Security <./security>`__ guide.
 
 
-After the API key is generated, you will be able to execute API requests via the sandbox, Curl command, any other REST client or use the API via your own application.
+After the API key is generated, you will be able to execute API requests via the sandbox, Curl command, any other REST client or use the
+API via your own application.
 
 
 
@@ -84,50 +79,30 @@ How to use the sandbox
 """"""""""""""""""""""
 
 The sandbox page is available at: ``http://<hostname_of_your_oro_application>/api/doc``.
-
 |
-
 .. image:: ./img/api/api_plain_generalview.png
-
 |
-
 This page represents a list of plain API resources. Plain API resources are old API implementations
 based on `FOSRestBundle <http://symfony.com/doc/current/bundles/FOSRestBundle/index.html>`__.
 
 To switch to the JSON API sandbox, go to the ``http://<hostname_of_your_oro_application>/api/doc/rest_json_api`` page, or click the :guilabel:`JSON.API`
-link in the upper left-hand corner of the sandbox page.
-
+link at the upper left-hand corner of the sandbox page.
 |
-
 .. image:: ./img/api/api_jsonlink.png
-
 |
-
 On the JSON.API sandbox page you will see the list of available resources.
-
 |
-
 .. image:: ./img/api/api_json_generalview.png
-
 |
-
 To review available methods for the resource, click the resource row or the :guilabel:`List Operations` link at the right-hand end of the row. You will see the list of available methods grouped in blocks by the resource URI.
-
 |
-
 .. image:: ./img/api/api_json_listmethods.png
-
 |
-
-There is a documentation on how a method can be used with different resource URIs and there is a sandbox which contains a form that can be used to perform API requests.
-To review the documentation and access the sandbox, click the method row for a specific resource URI. You will see the corresponding tabs in the expanded area.
-
+There is a documentation on how a method can be used with different resource URIs and there is a sandbox that contains a form that can be used to perform API requests. 
+To review the documentation and access the sandbox, click the method row for a specific resource URI. You will see the corresponding tabs in the expanded area. 
 |
-
 .. image:: ./img/api/api_json_methodsb.png
-
 |
-
 To expand information about all methods available for the resource, click the :guilabel:`Expand Operations` link at the right-hand end of resource row.
 
 To switch between the collapsed list of available resources and the expanded state, click the :guilabel:`Show / hide` link at the right-hand end of the row.
@@ -143,29 +118,29 @@ Retrieve a single record
 To retrieve a single record for a particular resource record with JSON API, perform the GET method with the id parameter specified:
 
     1.  Click the API resource row on the ``http://<hostname_of_your_oro_application>/api/doc/rest_json_api`` page to expand the methods block.
-
+    
     2.  Find the :guilabel:`/api/your_resource/{id}` block.
-
+      
     3.  Click the :guilabel:`GET` method row.
-
+  
     4.  Click the :guilabel:`Sandbox` tab. You will see the request form.
-
-    5.  If you want to retrieve a single record, specify the record id for the :guilabel:`id` field in the :guilabel:`Requirements` section.
-
+ 
+    5.  If you want to retrieve a single record, in the :guilabel:`Requirements` section, specify the record id for the :guilabel:`id` field.
+  
     6.  Click the :guilabel:`Try!` button to send the request to the server.
 
-As soon as the response from the server is received, the :guilabel:`Request URL`, :guilabel:`Response Headers`, :guilabel:`Response Body`
-and :guilabel:`Curl Command Line` sections will appear at the bottom of the :guilabel:`Sandbox` tab.
+After the response from the server is received, the :guilabel:`Request URL`, :guilabel:`Response Headers`, :guilabel:`Response Body`
+and :guilabel:`Curl Command Line` sections appear at the bottom of the :guilabel:`Sandbox` tab.
 
 The :guilabel:`Request URL` block contains the request URL sent to the server.
 
-The :guilabel:`Response Headers` block contains the status code of the server's response. If the request is successful,
+The :guilabel:`Response Headers` block contains the status code of the server's response. If the request was successful,
 it contains the '200 OK' string.
 To see the list of headers which the server sent in the response, click the :guilabel:`Expand` link next to the section header .
 
-If the request is successful, you should see the output data of the request in the :guilabel:`Response Body` section. In the given
+If the request was successful, you should see the output data of the request in the :guilabel:`Response Body` section. In the given
 case, entity data will be in JSON format. More information about this format can
-be found on the `JSON API <http://jsonapi.org/format/>`__ site.
+be found at the `JSON API <http://jsonapi.org/format/>`__ site.
 
 The :guilabel:`Curl Command Line` section contains an example of the CLI command to perform the request
 with `Curl <https://curl.haxx.se/>`__.
@@ -183,16 +158,11 @@ Edit a record
 To edit a record for a particular resource record with JSON API, perform the PATCH method with the id parameter specified:
 
     1.  Click the API resource row on the ``http://<hostname_of_your_oro_application>/api/doc/rest_json_api`` page to expand the method block.
-
     2.  Find the :guilabel:`/api/your_resource/{id}` block.
-
     3.  Click the :guilabel:`PATCH` method row.
-
     4.  Click the :guilabel:`Sandbox` tab. You will see the request form.
-
     5.  If you want to edit a single record, in the :guilabel:`Requirements` section, in the :guilabel:`id` field, specify the record id.
-
-    6.  In the :guilabel:`Content` section, specify how the resource how a resource currently residing on the server should be modified to produce a new version.
+    6.  In the :guilabel:`Content` section, specify how the resource how a resource currently residing on the server should be modified to produce a new version. 
 
         For example, if you want to change the **firstName** field to 'John' value for a User entity with id 1, the request content will look the following way:
 
@@ -335,34 +305,35 @@ For more details about WSSE authentication and particularly for how to generate 
 HTTP Methods Available in Oro API
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The primary or most commonly-used HTTP methods are POST, GET, PUT, PATCH, and DELETE. These correspond to create, read, update, and delete (or CRUD) operations, respectively. There are a number of other methods, too, but they are utilized less frequently.
+The primary or most-commonly-used HTTP methods are POST, GET, PUT, PATCH, and DELETE. These correspond to create, read, update, and delete (or CRUD) operations, respectively. There are a
+number of other methods, too, but they are utilized less frequently.
 
 Below is a table summarizing HTTP methods available in Oro API and their return values in combination with the resource URIs:
 
 
-+-------------+----------------+----------------------------------------+----------------------------------------------+
-| HTTP Method | CRUD operation | Entire Collection (e.g. /users)        |         Specific Item (e.g. /users/{id})     |
-+=============+================+========================================+==============================================+
-| GET         | Read           | 200 (OK), list of entities.            | 200 (OK), single entity.                     |
-|             |                | Use pagination, sorting and filtering  |                                              |
-|             |                | to navigate big lists.                 | 404 (Not Found), if ID not found or invalid. |
-|             |                |                                        |                                              |
-+-------------+----------------+----------------------------------------+----------------------------------------------+
-| POST        | Create         | 201 (Created), Response contains       | **not applicable**                           |
-|             |                | response similar to **GET** /user/{id} |                                              |
-|             |                | containing new ID.                     |                                              |
-+-------------+----------------+----------------------------------------+----------------------------------------------+
-| PATCH       | Update         | **not applicable**                     | 200 (OK) or 204 (No Content).                |
-|             |                |                                        |                                              |
-|             |                |                                        | 404 (Not Found), if ID not found or invalid. |
-+-------------+----------------+----------------------------------------+----------------------------------------------+
-| DELETE      | Delete         | 200(OK) or 403(Forbidden) or           | 200 (OK).                                    |
-|             |                | 400(Bad Request) if no filter          |                                              |
-|             |                | is specified.                          | 404 (Not Found), if ID not found or invalid. |
-+-------------+----------------+----------------------------------------+----------------------------------------------+
-| PUT         | Update/Replace | **not implemented**                    | **not implemented**                          |
-+-------------+----------------+----------------------------------------+----------------------------------------------+
 
++-------------+----------------+---------------------+----------------------------------------+---------------------------------------------+
+| HTTP Verb   | CRUD operation | API actions         | Entire Collection (e.g. /users)        |         Specific Item (e.g. /users/{id})    |
++=============+================+=====================+========================================+=============================================+
+| GET         | Read           | get                 | 200 (OK), list of entities.            | 200 (OK), single entity.                    |
+|             |                | get_list            | Use pagination, sorting and filtering  | 404 (Not Found), if ID not found or invalid.|
+|             |                | get_subresource     | to navigate big lists.                 |                                             |
+|             |                | get_relationship    |                                        |                                             |
++-------------+----------------+---------------------+----------------------------------------+---------------------------------------------+
+| POST        | Create         | create              | 201 (Created), Response contains       | **not applicable**                          |
+|             |                | add_relationship    | response similar to **GET** /user/{id} |                                             |
+|             |                |                     | containing new ID.                     |                                             |
++-------------+----------------+---------------------+----------------------------------------+---------------------------------------------+
+| PATCH       | Update         | update              | **not applicable**                     | 200 (OK) or 204 (No Content).               |
+|             |                | update_relationship |                                        | 404 (Not Found), if ID not found or invalid.|
+|             |                |                     |                                        |                                             |
++-------------+----------------+---------------------+----------------------------------------+---------------------------------------------+
+| DELETE      | Delete         | delete              | 200(OK) or 403(Forbidden) or           | 200 (OK). 404 (Not Found),                  |
+|             |                | delete_list         | 400(Bad Request) if no filter          | if ID not found or invalid.                 |
+|             |                | delete_relationship | is specified                           |                                             |
++-------------+----------------+---------------------+----------------------------------------+---------------------------------------------+
+| PUT         | Update/Replace | **not implemented** | **not implemented**                    | **not implemented**                         |
++-------------+----------------+---------------------+----------------------------------------+---------------------------------------------+
 
 Also, the HTTP methods can be classified by the *idempotent* and *safe* properties.
 
@@ -394,34 +365,31 @@ Below is a table summarizing HTTP methods by its idempotency and safety:
 | PATCH       | no         | no   |
 +-------------+------------+------+
 
-
 GET
 """
 
-The HTTP GET method is used to *read* (or retrieve) a representation of a resource. In case of success (or non-error), GET returns a representation in JSON and an HTTP response status code of 200 (OK). In an error case, it most often returns a 404 (NOT FOUND) or 400 (BAD REQUEST).
+The HTTP GET method is used to *read* (or retrieve) a representation of a resource. In the case of success (or non-error), GET returns a representation in JSON and an HTTP response status code of 200 (OK). In an error case, it most often returns a 404 (NOT FOUND) or 400 (BAD REQUEST).
 
 .. note::
     According to the design of the HTTP specification, GET requests are used only to read data and not change it.
-    So, they are considered safe. That is, they can be called without risk of data modification or corruption—calling it once has the same effect as calling it 10 times.
+    So, they are considered safe. That is, they can be called without risk of data modification or corruption —
+    calling it once has the same effect as calling it 10 times.
 
 
 POST
 """"
 
-The POST method is most often utilized to *create* new resources. In particular, it is used to create subordinate
+The POST method is most often utilized to *create* new resources. In particular, it's used to create subordinate
 resources. That is, subordinate to some other (e.g. parent) resource. In other words, when creating a new resource,
 POST to the parent and the service takes care of associating the new resource with the parent, assigning an
 ID (new resource URI), etc.
 
-On successful creation, HTTP response code 201 is returned.
+On successful creation, return the HTTP response code 201.
 
 .. caution::
 
-    POST is not a safe operation. Making two identical POST requests will most likely result in two resources containing
+    POST is not the safe operation. Making two identical POST requests will most likely result in two resources containing
     the same information but with different identifiers.
-
-.. note::
-    It is possible to create both primary and related API resources via a single API request. For details see the `Create and Update       Related Resources Together with a Primary API Resource <./data-api#create-and-update-related-resources-together-with-a-primary-api-     resource>`__ section.
 
 
 PATCH
@@ -435,13 +403,10 @@ server should be modified to produce a new version.
 
 .. caution::
 
-    PATCH is not a safe operation. Collisions from multiple PATCH requests may be dangerous because some patch formats
-    need to operate from a known base point, otherwise they will corrupt the resource. Clients using this kind of patch
+    PATCH is not the safe operation. Collisions from multiple PATCH requests may be dangerous because some patch formats
+    need to operate from a known base point or else they will corrupt the resource. Clients using this kind of patch
     application should use a conditional request (e.g. GET a resource, ensure it was not modified and apply PATCH) such
-    that the request will fail, if the resource has been updated since the client last accessed the resource.
-
-.. note::
-    `Create and Update Related Resources Together with a Primary API Resource <./data-api#create-and-update-related-resources-together-     with-a-primary-api-resource>`__ section.
+    that the request will fail if the resource has been updated since the client last accessed the resource.
 
 
 DELETE
@@ -453,8 +418,8 @@ On successful deletion, the HTTP response status code 204 (No Content) returns w
 
 .. important::
 
-    If you DELETE a resource, it is removed. Repeatedly calling DELETE on that resource will often return a 404 (NOT FOUND)
-    since it was already removed and, therefore, is no longer findable.
+    If you DELETE a resource, it's removed. Repeatedly calling DELETE on that resource will often return a 404 (NOT FOUND)
+    since it was already removed and therefore is no longer findable.
 
 HTTP Header Specifics
 ^^^^^^^^^^^^^^^^^^^^^^
@@ -469,29 +434,27 @@ and **Authentication** parameters, e.g.:
     Authorization: WSSE profile="UsernameToken"
     X-WSSE: UsernameToken Username="...",PasswordDigest="...", Created="...", Nonce="..."
 
-Also, by providing additional requests header parameters, it is possible to retrieve additional information, such as the total
-number of records per certain resource for GET and DELETE methods or a total number of affected records
-for the DELETE methods. The **X-Include** request header can be used for such purposes.
+Also, by providing additional requests header parameters, it is possible to retrieve additional information, such as a total
+number of records per certain resource for **get_list** and **delete_list** API actions or a total number of affected records
+for the **delete_list** API action. The **X-Include** request header can be used for such purposes.
 
 The following table describes all existing keys for the X-Include header.
 
 
-+-------------+-----------------+---------------------------+-----------------------------------------+
-| HTTP Method | X-Include key   | Response Header           | Description                             |
-+=============+=================+===========================+=========================================+
-| GET         | totalCount      | X-Include-Total-Count     | Returns the total number of entities.   |
-+-------------+-----------------+---------------------------+-----------------------------------------+
-| DELETE      | totalCount      | X-Include-Total-Count     | Returns the total number of entities.   |
-+-------------+-----------------+---------------------------+-----------------------------------------+
-| DELETE      | deletedCount    | X-Include-Deleted-Count   | Returns the number of deleted entities. |
-+-------------+-----------------+---------------------------+-----------------------------------------+
-
++----------------+-----------------+---------------------------+-----------------------------------------+
+| API action     | X-Include key   | Response Header           | Description                             |
++================+=================+===========================+=========================================+
+| get\_list      | totalCount      | X-Include-Total-Count     | Returns the total number of entities.   |
++----------------+-----------------+---------------------------+-----------------------------------------+
+| delete\_list   | totalCount      | X-Include-Total-Count     | Returns the total number of entities.   |
++----------------+-----------------+---------------------------+-----------------------------------------+
+| delete\_list   | deletedCount    | X-Include-Deleted-Count   | Returns the number of deleted entities. |
++----------------+-----------------+---------------------------+-----------------------------------------+
 
 Header Examples
 """""""""""""""
 Example 1. Total number of existing records
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 Retrieve the total count of resource records.
 
 **Request header**
@@ -574,9 +537,7 @@ Response status codes
 In case of a successful request, a response status code will be one of the following:
 
     -   **200 OK**—In the response to a successful GET, PATCH or DELETE.
-
     -   **201 Created**—In the response to a POST that results in a creation. When this status received, the request body contains the description of the newly created entity in JSON format (similar to regular GET request).
-
     -   **204 No Content**—In the response to a successful request that won't be returning a body (like a DELETE request)
 
 Example. Successful request
@@ -601,16 +562,12 @@ Example. Successful request
 
 
 
-In case of an error, a response status code indicates the type of an error that has occurred. The most common of such codes are the following:
+In case of an error, a response status code indicates the type of the error occurred. The most common of such codes are the following:
 
     -   **400 Bad Request**—The request is malformed, such as if the body of the request contains misformatted JSON.
-
     -   **401 Unauthorized**—No or invalid authentication details are provided. This code can be used to trigger an authentication pop-up if the API is used from a browser.
-
     -   **403 Forbidden**—Authentication succeeded but authenticated user does not have access to the resource.
-
     -   **404 Not Found**—A non-existent resource is requested.
-
     -   **500 Internal Server Error**—The server encountered an unexpected condition which prevented it from fulfilling the request.
 
 Example. Request resulted in error
@@ -672,7 +629,7 @@ Most common resource fields
 | updatedAt    | datetime     | The date and time of the last update of the resource record.                                        |
 +--------------+--------------+-----------------------------------------------------------------------------------------------------+
 | owner        | user         | An owner record represents the ownership capabilities of the record. In other words,                |
-|              | or           | depending on the owner type, a different level of access applies.                                   |
+|              | or           | depending on the owner type the different level of access applies.                                  |
 |              | businessunit | For more details, see `Access and Permissions Management <../user-guide/user-management-roles>`__.  |
 |              | or           |                                                                                                     |
 |              | organization |                                                                                                     |
@@ -711,22 +668,19 @@ as 'Call,' 'Email,' etc.
 | timesContactedOut    | integer  | The total number of outgoing communication activities for the resource record.         |
 +----------------------+----------+----------------------------------------------------------------------------------------+
 
-
 Filters
 ^^^^^^^^
 
-You can perform the GET and DELETE methods on a subset of resource records. A subset of records can be received by applying filters to some of the resource's fields.
+You can perform the GET and DELETE methods on a subset of resource records. A subset of records can be received by applying filters to some of the resource's fields. 
 
-Available filters are listed in the :guilabel:`Documentation` tab of the method's expanded area, in the :guilabel:`Filters` section.
+Available filters are listed on the :guilabel:`Documentation` tab of the method's expanded area, in the :guilabel:`Filters` section. 
 
 To filter, perform a GET request and put your filters parameters in the query string.
-
-|
 
 Example 1. Filter in the query string
 """""""""""""""""""""""""""""""""""""
 
-Retrieve all users of organization '1'.
+Retrieve all users of the organization '1.'
 
 **Request**
 
@@ -751,12 +705,9 @@ A string value is passed as an input to a filter which can contain only integer 
     GET /api/users?filter[id]=aaa HTTP/1.1
 
     { "errors": [{
-      "status": "400",
+      "status": "500",
       "title": "unexpected value exception",
-      "detail": "Expected integer value. Given \"aaa\".",
-      "source": {
-        "parameter": "filter[id]"
-      }
+      "detail": "Expected integer value. Given \"aaa\"."
     }] }
 
 
@@ -786,7 +737,7 @@ The API allows you to use several types of filters. Filter types are briefly des
 | Filter  | Usage Example                | Description                                                                 |
 +=========+==============================+=============================================================================+
 | fields  | fields[owner]=id,name        | Used for limiting the response data only to specified fields.               |
-|         |                              | Depends on the **include** filter if the filter is applied to a relation.   |
+|         |                              | Depends on the **include** filter in case if filter is applied to relation. |
 +---------+------------------------------+-----------------------------------------------------------------------------+
 | filter  | filter[id]=1                 | Used for filtering the response data by specific values of a specific       |
 |         | or                           | field. Can accept additional operators like ``<``, ``>``, etc.              |
@@ -807,9 +758,6 @@ The API allows you to use several types of filters. Filter types are briefly des
 |         | or                           |                                                                             |
 |         | sort=id,-name                | To perform DESC sorting specify ``-`` before field name.                    |
 +---------+------------------------------+-----------------------------------------------------------------------------+
-| meta    | meta=property1,property2     | Used for requesting additional meta properties for API resources.           |
-+---------+------------------------------+-----------------------------------------------------------------------------+
-
 
 Fields Filter (**fields**)
 """"""""""""""""""""""""""
@@ -870,7 +818,7 @@ Data Filter (**filter**)
 """""""""""""""""""""""""
 
 Depending on the type of the filter, certain operators are allowed. For example, for integer filter type it
-is allowed to use six operators: **=**, **!=**, **<**, **<=**, **>**, **>=**, for string filter type - only two: **=**, **!**.
+is allowed to use six operators: **=**, **!=**, **<**, **<=**, **>**, **>=**, for string filter type - only two: **=**, **!**. 
 
 
 +----------+-----------------------+-------------+---------------------------------------+
@@ -888,7 +836,6 @@ is allowed to use six operators: **=**, **!=**, **<**, **<=**, **>**, **>=**, fo
 +----------+-----------------------+-------------+---------------------------------------+
 | **>=**   | Greater than or equal | %3E%3D      | GET /api/users?filter[id]>=6 HTTP/1.1 |
 +----------+-----------------------+-------------+---------------------------------------+
-
 
 Example. Use operators to filter data
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1071,7 +1018,7 @@ parameters should be passed as the parameters of the query string.
 | Parameter name | Type    | Default value | Description                                                         |
 +================+=========+===============+=====================================================================+
 | page[size]     | integer | 10            | Set a positive integer number.                                      |
-|                |         |               | To disable the pagination, set it as -1. In this case               |
+|                |         |               | To disable the pagination, set it as '-1.'' In this case            |
 |                |         |               | **page[number]** will not be taken into account and can be omitted. |
 +----------------+---------+---------------+---------------------------------------------------------------------+
 | page[number]   | integer | 1             | The number of the page.                                             |
@@ -1141,312 +1088,6 @@ Sort by **username** in descending order.
       ]
     }
 
-Meta Property Filter (**meta**)
-"""""""""""""""""""""""""""""""
-
-The **meta** filter allows you to request additional meta properties for the resource. Meta properties will be generated for every item and will be returned in the item's meta object in the response data.
-
-The following table contains a list of supported meta properties that may be requested using *?meta=meta_property_name* filter:
-
-+---------------+----------------------------------------+
-| Name          | Description                            |
-+===============+========================================+
-| title         | A text representation of the resource. |
-+---------------+----------------------------------------+
-
-Example. Retrieve a text representation of the resource
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-    **Request**
-
-    .. code-block:: http
-
-        GET api/users?meta=title HTTP/1.1
-
-        Content-Type: application/vnd.api+json
-        Accept: application/vnd.api+json
-        ...
-
-    **Response**
-
-    .. code-block:: json
-
-        {
-          "data": [
-            {
-              "type": "users",
-              "id": "1",
-              "meta": {
-                "title": "John Doe",
-              },
-              "attributes": {
-                "username": "john.doe",
-              }
-            },
-            {
-              "type": "users",
-              "id": "2",
-              "meta": {
-                "title": "Ellen Rowell",
-              },
-              "attributes": {
-                "username": "ellen.rowell"
-              }
-            }
-          ]
-        }
-
-
-Create and Update Related Resources Together with a Primary API Resource
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Sometimes it is required to create or update related resources while creating or updating the primary API resource. Especially often such a need arises when you create a complex API resource object via a single API request. Unfortunately, the JSON API specification does not describe how to do this. The solution proposed by the Oro Platform is to use the **included** section of a JSON request body. Please take a look at the following example:
-
-**Request**
-
-.. code-block:: http
-
-    POST /api/accounts HTTP/1.1
-    Content-Type: application/vnd.api+json
-
-**Request Body**
-
-.. code-block:: json
-
-    {"data": {
-        "type": "accounts",
-        "id": "1",
-        "attributes": {
-          "name": "Cloth World"
-        },
-        "relationships": {
-          "organization": {
-            "data": {"type": "organizations", "id": "1"}
-          },
-          "owner": {
-            "data": {"type": "users", "id": "1"}
-          },
-          "contacts": {
-            "data": [
-              {"type": "contacts", "id": "8da4d8e7-6b25-4c5c-8075-b510f7bbb84f"},
-              {"type": "contacts", "id": "707dda0d-35f5-47b9-b2ce-a3e92b9fdee7"}
-            ]
-          },
-          "defaultContact": {
-            "data": {"type": "contacts", "id": "707dda0d-35f5-47b9-b2ce-a3e92b9fdee7"}
-          }
-        }
-      },
-      "included": [
-        {
-          "type": "contacts",
-          "id": "8da4d8e7-6b25-4c5c-8075-b510f7bbb84f",
-          "attributes": {
-            "firstName": "John",
-            "lastName": "Doe"
-          },
-          "relationships": {
-            "organization": {
-              "data": {"type": "organizations", "id": "1"}
-            },
-            "owner": {
-              "data": {"type": "users", "id": "1"}
-            },
-            "source": {
-              "data": {"type": "contactsources", "id": "tv"}
-            }
-          }
-        },
-        {
-          "type": "contacts",
-          "id": "707dda0d-35f5-47b9-b2ce-a3e92b9fdee7",
-          "attributes": {
-            "firstName": "Nancy",
-            "lastName": "Jones"
-          },
-          "relationships": {
-            "organization": {
-              "data": {"type": "organizations", "id": "1"}
-            },
-            "owner": {
-              "data": {"type": "users", "id": "1"}
-            }
-          }
-        }
-      ]
-    }
-
-**Response**
-
-.. code-block:: json
-
-    {"data": {
-        "type": "accounts",
-        "id": "52",
-        "attributes": {
-          "name": "Cloth World"
-        },
-        "relationships": {
-          "organization": {
-            "data": {"type": "organizations", "id": "1"}
-          },
-          "owner": {
-            "data": {"type": "users", "id": "1"}
-          },
-          "contacts": {
-            "data": [
-              {"type": "contacts", "id": "79"},
-              {"type": "contacts", "id": "80"}
-            ]
-          },
-          "defaultContact": {
-            "data": {"type": "contacts", "id": "80"}
-          }
-        }
-      },
-      "included": [
-        {
-          "type": "contacts",
-          "id": "79",
-          "meta": {
-            "includeId": "8da4d8e7-6b25-4c5c-8075-b510f7bbb84f"
-          },
-          "attributes": {
-            "firstName": "John",
-            "lastName": "Doe"
-          },
-          "relationships": {
-            "organization": {
-              "data": {"type": "organizations", "id": "1"}
-            },
-            "owner": {
-              "data": {"type": "users", "id": "1"}
-            },
-            "source": {
-              "data": {"type": "contactsources", "id": "tv"}
-            },
-            "accounts": {
-              "data": [
-                {"type": "accounts", "id": "52"}
-              ]
-            }
-          }
-        },
-        {
-          "type": "contacts",
-          "id": "80",
-          "meta": {
-            "includeId": "707dda0d-35f5-47b9-b2ce-a3e92b9fdee7"
-          },
-          "attributes": {
-            "firstName": "Nancy",
-            "lastName": "Jones"
-          },
-          "relationships": {
-            "organization": {
-              "data": {"type": "organizations", "id": "1"}
-            },
-            "owner": {
-              "data": {"type": "users", "id": "1"}
-            },
-            "accounts": {
-              "data": [
-                {"type": "accounts", "id": "52"}
-              ]
-            }
-          }
-        }
-      ]
-    }
-
-This request does the following:
-
-- Creates account 'Cloth World'.
-
-- Creates two contacts, 'John Doe' and 'Nancy Jones'.
-
-- Assigns these contacts to the account 'Cloth World'.
-
-- Makes 'Nancy Jones' the default contact for 'Cloth World'.
-
-Please pay attention to the identifiers of the contacts. For 'John Doe' it is '8da4d8e7-6b25-4c5c-8075-b510f7bbb84f'. For 'Nancy Jones' it is '707dda0d-35f5-47b9-b2ce-a3e92b9fdee7'. These identifiers are used to specify relations between resources in scope of the request. In this example, GUIDs are used but it is possible to use any algorithm to generate such identifiers. The only requirement is that they must be unique in scope of the request. For example, the following identifiers are valid as well: 'john_doe' and 'nancy_jones'.
-
-Also, it is possible to update several related resources via a single API request. The related resources to be updated should be marked with **update** meta property. For instance, take a look at the following request:
-
-**Request**
-
-.. code-block:: http
-
-    PATCH /api/accounts/52 HTTP/1.1
-    Content-Type: application/vnd.api+json
-
-**Request Body**
-
-.. code-block:: json
-
-    {"data": {
-        "type": "accounts",
-        "id": "52",
-        "attributes": {
-          "name": "Cloth World Market"
-        },
-        "relationships": {
-          "defaultContact": {
-            "data": {"type": "contacts", "id": "79"}
-          }
-        }
-      },
-      "included": [
-        {
-          "meta": {
-              "update": true
-          },
-          "type": "contacts",
-          "id": "79",
-          "attributes": {
-            "primaryEmail": "john_doe@example.com"
-          }
-        }
-      ]
-    }
-
-**Response**
-
-.. code-block:: json
-
-    {"data": {
-        "type": "accounts",
-        "id": "52",
-        "attributes": {
-          "name": "Cloth World Market"
-        },
-        "relationships": {
-          "defaultContact": {
-            "data": {"type": "contacts", "id": "79"}
-          }
-        }
-      },
-      "included": [
-        {
-          "type": "contacts",
-          "id": "79",
-          "meta": {
-            "includeId": "79"
-          },
-          "attributes": {
-            "primaryEmail": "john_doe@example.com"
-          }
-        }
-      ]
-    }
-
-This request does the following:
-
-- Changes the account name to 'Cloth World Market'.
-
-- Sets the primary email for the contact with identifier '79' and makes it the default contact.
-
-
 Data API Client Requirements
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -1464,7 +1105,7 @@ Example. A valid **Content-Type**
 
 At the same time, it **must** ignore any media type parameters received in the **Content-Type** header of the response.
 
-Example. Ignore media type in response
+Example. Ignore media type in response 
 """"""""""""""""""""""""""""""""""""""
 **Request**
 
@@ -1492,7 +1133,7 @@ Example. Ignore media type in response
 
 
 Requests with the invalid **Content-Type** value in the header will be perceived as a plain request, so the response data
-will a plain format rather than JSON API.
+will have not a JSON but a plain format.
 
 Example. Invalid **Content-Type**
 """""""""""""""""""""""""""""""""

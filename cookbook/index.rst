@@ -33,9 +33,7 @@ This book contains list of most regularly used solutions in OroPlatform.
 * :doc:`/cookbook/how_to_upgrade_to_new_version`
 * :doc:`/cookbook/how_to_apply_patch`
 * :doc:`/cookbook/how_to_co-install_applications`
-* :doc:`/cookbook/known_issues_outlook_addin`
 * :doc:`/cookbook/faq`
-
 
 .. toctree::
     :hidden:
@@ -57,7 +55,6 @@ This book contains list of most regularly used solutions in OroPlatform.
     how_to_upgrade_to_new_version
     how_to_apply_patch
     how_to_co-install_applications
-    known_issues_outlook_addin
     faq
 
 TODO List

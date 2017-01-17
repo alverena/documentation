@@ -24,7 +24,7 @@ Search Index
 |           |     * `parameters`_                                        |
 |           |                                                            |
 |           |   * `search_template`_                                     |
-|           |   * `title_fields`_  (deprecated since 2.0)                |
+|           |   * `title_fields`_                                        |
 +-----------+------------------------------------------------------------+
 
 The ``search.yml`` file is used to configure how your entities are indexed to make them usable by
@@ -44,7 +44,7 @@ the internal search engine of the OroPlatform. A fully working example can look 
                 parameters:
                     id: id
             mode: normal
-            title_fields: [name] # deprecated since 2.0
+            title_fields: [name]
             fields:
                 -
                     name: name
@@ -211,6 +211,5 @@ one of the configured :ref:`fields <reference-format-search-fields>`.
 
 **type**: ``sequence``
 
-Note: Usage of this field is deprecated since 2.0. Register an EntityNameProvider instead.
 The list of fields to build the title for the result set. The value used here denote to the
 :ref:`configured fields <reference-format-search-fields>`.

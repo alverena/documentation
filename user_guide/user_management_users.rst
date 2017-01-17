@@ -125,10 +125,6 @@ From the grid you can:
 
 - Get to the :ref:`View page <user-guide-ui-components-view-pages>` of the user: |IcView|.
 
-- Enable/Disable the user
-
-- Reset the user's password
-
 User View Page
 ^^^^^^^^^^^^^^
 
@@ -140,20 +136,16 @@ Action Buttons
 """"""""""""""
 
 With the :ref:`action buttons <user-guide-ui-components-view-page-actions>` on the View page you can:
-
+  
 - Perform the actions available enable for the user entity in the 
   :ref:`Communication &  Collaboration settings <user-guide-entity-management-create-commun-collab>` (e.g. Assign Tasks,
   Send Emails etc.)
-
+  
 - Reset Password: The user will be prompted by email to reset their password and will be disabled from login until
-  they do so. Their 'Auth status' will be changed to 'Reset password' until new password is set.
+  they do so.
 
 - Change Password: Create new password (administrator will know this new password). The user will be notified on the 
   change by email.
-
-- Disable: Disables the user so they are no longer available to access the system
-
-- Enable: Enables the user to be able to access the system. In addition 'Auth status' may prevent the user from login.
 
 .. image:: ./img/user_management/reset_password.png
 
@@ -170,7 +162,7 @@ The section contains basic details of the user, namely:
 - Business unit the user belongs to
 - Any custom fields :ref:`added <user-guide-field-management-create>` to the "User" entity will appear in the order 
   defined by their :ref:`priority <user-guide-entity-management-other-common>`.
-
+  
 Record Activities
 """""""""""""""""
 

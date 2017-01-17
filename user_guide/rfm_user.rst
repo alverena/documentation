@@ -4,8 +4,8 @@ RFM Analysis
 In OroCRM the RFM metrics are available for Magento customers and are
 defined per channel.
 
-.. contents:: :local:
-    :depth: 1
+.. toctree::
+    :maxdepth: 3
 
 
 What Is RFM?
@@ -95,7 +95,7 @@ customers the following way:
 	
 	-  Make sure that segments do not intersect.
 
-In OroCRM, this step is performed by the system administrator and is described in the `Configure RFM <./rfm-admin>`__ guide.
+In OroCRM, this step is performed by the system administrator and is described in the `Configure RFM <./rfm-admin-guide>`__ guide.
 
 Step 2
 ^^^^^^
@@ -129,7 +129,7 @@ For how you can study the RFM metrics with OroCRM, see the `Use RFM data <./rfm-
 
 
 
-Use the RFM Data
+Use the RFM data
 ----------------
 
 When sales or customer service staff contacts a particular customer, the

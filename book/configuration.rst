@@ -40,7 +40,7 @@ To define your own configuration settings in a bundle, you use the
 
             // provide your regular Symfony configuration here
 
-            SettingsBuilder::append($rootNode, array(
+            SettingsBuilder::append($root, array(
                 'foo' => array(
                     'value' => true,
                     'type' => 'boolean',
