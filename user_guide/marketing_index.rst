@@ -14,12 +14,10 @@ All the Tracking and Email Campaign details can be treated independently or aggr
 
 * :doc:`/user_guide/marketing_lists`
 * :doc:`/user_guide/magento_abandoned_cart_campaigns`
-* :doc:`/user_guide/sending_abandoned_cart_campaigns`
 * :doc:`/user_guide/email_campaigns`
 * :doc:`/user_guide/email_templates`
 * :doc:`/user_guide/marketing_tracking_website_records`
-* :doc:`/user_guide/marketing_campaigns`
-* :doc:`/user_guide/web_tracking_magento`  
+* :doc:`/user_guide/marketing_campaigns`  
 
 .. toctree::
     :hidden:
@@ -27,9 +25,7 @@ All the Tracking and Email Campaign details can be treated independently or aggr
 
     marketing_lists
     magento_abandoned_cart_campaigns
-    sending_abandoned_cart_campaigns
     email_campaigns
     email_templates
     marketing_tracking_website_records
     marketing_campaigns
-    web_tracking_magento

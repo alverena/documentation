@@ -12,8 +12,6 @@ Please note that in many cases, the tools may be not available to the usual user
 * :doc:`/user_guide/system_config`
 
   * :doc:`/user_guide/system_mailboxes`
-  * :doc:`/user_guide/email_configuration`
-  * :doc:`/user_guide/multi_currency`
 
 * :doc:`/user_guide/entities`
 * :doc:`/user_guide/entity_fields` 
@@ -51,8 +49,6 @@ Please note that in many cases, the tools may be not available to the usual user
     admin_capabilities
     system_config
     system_mailboxes
-    email_configuration
-    multi_currency
     entities
     entity_fields
     processes

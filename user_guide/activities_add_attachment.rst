@@ -57,7 +57,7 @@ From the :ref:`grid <user-guide-ui-components-grids>`, you can
 - Delete the attachment: |IcDelete|
 - Get to the edit form of the attachment: |IcEdit|
 
-You can also add the attachment to emails related to the record.
+You can also :ref:`add the attachment <user-guide-activities-emails-add-attachment>` to emails related to the record.
 
 
 
