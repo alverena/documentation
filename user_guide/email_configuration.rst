@@ -3,6 +3,9 @@
 Email Configuration 
 ====================
 
+.. contents:: :local:
+    :depth: 4
+
 The following guide will introduce you to the email feature settings and
 provide instructions on how to configure personal and system mailboxes,
 and integrate with Google, MS Exchange and Outlook.
@@ -84,28 +87,23 @@ The following settings are available:
 
 |
 
-+-------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Field**                     | **Description**                                                                                                                                                                                                            |
-+===============================+============================================================================================================================================================================================================================+
-| **Attachments**               | Attacmhent option has the following fields:                                                                                                                                                                                |
-|                               | -  **Enable Attachment Sync:** You can enable loading attachments on email sync.                                                                                                                                           |
-|                               | -  **Maximum Sync Attachment Size (Mb):** Set the maximum sync attachment size in Mb. Attachments that exceed the defined size will not be downloaded. You can remove size limitations by setting the size to 0.           |
-|                               | -  **Remove Large Attachments:** Clicking this button will add a job to the queue to remove all attachments exceeding the defined size from the system.                                                                    |
-|                               | -  **Attachments Preview Limit:** This is a limit to show preview for attachments (a thumbnail for images and a big file icon for other files). Set the preview limit to 0 if you wish to see a list with file names only. |
-+-------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **HTML in templates**         | Here, you can enable or disable HTML purifier.                                                                                                                                                                             |
-|                               | Disabling HTML purifier allows to paste any HTML code into a template or an email body editor without tag stripping.                                                                                                       |
-+-------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Notification Rules**        | The section defines the rules that will be applied by default to a notification generated in the OroCRM. You can define the **Sender Email** and **Sender Name** to be used.                                               |
-+-------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Maintenance Notifications** | **Email template**: The template to be used by default for maintenance notifications.                                                                                                                                      |
-|                               | **Recipients**: Leave this field empty to send maintenance notification emails to all active users. To send notifications only to specific users, write in their email addresses separated by semicolon (;).               |
-+-------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Campaign**                  | The section defines the rules that will be applied by default to emails generated as a part of marketing campaigns in OroCRM. You can define the **Sender Email** and  **Sender Name** to be used.                         |
-+-------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **System Mailboxes**          | System mailbox allows people who do not have access to the company mailbox addresses write to the company. To add a new system mailbox, click **Add Mailbox**.                                                             |
-|                               | More information on System Mailboxes and their configuration can be found further below in this guide.                                                                                                                     |
-+-------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+.. csv-table::
+  :header: "Field", "Description"
+  :widths: 10, 30
+
+  "**Attachments**", "Attacmhent option has the following fields:
+
+  - **Enable Attachment Sync**: You can enable loading attachments on email sync. 
+  - **Maximum Sync Attachment Size (Mb)**: Set the maximum sync attachment size in Mb. Attachments that exceed the defined size will not be downloaded. You can remove size limitations by setting the size to 0.
+  - **Remove Large Attachments**: Clicking this button will add a job to the queue to remove all attachments exceeding the defined size from the system. 
+  - **Attachments Preview Limit**: This is a limit to show preview for attachments (a thumbnail for images and a big file icon for other files). Set the preview limit to 0 if you wish to see a list with file names only."
+  "**HTML in templates**", "Here, you can enable or disable HTML purifier. Disabling HTML purifier allows to paste any HTML code into a template or an email body editor without tag stripping."
+  "**Notification Rules**", "The section defines the rules that will be applied by default to a notification generated in the OroCRM. You can define the **Sender Email** and **Sender Name** to be used."
+  "**Maintenance Notifications**", "
+  - **Email template**: The template to be used by default for maintenance notifications. 
+  - **Recipients**: Leave this field empty to send maintenance notification emails to all active users. To send notifications only to specific users, write in their email addresses separated by semicolon (;)."
+  "**Campaign**","The section defines the rules that will be applied by default to emails generated as a part of marketing campaigns in OroCRM. You can define the Sender Email and Sender Name to be used."
+  "**System Mailboxes**", "ystem mailbox allows people who do not have access to the company mailbox addresses write to the company. To add a new system mailbox, click **Add Mailbox**. More information on System Mailboxes and their configuration can be found further below in this guide."
 
 Standard personal mailbox configuration (IMAP/SMTP)
 ---------------------------------------------------
@@ -117,7 +115,7 @@ To configure a personal mailbox:
 
 -  Navigate to **My User>My Configuration** in the top right corner.
 
--  Click **Email Configuration** in the **General Setup** tab on the
+-  Click :guilabel:`Email Configuration` in the **General Setup** tab on the
    left.
 
 -  This will load an email configuration page.
@@ -151,20 +149,18 @@ To retrieve your mail from a mail client and sync data into OroCRM, as
 well as synchronize emails sent from OroCRM into your mailbox (so you
 can see them in other email clients):
 
--  Check **Enable IMAP and Enable SMTP.**
+-  Check :guilabel:`Enable IMAP and Enable SMTP.`
 
 -  Fill in the following fields: **IMAP and SMTP Host, IMAP and SMTP
    Port, Encryption (SSL, TLS).**
 
--  Click **Check Connection/Retrieve Folders.**
+-  Click :guilabel:`Check Connection/Retrieve Folders.`
 
 -  After successful connection, a list of folders will be loaded.
 
 -  Check the folders that you wish to be synchronized (e.g. Inbox).
 
-As an example, we have synchronized a Gmail mailbox with OroCRM, having
-previously turned on **access for less secure apps**. More details on
-how to synchronize your Gmail and turn on access for less secured apps can be found `here <https://support.google.com/mail/answer/7126229?hl=en&rd=2&visit_id=1-636180891016092253-2149088408#ts=1665018%2C1665144>`_  `and here <https://support.google.com/accounts/answer/6010255?hl=en>`_
+As an example, we have synchronized a Gmail mailbox with OroCRM, having previously turned on **access for less secure apps**. More details on how to synchronize your Gmail and turn on access for less secured apps can be found `here <https://support.google.com/mail/answer/7126229?hl=en&rd=2&visit_id=1-636180891016092253-2149088408#ts=1665018%2C1665144>`_  `and here <https://support.google.com/accounts/answer/6010255?hl=en>`_
 
 |
 
@@ -173,7 +169,7 @@ how to synchronize your Gmail and turn on access for less secured apps can be fo
 |
 
 
--  Click **Save Settings** in the top right corner to save your configurations.
+-  Click :guilabel:`Save Settings` in the top right corner to save your configurations.
 
 Google integration 
 -------------------
@@ -181,9 +177,9 @@ Google integration
 The only integration available in the community edition by default is
 integration with Google:
 
--  Navigate to **System** in the main menu and click **Configuration.**
+-  Navigate to **System** in the main menu and click :guilabel:`Configuration`.
 
--  In the left menu, click **Integrations>Google Settings.**
+-  In the left menu, click :guilabel:`Integrations>Google Settings`.
 
 Here, you can define the details used for Google single sign-on which
 allows a user with the same Google account email address and OroCRM
@@ -243,15 +239,15 @@ Configuration of system mailboxes
 
 To create a system mailbox to process business information requests:
 
--  Navigate to **System** in the main menu, click **Configuration.**
+-  Navigate to **System** in the main menu, click :guilabel:`Configuration`.
 
--  Next, click **Email Configuration** on the left in the **General
+-  Next, click :guilabel:`Email Configuration` on the left in the **General
    Setup** menu.
 
 -  At the bottom of the page, you will see a section where you can
    create and configure a system mailbox.
 
--  Click **Add Mailbox** in the right bottom corner, as shown below:
+-  Click :guilabel:`dd Mailbox` in the right bottom corner, as shown below:
 
 |
 
@@ -295,7 +291,7 @@ In the **Synchronization** section, configure your IMAP/SMTP connection:
 -  Specify the **login username** and **password** for this mailbox.
 
 -  Once the credentials and configuration fields are filled in, click
-   the **Check Connection/Retrieve Folders** button. After successful
+   the :guilabel:`Check Connection/Retrieve Folders` button. After successful
    connection, a list of available folders will be displayed.
 
 -  Check the **Folders** to be synchronized.
@@ -397,7 +393,7 @@ In the **Autoresponse Rules** section you can generate one or several
 auto-response rules. These rules will determine which template is sent
 to the sender of the email.
 
--  Click **Add Rule** to add a new Autoresponse rule.
+-  Click :guilabel:`Add Rule` to add a new Autoresponse rule.
 
 -  An Add Autoresponse Rule form will open.
 
@@ -419,11 +415,11 @@ to the sender of the email.
 | **Name**                            | Select the name for the rule to be used within the system.                                                                                                 |
 +-------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | **Conditions**                      | Define the rules according to which the rule will be applied:                                                                                              |
-|                                     | 1. In the first selector, choose the field for which the condition is to be set: **Body, From, Cc, Bcc.**                                                  |
+|                                     | 1. In the first selector, choose the field for which the condition is to be set: Body, From, Cc, Bcc.                                                      |
 |                                     | 2. In the second selector, choose the conditions (e.g. contains, does not contain, is equal to, starts with, etc.).                                        |
 |                                     | 3. In the field besides the selectors, define the values where required.                                                                                   |
 |                                     | Click the **+** or **+Add button** to add another condition for the rule.                                                                                  |
-|                                     | Click the **x ** button to remove the condition.                                                                                                           |
+|                                     | Click the **x** button to remove the condition.                                                                                                            |
 |                                     | All conditions are summed up (AND operator).                                                                                                               |
 +-------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | **Response template**               | Choose an  `email template <https://www.orocrm.com/documentation/index/current/user-guide/email-templates/#user-guide-email-template>`__ for autoresponse. |
@@ -437,4 +433,4 @@ to the sender of the email.
 | **Save Response As Email Template** | Checking the box automatically saves the current email as a template.                                                                                      |
 +-------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
--  Click **Add** to save the rule.
+-  Click :guilabel:`Add` to save the rule.

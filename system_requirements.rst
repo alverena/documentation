@@ -109,15 +109,15 @@ Enterprise Edition Software
 Enterprise edition is built to support better scale and performance. It is compatible with additional software
 configuration that allows to achieve these goals.
 
-+-------------------+---------------------------------------------------+
-| *PHP Extensions*  | * pgsql                                           |
-+-------------------+---------------------------------------------------+
-| *Database*        | * `PostgreSQL`_ / `EnterpriseDB`_ 9.1 and above   |
-+-------------------+---------------------------------------------------+
-| *Search Index*    | * `Elasticsearch`_ 2.x                            |
-+-------------------+---------------------------------------------------+
-| *Job Queue*       | * `RabbitMQ`_ 3.5.x and above                     |
-+-------------------+---------------------------------------------------+
++-------------------+----------------------------------------------------+
+| *PHP Extensions*  | * pgsql                                            |
++-------------------+----------------------------------------------------+
+| *Database*        | * `PostgreSQL`_ / `EnterpriseDB`_ 9.1 and above    |
++-------------------+----------------------------------------------------+
+| *Search Index*    | * `Elasticsearch`_ 2.x                             |
++-------------------+----------------------------------------------------+
+| *Job Queue*       | * `RabbitMQ`_ 3.5.8 and above, 3.6.x is recommended|
++-------------------+----------------------------------------------------+
 
 **PostgreSQL Configuration**
 
@@ -137,6 +137,7 @@ Optional recommendations
 * `Xdebug`_ could be used as the debugger tool but it is recommended only in the development environment
     * xdebug.max_nesting_level above 100 should be used
 * Tidy PHP extension should be installed to make sure that HTML is correctly converted into a text representation
+* `Redis` - could be used for more efficient application caching. Supported versions of Redis from 2.0 to 3.2
 
 
 Client-side Requirements

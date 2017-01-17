@@ -9,8 +9,7 @@ Using this functionality, you can get easy-to-understand adjustable reports on t
 customers, on statuses of carts and current state of actual and potential sales, on the performance of your 
 :ref:`marketing effort <user-guide-marketing>`, specifics of recent :ref:`activities <user-guide-activities>`, etc.
 
-There is a number of out-of-the-box reports, such as :ref:`Leads by Date <user-guide-leads-reports>` and 
-:ref:`Opportunities by Status <user-guide-opportunities-reports>` , but you can also create your own ("custom") reports.
+There is a number of out-of-the-box reports, such as Leads by Date  and Opportunities by Status, but you can also create your own ("custom") reports.
 
 The article describes how to create and manage custom reports.
 

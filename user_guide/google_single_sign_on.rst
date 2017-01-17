@@ -3,6 +3,10 @@
 Google Single Sign-On Capabilities for OroCRM
 ==============================================
 
+
+.. contents:: :local:
+    :depth: 4
+    
 OroCRM supports Google Single Sign-On capabilities. This means that for
 a user that has the same primary email in the OroCRM and Google
 accounts, it is enough to log-in only once during a session.
@@ -79,19 +83,19 @@ Configure Consent Form
 
 
 
--  Complete the form by entering:
+- Complete the form by entering:
 
--  Your email address\*
+  -  Your email address
 
--  Project name\*
+  -  Project name
 
--  Homepage URL.
+  -  Homepage URL
 
--  Product logo
+  -  Product logo
 
--  Private Policy URL
+  -  Private Policy URL
 
--  Terms of Service URL
+  -  Terms of Service URL
 
 |
 
@@ -167,7 +171,7 @@ Configure Google Integration
 +--------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | **Field**                      | Description                                                                                                                                                                                                                           |
 +================================+=======================================================================================================================================================================================================================================+
-| **Enable**                     | Check **Enable .**                                                                                                                                                                                                                    |
+| **Enable**                     | Check **Enable.**                                                                                                                                                                                                                     |
 +--------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | **Domains**                    | Domains is a comma separated list of allowed domains. It limit the list of mailboxes for which single sign-on can be used (e.g., only a domain used specifically by your company). Leave the field empty to set no such limitation.   |
 +--------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -196,11 +200,11 @@ appear.
  
   
 
--  If the user is not logged into any Google accounts, after the link
+-  If the user is not logged into any Google accounts after the link
    has been clicked, a usual Google log-in page will appear.
 
 -  As soon as the user has logged into their Google account, a request
-   to use the account in order to log-in to OroCRM will appear. (Details
+   to use the account in order to log-in to OroCRM will appear (details
    defined for the consent screen will be used).
 
 |

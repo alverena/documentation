@@ -161,6 +161,7 @@ The :ref:`OroCRM Users and Their Benefits <oro-benefits>` page will help you fin
   
      * :doc:`/user_guide/system_mailboxes`
      * :doc:`/user_guide/email_configuration`
+     * :doc:`/user_guide/multi_currency`
       
   
   * :doc:`/user_guide/entities`

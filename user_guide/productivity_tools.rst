@@ -17,7 +17,7 @@ regulation are fulfilled.
 * :doc:`/user_guide/activities_overview`
     
   * :doc:`/user_guide/using_emails`
-  * :doc:`/user_guide/activities_log_call`
+    * :doc:`/user_guide/activities_log_call`
   * :doc:`/user_guide/activities_add_assign_tasks`
   * :doc:`/user_guide/activities_add_assign_calendar_events` 
   * :doc:`/user_guide/activities_add_note`

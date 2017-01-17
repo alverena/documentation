@@ -159,8 +159,7 @@ WYSIWYG settings
 ^^^^^^^^^^^^^^^^
 
 In the  **WYSIWYG settings → Enable WYSIWYG Editor*** field, define whether text formatting tools must be available for 
-:ref:`emails <user-guide-activities-emails>`, :ref:`notes <user-guide-add-note>` and 
-:ref:`comments <user-guide-activities-comments>`. 
+emails, notes and comments.
 
 The value is enabled by default.
 
@@ -384,7 +383,7 @@ Google Settings
 The only integration by default available in the community editions is integration with Google. In the *"System →  
 Integrations  →  Google Settings"* you can define the details used for google single sing-on,  which enables user with 
 the same Google account email address and OroCRM primary email address to log-in only once in the session, as described
-in the relevant :ref:`guide <admin-configuration-google-settings>` 
+in the relevant :ref:`guide <user-guide-google-single-sign-on>`.
 
 Email Settings
 ^^^^^^^^^^^^^^

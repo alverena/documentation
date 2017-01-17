@@ -200,6 +200,7 @@ Related Documents
 * :doc:`/user_guide/data_management_data_audit`
 * :doc:`/user_guide/data_management_import_export`
 * :doc:`/user_guide/access_roles_management`
+* :doc:`../shared/common-actions/manage-translation`
  
 .. toctree::
     :hidden:
@@ -213,6 +214,7 @@ Related Documents
     data_management_import_export
     data_management_access_permissions_basic
     access_roles_management
+    ../shared/common-actions/manage-translation
 
  
 .. |IcDelete| image:: ./img/buttons/IcDelete.png

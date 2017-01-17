@@ -11,7 +11,7 @@ predefined logic.
 In the course of customization, new activities can be created and their logic can be defined, subject to your specific 
 business needs. Follow the links to learn more about the following activities available in OroCRM out-of-the-box:
 
-- `Using Emails <using-emails.html>`_: generate an email with predefined properties related to the record.
+- :ref:`Using Emails <user-guide-using-emails>`: generate an email with predefined properties related to the record.
 
 - :ref:`Log Call <user-guide-activities-calls>`: keep track of all the calls related to the record.
 
