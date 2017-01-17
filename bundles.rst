@@ -99,7 +99,7 @@ related articles is provided below the description.
         * User guide: :doc:`/user_guide/common_features_multi_channel_functionality`
         * User guide: :doc:`/user_guide/common_features_channels`
         * User guide: :doc:`/user_guide/common_features_accounts`
-        * User guide: :doc:`/user_guide/sales_channels`
+        * User guide: :doc:`/user_guide/b2b_channels`
         * User guide: :doc:`/user_guide/magento_channels`
 
 `ChartBundle`_ (OroPlatform)
@@ -395,7 +395,7 @@ related articles is provided below the description.
 
         * Book: :doc:`/book/reports_configuration`
         * User guide: :doc:`/user_guide/common_features_accounts`
-        * User guide: :doc:`/user_guide/business_customers`
+        * User guide: :doc:`/user_guide/b2b_customers`
         * User guide: :doc:`/user_guide/leads`
         * User guide: :doc:`/user_guide/opportunities`
         * User guide: :doc:`/user_guide/business_intelligence_reports`
@@ -555,7 +555,7 @@ related articles is provided below the description.
 
         * Book: :doc:`/book/workflow`
         * Reference: :doc:`/reference/format/workflows`
-        * User guide: :doc:`/user_guide/business_customers`
+        * User guide: :doc:`/user_guide/b2b_customers`
         * User guide: :doc:`/user_guide/leads`
         * User guide: :doc:`/user_guide/opportunities`
         * User guide: :doc:`/user_guide/sales_processes_workflow`

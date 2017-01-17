@@ -65,7 +65,6 @@ The :ref:`OroCRM Users and Their Benefits <oro-benefits>` page will help you fin
 * :doc:`/user_guide/business_intelligence`
 
   * :doc:`/user_guide/business_intelligence_dashboards`
-  * :doc:`/user_guide/widgets`
   * :doc:`/user_guide/business_intelligence_segments`
 
      * :doc:`/user_guide/business_intelligence_filters`
@@ -92,10 +91,10 @@ The :ref:`OroCRM Users and Their Benefits <oro-benefits>` page will help you fin
     
 * :doc:`/user_guide/sales_index`
  
-  * :doc:`/user_guide/sales_channels_index`
+  * :doc:`/user_guide/b2b_channels_index`
 
-    * :doc:`/user_guide/sales_channels`  
-    * :doc:`/user_guide/business_customers`
+    * :doc:`/user_guide/b2b_channels`  
+    * :doc:`/user_guide/b2b_customers`
     * :doc:`/user_guide/leads`
     * :doc:`/user_guide/opportunities`
     * :doc:`/user_guide/sales_processes_workflow`
@@ -114,12 +113,10 @@ The :ref:`OroCRM Users and Their Benefits <oro-benefits>` page will help you fin
 
   * :doc:`/user_guide/marketing_lists`
   * :doc:`/user_guide/magento_abandoned_cart_campaigns`
-  * :doc:`/user_guide/sending_abandoned_cart_campaigns`
   * :doc:`/user_guide/email_campaigns`
   * :doc:`/user_guide/email_templates`
   * :doc:`/user_guide/marketing_tracking_website_records`
-  * :doc:`/user_guide/marketing_campaigns`
-  * :doc:`/user_guide/web_tracking_magento`  
+  * :doc:`/user_guide/marketing_campaigns`  
 
 
 
@@ -137,7 +134,7 @@ The :ref:`OroCRM Users and Their Benefits <oro-benefits>` page will help you fin
   * :doc:`/user_guide/calendars_overview`
   * :doc:`/user_guide/activities_overview`
     
-     * :doc:`/user_guide/using_emails`
+     * :doc:`/user_guide/activities_send_email`
      * :doc:`/user_guide/activities_log_call`
      * :doc:`/user_guide/activities_add_assign_tasks`
      * :doc:`/user_guide/activities_add_assign_calendar_events` 
@@ -160,7 +157,6 @@ The :ref:`OroCRM Users and Their Benefits <oro-benefits>` page will help you fin
   * :doc:`/user_guide/system_config`
   
      * :doc:`/user_guide/system_mailboxes`
-     * :doc:`/user_guide/email_configuration`
       
   
   * :doc:`/user_guide/entities`

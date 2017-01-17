@@ -13,7 +13,6 @@ related trends, and segmentation tools help users focus on a specific part of th
     :maxdepth: 2
 
     business_intelligence_dashboards
-    widgets
     business_intelligence_segments
     business_intelligence_filters
     business_intelligence_reports

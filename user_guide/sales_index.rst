@@ -7,10 +7,10 @@ The section describes OroCRM tools used to collect and aggregate customer-detail
 information from different sources ("channels"), including sharpened out-of-the-box tools for Magento-based stores and 
 B2B enterprises.
 
-* :doc:`/user_guide/sales_channels_index`
+* :doc:`/user_guide/b2b_channels_index`
 
-  * :doc:`/user_guide/sales_channels`  
-  * :doc:`/user_guide/business_customers`
+  * :doc:`/user_guide/b2b_channels`  
+  * :doc:`/user_guide/b2b_customers`
   * :doc:`/user_guide/leads`
   * :doc:`/user_guide/opportunities`
   * :doc:`/user_guide/sales_processes_workflow`
@@ -29,5 +29,5 @@ B2B enterprises.
     :hidden:
     :maxdepth: 2
 
-    sales_channels_index
+    b2b_channels_index
     magento_channels_index

@@ -19,8 +19,8 @@ import sys, os
 #sys.path.insert(0, os.path.abspath('.'))
 
 sys.path.append(os.path.abspath('_exts'))
+sys.path.append('C:\Users\oro\dev\documentation\crm\_exts')
 sys.path.append('C:\Users\oro\sphinx-php')
-
 
 # adding PhpLexer
 from sphinx.highlighting import lexers
@@ -33,7 +33,7 @@ from pygments.lexers.web import PhpLexer
 
 # Add any Sphinx extension module names here, as strings. They can be extensions
 # coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
-extensions = ['sensio.sphinx.configurationblock','sensio.sphinx.phpcode']
+extensions = ['sensio.sphinx.configurationblock', 'sensio.sphinx.phpcode']
 
 # set url for API links
 api_url = 'http://phpdoc.orocrm.com/platform/%s'

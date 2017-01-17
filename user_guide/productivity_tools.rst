@@ -16,7 +16,7 @@ regulation are fulfilled.
 * :doc:`/user_guide/calendars_overview`
 * :doc:`/user_guide/activities_overview`
     
-  * :doc:`/user_guide/using_emails`
+  * :doc:`/user_guide/activities_send_email`
   * :doc:`/user_guide/activities_log_call`
   * :doc:`/user_guide/activities_add_assign_tasks`
   * :doc:`/user_guide/activities_add_assign_calendar_events` 
@@ -35,7 +35,7 @@ regulation are fulfilled.
 
     calendars_overview
     activities_overview
-    using_emails
+    activities_send_email
     activities_log_call
     activities_add_assign_tasks
     activities_add_assign_calendar_events
