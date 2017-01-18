@@ -231,6 +231,7 @@ The :ref:`OroCRM Users and Their Benefits <oro-benefits>` page will help you fin
 
 .. toctree::
     :hidden:
+    :maxdepth: 2
  
     intro
     data_management
