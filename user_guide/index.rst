@@ -116,7 +116,7 @@ The :ref:`OroCRM Users and Their Benefits <oro-benefits>` page will help you fin
     data_management_basics/data_management
     business_intelligence/business_intelligence
     common_features/common_features
-    productivity_tools/productivity_tools
+    productivity_tools/index
     glossary
    
     
