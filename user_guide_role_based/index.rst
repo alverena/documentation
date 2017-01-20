@@ -49,6 +49,6 @@ specialized areas (handling sales, marketing, and support-specific duties, etc.)
     :glob:
 
     sales_tools/index
-    support_tools/index
     marketing_tools/index
+    support_tools/index
     

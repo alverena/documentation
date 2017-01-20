@@ -86,13 +86,15 @@ Please note that in many cases, the tools may be not available to the usual user
     :maxdepth: 2
     :glob:
 
-    access_roles_management/index
+
     configuration/index
     entities/index
+    user_management/index
+    access_roles_management/index  
     integrations/index
     other_tools/index
     system/index
-    user_management/index
+
 
 
 
