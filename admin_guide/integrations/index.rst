@@ -27,6 +27,7 @@ can be added to any website to collect requests to the OroCRM team.
 * :doc:`/admin_guide/integrations/outlook_sync`
 * :doc:`/admin_guide/integrations/embedded_forms`
 * :doc:`/admin_guide/integrations/hangouts`
+* :doc:`/admin_guide/integrations/zendesk_integration`
 
 
 .. toctree::
@@ -45,3 +46,4 @@ can be added to any website to collect requests to the OroCRM team.
     outlook_sync
     embedded_forms
     hangouts
+    zendesk_integration

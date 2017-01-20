@@ -673,7 +673,7 @@ Most common resource fields
 +--------------+--------------+--------------------------------------------------------------------------------------------------------------------+
 | owner        | user         | An owner record represents the ownership capabilities of the record. In other words,                               |
 |              | or           | depending on the owner type, a different level of access applies.                                                  |
-|              | businessunit | For more details, see `Access and Permissions Management <../user-guide/user-management/user-management-roles>`__. |
+|              | businessunit | For more details, see `Access/Roles Management <../admin-guide/access-roles-management/index>`__ guide.            |
 |              | or           |                                                                                                                    |
 |              | organization |                                                                                                                    |
 +--------------+--------------+--------------------------------------------------------------------------------------------------------------------+

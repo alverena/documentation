@@ -1,7 +1,7 @@
 .. _admin-configuration:
 
-Configuration Settings
-======================
+System Configuration Settings
+==============================
 
 Use the Configuration settings to define options to be applied to the OroCRM instance.
 
@@ -423,3 +423,12 @@ The integration set-up is described in the relevant :ref:`guide <user-guide-sync
    
 .. |CalCol2Def| image:: ../img/configuration/cal_col_1_def.png
    :align: middle
+
+
+   .. toctree::
+    :hidden:
+    :maxdepth: 2
+    :glob:
+
+    system_mailboxes
+

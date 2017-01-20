@@ -1,5 +1,6 @@
 User Management
 ===============
+
 The section describes tools related to user and organization set-up and permissions management.
 
 * :doc:`/admin_guide/user_management/user_management_overview`
@@ -23,7 +24,6 @@ The section describes tools related to user and organization set-up and permissi
 
     user_management_overview
     user_management_users
-    user_management_roles
     user_management_bu
     user_management_organization
     multiple_organizations_support

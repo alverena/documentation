@@ -1,7 +1,7 @@
 .. _user-guide-common-features:
 
-Common Features. Customers, Channels, Accounts, and Contacts
-============================================================
+Customer Management
+====================
 
 One of the main tasks of any CRM is the ability to aggregate the various details of a customer. 
 

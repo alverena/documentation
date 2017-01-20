@@ -30,7 +30,7 @@ If you are reading it for the first time, we recommend that you begin with :ref:
 The :ref:`OroCRM Users and Their Benefits <oro-benefits>` page will help you find out which sections of this guide are most relevant for your work duties.
 
 
-* :doc:`/user_guide/getting_started/intro`
+* :doc:`/user_guide/getting_started/index`
   
   * :doc:`/user_guide/getting_started/intro_users_and_benefits`
   * :doc:`/user_guide/getting_started/intro_navigation`
@@ -48,7 +48,7 @@ The :ref:`OroCRM Users and Their Benefits <oro-benefits>` page will help you fin
 
 |
 
-* :doc:`/user_guide/data_management_basics/data_management`
+* :doc:`/user_guide/data_management_basics/index`
   
   * :doc:`/user_guide/data_management_basics/data_management_grids`  
   * :doc:`/user_guide/data_management_basics/data_management_view`
@@ -57,11 +57,11 @@ The :ref:`OroCRM Users and Their Benefits <oro-benefits>` page will help you fin
   * :doc:`/user_guide/data_management_basics/data_management_workflows`
   * :doc:`/user_guide/data_management_basics/data_management_data_audit`
   * :doc:`/user_guide/data_management_basics/data_management_import_export`
-  * :doc:`/admin_guide/access_roles_management/access_roles_management`
+  * :doc:`/admin_guide/access_roles_management/index`
 
 |
 
-* :doc:`/user_guide/business_intelligence/business_intelligence`
+* :doc:`/user_guide/business_intelligence/index`
 
   * :doc:`/user_guide/business_intelligence/business_intelligence_dashboards`
   * :doc:`/user_guide/business_intelligence/business_intelligence_segments`
@@ -74,7 +74,7 @@ The :ref:`OroCRM Users and Their Benefits <oro-benefits>` page will help you fin
   
 |
   
-* :doc:`/user_guide/common_features/common_features`
+* :doc:`/user_guide/common_features/index`
 
   * :doc:`/user_guide/common_features/common_features_accounts`
   * :doc:`/user_guide/common_features/common_features_channels`
@@ -87,7 +87,7 @@ The :ref:`OroCRM Users and Their Benefits <oro-benefits>` page will help you fin
 |
 
   
-* :doc:`/user_guide/productivity_tools/productivity_tools`
+* :doc:`/user_guide/productivity_tools/index`
 
   * :doc:`/user_guide/productivity_tools/calendars_overview`
   * :doc:`/user_guide/productivity_tools/activities_overview`

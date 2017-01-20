@@ -1,7 +1,7 @@
 System Tools
 =============
 
-The section provides description of the system tools available for OroCRM.
+Theis section provides description of the system tools available for OroCRM.
 
 * :doc:`/admin_guide/system/package_manager`
 

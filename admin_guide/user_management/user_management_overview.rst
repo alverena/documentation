@@ -50,7 +50,7 @@ User Roles
 ----------
 
 User Roles define access rights of a specific user, as described in the 
-:ref:`Access and Permissions Management guide <user-guide-user-management-permissions-roles>`.
+`Access/Roles Management <../access-roles-management/index>`__ guide.
 
 Getting Started
 ---------------
@@ -62,6 +62,7 @@ When creating/editing the records, you can define their basic details and the fo
 
 For each organization:
 """"""""""""""""""""""
+
 - Users that belong to the organization (in the Enterprise edition only)
 
 The ways to create and manage the organization records is described in the 

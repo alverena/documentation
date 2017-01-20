@@ -5,7 +5,7 @@ User Guide: Role-Based Tools
 This guide will provide you with the detailed overview of all capabilities, tools, and functions of OroCRM. It is divided into sections that cover 
 specialized areas (handling sales, marketing, and support-specific duties, etc.).
 
-* :doc:`/user_guide_role_based/sales_tools/sales_index`
+* :doc:`/user_guide_role_based/sales_tools/index`
  
   * :doc:`/user_guide_role_based/sales_tools/b2b_channels_index`
 
@@ -25,7 +25,7 @@ specialized areas (handling sales, marketing, and support-specific duties, etc.)
 
 |
 
-* :doc:`/user_guide_role_based/marketing_tools/marketing_index`
+* :doc:`/user_guide_role_based/marketing_tools/index`
 
   * :doc:`/user_guide_role_based/marketing_tools/marketing_lists`
   * :doc:`/user_guide_role_based/marketing_tools/magento_abandoned_cart_campaigns`
@@ -39,7 +39,7 @@ specialized areas (handling sales, marketing, and support-specific duties, etc.)
 |
 
   
-* :doc:`/user_guide_role_based/support_tools/support_index`
+* :doc:`/user_guide_role_based/support_tools/index`
 
   * :doc:`/user_guide/productivity_tools/activities_create_case`
   
@@ -48,7 +48,7 @@ specialized areas (handling sales, marketing, and support-specific duties, etc.)
     :hidden:
     :glob:
 
-    sales_tools/*
-    support_tools/*
-    marketing_tools/*
+    sales_tools/index
+    support_tools/index
+    marketing_tools/index
     

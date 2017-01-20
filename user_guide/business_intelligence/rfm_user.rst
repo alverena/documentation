@@ -95,7 +95,7 @@ customers the following way:
 	
 	-  Make sure that segments do not intersect.
 
-In OroCRM, this step is performed by the system administrator and is described in the `Configure RFM <./rfm-admin-guide>`__ guide.
+In OroCRM, this step is performed by the system administrator and is described in the `Configure RFM <../../admin-guide/other-tools/rfm-admin/>`__ guide.
 
 Step 2
 ^^^^^^
@@ -125,7 +125,7 @@ For example, the data above can be interpreted as follows:
 -  Jane Row made many orders on regular basis and spent a significant amount of money on them. She has not returned to the store for some time thought. A reactivation promotion may help her switch back to making orders in your store.
 
 
-For how you can study the RFM metrics with OroCRM, see the `Use RFM data <./rfm-user-guide.html#use-the-rfm-data>`__ section.
+For how you can study the RFM metrics with OroCRM, see the `Use RFM data <./rfm-user#use-the-rfm-data>`__ section.
 
 
 
@@ -174,7 +174,7 @@ For more details about segments and their creation, please see the `Segments <./
 
 Example 2. Top customers segment
 """"""""""""""""""""""""""""""""
-Another useful segment includes your best customers. Assuming you consider such those who fall into the RFM cells 111, 112, 121, 122, create a segment as described in the `Example 1 <.rfm-user-guide#example1-likely-churn-candidates>`__  of this section, but in step 3, define for a combined filter: ``Recency = 1 AND Frequency <=2 AND Monetary <=2``.
+Another useful segment includes your best customers. Assuming you consider such those who fall into the RFM cells 111, 112, 121, 122, create a segment as described in the `Example 1 <./rfm-user#example1-churn-candidates-segment>`__  of this section, but in step 3, define for a combined filter: ``Recency = 1 AND Frequency <=2 AND Monetary <=2``.
 
 |
 
@@ -186,6 +186,7 @@ Another useful segment includes your best customers. Assuming you consider such 
 
 Create a marketing list based on the RFM metrics
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 Exmaple 1. Top customers marketing list
 """""""""""""""""""""""""""""""""""""""
 Let’s imagine that you regularly run upselling marketing campaigns that
@@ -209,7 +210,7 @@ To create such marketing list, do as follows:
 |
 
 
-To simplify creation of the marketing list, you can filter data using a predefined segment. Assuming that you have created the "Top customers" segment as described in the `Example 2. Top customers segment <./rfm-user-guide#example1-likely-churn-candidates>`__ , but in step 4, instead of applying individual filters on recency, frequency and monetary values, use the **Apply Segment** filter and select the "Top customers" segment for it. 
+To simplify creation of the marketing list, you can filter data using a predefined segment. Assuming that you have created the "Top customers" segment as described in the `Example 2. Top customers segment <./rfm-user#example2-top-customers-segment>`__ , in step 3, instead of applying individual filters on recency, frequency and monetary values, use the **Apply Segment** filter and select the "Top customers" segment for it. 
 
 |
 
@@ -217,7 +218,7 @@ To simplify creation of the marketing list, you can filter data using a predefin
 
 |
 
-For more details about marketing lists and their creation, please see the `Marketing Lists <./marketing-lists>`__ guide.
+For more details about marketing lists and their creation, please see the `Marketing Lists <../../user-guide-role-based/marketing-tools/marketing-lists>`__ guide.
 
 
 Create a report with the RFM metrics
@@ -252,7 +253,7 @@ Example 2. Top customers report
 
 Another report may show your top customer, the total amount of all their orders and the totals amount paid. 
 
-Let’s assume, you have created the corresponding "Top customers" segment in advance by following the instruction provided in the `Example 2. Top customers segment <./rfm-user-guide#example1-likely-churn-candidates>`__. Then, to create the top customers report, do as follows:
+Let’s assume, you have created the corresponding "Top customers" segment in advance by following the instruction provided in the `Example 2. Top customers segment <./rfm-user#example2-top-customers-segment>`__. Then, to create the top customers report, do as follows:
 
 1. Select customers’ identifiers (ID, first name, last name, etc.), RFM metrics and the totals as the report columns (do not forget to add all the fields that do not have a function assigned to them into the **Grouping** section).
 

@@ -199,7 +199,7 @@ Related Documents
 * :doc:`/user_guide/data_management_basics/data_management_workflows`
 * :doc:`/user_guide/data_management_basics/data_management_data_audit`
 * :doc:`/user_guide/data_management_basics/data_management_import_export`
-* :doc:`/admin_guide/access_roles_management/access_roles_management`
+* :doc:`/admin_guide/access_roles_management/index`
  
 .. toctree::
     :hidden:

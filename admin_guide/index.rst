@@ -19,8 +19,7 @@ Please note that in many cases, the tools may be not available to the usual user
   
  
         
-
-  * :doc:`/admin_guide/user_management/user_management_index`
+  * :doc:`/admin_guide/user_management/index`
 
      * :doc:`/admin_guide/user_management/user_management_overview`
         
@@ -37,7 +36,7 @@ Please note that in many cases, the tools may be not available to the usual user
 
 
 
-  * :doc:`/admin_guide/access_roles_management/access_roles_management`
+  * :doc:`/admin_guide/access_roles_management/index`
    
      * :doc:`/admin_guide/access_roles_management/access_management_roles`  
         
@@ -58,12 +57,9 @@ Please note that in many cases, the tools may be not available to the usual user
     
 
   * :doc:`/admin_guide/other_tools/rfm_admin`
-  * :doc:`/admin_guide/integrations/integrations_index`
   
-
-
-  
-     
+  * :doc:`/admin_guide/integrations/index`
+      
     * :doc:`/admin_guide/integrations/integrations_overview`
     * :doc:`/admin_guide/integrations/google_single_sign_on`
     * :doc:`/admin_guide/integrations/magento_channel_integration`
@@ -90,13 +86,13 @@ Please note that in many cases, the tools may be not available to the usual user
     :maxdepth: 2
     :glob:
 
-    access_roles_management/*
-    configuration/*
-    entities/*
-    integrations/*
-    other_tools/*
-    system/*
-    user_management/*
+    access_roles_management/index
+    configuration/index
+    entities/index
+    integrations/index
+    other_tools/index
+    system/index
+    user_management/index
 
 
 
