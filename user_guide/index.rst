@@ -112,11 +112,14 @@ The :ref:`OroCRM Users and Their Benefits <oro-benefits>` page will help you fin
     :hidden:
     :glob:
 
-    getting_started/intro
-    data_management_basics/data_management
-    business_intelligence/business_intelligence
-    common_features/common_features
+    getting_started/index
+
+    data_management_basics/index
+
+    business_intelligence/index
+
+    common_features/index
+
     productivity_tools/index
+
     glossary
-   
-    
