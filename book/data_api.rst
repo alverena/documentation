@@ -61,12 +61,12 @@ To start using the API, you must take a few preliminary steps:
 .. image:: ./img/api/api_generateapikey_myuser.png
 
 For more details about how to generate an API Key and authentication header, please see the
-`How to use WSSE authentication <../cookbook/how-to-use-wsse-authentication>`__ section of `The Oro Cookbook <../cookbook>`__ guide and the `Log in, View Your User Page, and Set up Your Profile <../user-guide/intro-log-in-and-edit-profile>`__ section of the `User Guide <../user-guide>`__.
+`How to use WSSE authentication <../cookbook/how-to-use-wsse-authentication>`__ section of `The Oro Cookbook <../cookbook>`__ guide and the `Log in, View Your User Page, and Set up Your Profile <../user-guide/getting-started/intro-log-in-and-edit-profile>`__ section of the `User Guide <../user-guide>`__.
 
 .. important::
 
     Please note that an API key will be generated in the scope of the current organization and will allow you to access data
-    in the scope of that particular organization only. For more information about the organization entity purposes, see the `Company Structure and Organization <../user-guide/intro-company-structure-org-selector>`__ guide.
+    in the scope of that particular organization only. For more information about the organization entity purposes, see the `Company Structure and Organization <../user-guide/getting-started/intro-company-structure-org-selector>`__ guide.
     To understand the permissions and security model, see the `Security <./security>`__ guide.
 
 
@@ -661,26 +661,26 @@ Resource Fields
 Most common resource fields
 """"""""""""""""""""""""""""
 
-+--------------+--------------+-----------------------------------------------------------------------------------------------------+
-| Name         | Type         | Description                                                                                         |
-+==============+==============+=====================================================================================================+
-| id           | integer      | The unique identifier of a resource. In most cases, it is represented by an integer value, but      |
-|              |              | depending on the resource data model, it can be represented by a string or contain multiple columns |
-+--------------+--------------+-----------------------------------------------------------------------------------------------------+
-| createdAt    | datetime     | The date and time of resource record creation.                                                      |
-+--------------+--------------+-----------------------------------------------------------------------------------------------------+
-| updatedAt    | datetime     | The date and time of the last update of the resource record.                                        |
-+--------------+--------------+-----------------------------------------------------------------------------------------------------+
-| owner        | user         | An owner record represents the ownership capabilities of the record. In other words,                |
-|              | or           | depending on the owner type, a different level of access applies.                                   |
-|              | businessunit | For more details, see `Access and Permissions Management <../user-guide/user-management-roles>`__.  |
-|              | or           |                                                                                                     |
-|              | organization |                                                                                                     |
-+--------------+--------------+-----------------------------------------------------------------------------------------------------+
-| organization | organization | An organization record represents a real enterprise, business, firm, company or another             |
-|              |              | organization to which the users belong. For more details about the **organization** field purposes, |
-|              |              | see `Company Structure and Organization <../user-guide/intro-company-structure-org-selector>`__     |
-+--------------+--------------+-----------------------------------------------------------------------------------------------------+
++--------------+--------------+--------------------------------------------------------------------------------------------------------------------+
+| Name         | Type         | Description                                                                                                        |
++==============+==============+====================================================================================================================+
+| id           | integer      | The unique identifier of a resource. In most cases, it is represented by an integer value, but                     |
+|              |              | depending on the resource data model, it can be represented by a string or contain multiple columns                |
++--------------+--------------+--------------------------------------------------------------------------------------------------------------------+
+| createdAt    | datetime     | The date and time of resource record creation.                                                                     |
++--------------+--------------+--------------------------------------------------------------------------------------------------------------------+
+| updatedAt    | datetime     | The date and time of the last update of the resource record.                                                       |
++--------------+--------------+--------------------------------------------------------------------------------------------------------------------+
+| owner        | user         | An owner record represents the ownership capabilities of the record. In other words,                               |
+|              | or           | depending on the owner type, a different level of access applies.                                                  |
+|              | businessunit | For more details, see `Access and Permissions Management <../user-guide/user-management/user-management-roles>`__. |
+|              | or           |                                                                                                                    |
+|              | organization |                                                                                                                    |
++--------------+--------------+--------------------------------------------------------------------------------------------------------------------+
+| organization | organization | An organization record represents a real enterprise, business, firm, company or another                            |
+|              |              | organization to which the users belong. For more details about the **organization** field purposes,                |
+|              |              | see `Company Structure and Organization <../user-guide/getting-started/intro-company-structure-org-selector>`__    |
++--------------+--------------+--------------------------------------------------------------------------------------------------------------------+
 
 
 Typical Communication Activities Fields
@@ -1522,5 +1522,5 @@ Example. Invalid **Content-Type**
 
 For more information about the API client requirements, see the `JSON Specification <http://jsonapi.org/format/#content-negotiation-clients>`__.
 
-.. |IcView| image:: ./img/buttons/IcView.png
+.. |IcView| image:: ../img/buttons/IcView.png
    :align: middle

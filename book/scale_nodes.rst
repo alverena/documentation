@@ -152,7 +152,7 @@ bundles:
            session:
                type: phpredis
                alias: session
-               dsn: redis://localhost/3
+               dsn: "redis://localhost/3"
        session:  # configure sessions
            client: session
            prefix: session
@@ -171,9 +171,9 @@ bundles:
    services:
        oro.cache.abstract:
            abstract: true
-           class: Snc\RedisBundle\Doctrine\Cache\RedisCache
+           class: "Snc\RedisBundle\Doctrine\Cache\RedisCache"
            calls:
-               - [setRedis, [@snc_redis.default]]
+               - [setRedis, ["@snc_redis.default"]]
 
 
 7. **Annotations** cache configuration:
@@ -264,7 +264,7 @@ Our attachments functionality is based on
        adapters:
            attachments:
                local:
-                   directory: %kernel.root_dir%/attachment
+                   directory: "%kernel.root_dir%/attachment"
        filesystems:
            attachments:
                adapter: attachments
@@ -278,7 +278,7 @@ There are several ways to achieve this:
 
 - another way is to configure KnpGaufretteBundle to use the external storage, such as 
   Azure Blob Storage/AwsS3/AmazonS3/FTP/SFTP/MogileFS/MongoGridFS/Open Cloud/Dropbox, see full 
-  `documentation <https://github.com/KnpLabs/KnpGaufretteBundle/blob/master/README.md>`_ 
+  `documentation <https://github.com/KnpLabs/KnpGaufretteBundle/blob/master/README.markdown>`_ 
   
 To speed up file request responses you can optionally use APC cache. Use an adapter which allows you to cache other 
 adapters.
@@ -323,7 +323,7 @@ configuration examples:
        adapters:
            attachments:
                local:
-                   directory: %kernel.root_dir%/attachment
+                   directory: "%kernel.root_dir%/attachment"
            attachments_apc:
                apc:
                    prefix: file.

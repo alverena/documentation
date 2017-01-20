@@ -1,0 +1,31 @@
+.. _user-guide-marketing:
+
+Tools for Marketing
+===================
+
+OroCRM's Marketing functionality helps you efficiently organize and monitor marketing campaigns and mailings.
+
+It provides tools for automatic generation of Marketing Lists and their usage for generation of Email 
+Campaigns in OroCRM, Dotmailer and MailChimp. Magento Abandoned Cart functionality is a dedicated tool for creating lists 
+of contacts of customers who have added an item to a cart in a Magento store but have not submitted the order. 
+OroCRM also provides tools for tracking the user activity on a website.
+All the Tracking and Email Campaign details can be treated independently or aggregated within a Marketing Campaign.
+
+
+* :doc:`/user_guide_role_based/marketing_tools/marketing_lists`
+* :doc:`/user_guide_role_based/marketing_tools/magento_abandoned_cart_campaigns`
+* :doc:`/user_guide_role_based/marketing_tools/email_campaigns`
+* :doc:`/user_guide_role_based/marketing_tools/email_templates`
+* :doc:`/user_guide_role_based/marketing_tools/marketing_tracking_website_records`
+* :doc:`/user_guide_role_based/marketing_tools/marketing_campaigns`  
+
+.. toctree::
+    :hidden:
+    :maxdepth: 1
+
+    marketing_lists
+    magento_abandoned_cart_campaigns
+    email_campaigns
+    email_templates
+    marketing_tracking_website_records
+    marketing_campaigns
