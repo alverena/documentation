@@ -1,5 +1,7 @@
+
 Welcome to OroCRM Documentation!
 ================================
+
 
 OroCRM documentation provides several guides to help you understand Oro and use its capabilities as smoothly as possible, and find answers to the questions most frequently asked by the community.
 
