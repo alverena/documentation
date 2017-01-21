@@ -75,7 +75,7 @@ Its *"General"* section contains the basic profile details.
 |
 
 The set of information available in the section depends on the 
-:ref:`permissions <user-guide-user-management-permissions-basic>` defined for your user. The information may include:
+:ref:`permissions <user-guide-user-management-permissions>` defined for your user. The information may include:
 
 * Your name and system information such as status (Active), login count, date and time of the last login - in the header
 

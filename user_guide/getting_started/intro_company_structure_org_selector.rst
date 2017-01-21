@@ -92,7 +92,7 @@ information reported by any of their co-workers.
 This will protect information on one hand, and help to protect users from being overwhelmed with non-relevant 
 information. 
 
-Please refer to the :ref:`Access and permissions guide <user-guide-user-management-permissions-basic>` for more details.
+Please refer to the :ref:`Access and permissions guide <user-guide-user-management-permissions>` for more details.
 
 .. hint::
 

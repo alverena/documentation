@@ -4,7 +4,7 @@ Capabilities List
 =================
 
 The *"Capabilities"*  are an important part of the system's access and permission settings, as described in the 
-:ref:`Access and Permissions Basics guide <user-guide-user-management-permissions-basic>`. 
+:ref:`Access and Permissions Basics guide <user-guide-user-management-permissions>`. 
 
 Users have access to different functionalities depending on which capabilities they have been assigned. For example, you 
 can limit a user's ability to assign tags, share grids, or create new users.

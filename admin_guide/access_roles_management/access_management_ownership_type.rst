@@ -1,3 +1,5 @@
+.. _user-guide-user-management-permissions-ownership-type:
+
 Ownership Type
 ==============
 
