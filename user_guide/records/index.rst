@@ -3,6 +3,16 @@
 Work with Records
 ======================
 
+.. toctree::
+
+    data_management_grids
+    data_management_view
+    data_management_form
+    data_management_tags
+    data_management_workflows
+    data_management_import_export
+
+
 With OroCRM, you can record, store, process, and analyze various customer-related data. This information may cover 
 different areas, including personal and contact details, records of the customer activity, possible sales and 
 arrangements, and many others. This can include any type of information necessary to monitor, manage, and understand 
@@ -183,14 +193,6 @@ details in order to make their work more efficient. More information can be foun
 Related Documents
 -----------------
   
-.. toctree::
-
-    data_management_grids
-    data_management_view
-    data_management_form
-    data_management_tags
-    data_management_workflows
-    data_management_import_export
 
 
  
