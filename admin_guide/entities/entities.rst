@@ -1,7 +1,7 @@
 .. _user-guide-entity-management-from-UI:
 
-Entities Management
-====================
+Entities
+========
 
 OroCRM provides users with ability to record, store, process and analyze various customer-related information. 
 This information may cover different areas including customer profiles, address and billing details, 
@@ -210,7 +210,7 @@ This way, ability to add :ref:`new fields <user-guide-field-management>` depends
 List of editable properties for each of the System type entities depends on 
 configuration and is created in a way reasonable and safe for the system performance and operation. 
 
-.. note::
+.. note:
 
     If you need to add new fields to an entity that is not "EXTEND", configuration of the entity may be change in the 
     course of customization.

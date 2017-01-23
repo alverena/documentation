@@ -73,7 +73,7 @@ The only goal of this set of fields is to visualise records included in the reco
 Values of the chosen fields will be displayed at the :ref:`View page <user-guide-ui-components-view-pages>` of the 
 Segment.
 
-.. image:: ../../user_guide_role_based/img/marketing/list_columns.png
+.. image:: ../img/marketing/list_columns.png
 
 |
 

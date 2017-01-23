@@ -5,12 +5,12 @@ Welcome to OroCRM Documentation!
 
 OroCRM documentation provides several guides to help you understand Oro and use its capabilities as smoothly as possible, and find answers to the questions most frequently asked by the community.
 
-Learn how to enhance your business with the capabilities of OroCRM in the `User Guide <user-guide>`_.
-Read `The Oro Book <book>`_ to get information about the basic features and capabilities of OroPlatform.
-Get acquainted with the most used OroPlatform solutions in `The Oro Cookbook <cookbook>`_.
-Understand the bundles used at the back-end to build and modify OroCRM using the OroPlatform features with `The Oro Bundles <bundles>`_.
+Learn how to enhance your business with the capabilities of OroCRM in the `User Guide <./user-guide>`__ and `User Guide: Roles <./user-guide-roles>`__.
+Read `The Oro Book <./book>`__ to get information about the basic features and capabilities of OroPlatform.
+Get acquainted with the most used OroPlatform solutions in `The Oro Cookbook <./cookbook>`__.
+Understand the bundles used at the back-end to build and modify OroCRM using the OroPlatform features with `The Oro Bundles <./bundles>`__.
 
-Check out the `Community Guide <community>`_ if you want to participate in the development process.
+Check out the `Community Guide <./community>`__ if you want to participate in the development process.
  
 .. note:: Caution! Oro Documentation is still a work in progress - learn how you can help.
 
@@ -23,32 +23,34 @@ User and Administrator Guides
    <div style="float: left;width: 33.3%;padding-right: 10px;height: 100%;">   
    <h3><a href="/current/user-guide/index.rst">User Guide</h3></a>
    <ul class="simple">
-   <li><a class="reference external" href="/current/user-guide/getting-started/intro">Getting Started</a></li>
-   <li><a class="reference external" href="/current/user-guide/data-management-basics/data-management">Data Management Basics</a></li>
-   <li><a class="reference external" href="/current/user-guide/common-deatures/common-features">Customers, Channels, Accounts, and Contacts</a></li>
-   <li><a class="reference external" href="/current/user-guide/business-intelligence/business-intelligence">Business Intelligence Tools</a></li>
-   <li><a class="reference external" href="/current/user-guide/productivity-tools/productivity-tools">Productivity Tools</a></li>
+   <li><a class="reference external" href="/current/user-guide/access_oro/index">Access Oro</a></li>
+   <li><a class="reference external" href="/current/user-guide/navigation/index">Navigation and Search</a></li>
+   <li><a class="reference external" href="/current/user-guide/my_oro/index">My Oro</a></li>
+   <li><a class="reference external" href="/current/user-guide/records/index">Work with Records</a></li>
+   <li><a class="reference external" href="/current/user-guide/customer_management/index">Customer Management</a></li>
+   <li><a class="reference external" href="/current/user-guide/business_intelligence/index">Business Intelligence</a></li>
    </ul>
    </div>
    <div style="float: left;width: 33.3%;padding-right: 10px;height: 100%;">   
-   <h3><a href="/current/user-guide-role-based/index.rst">User Guide: Role-Based Tools</h3>
+   <h3><a href="/current/user-guide-role-based/index.rst">User Guide: Roles</h3>
    <ul class="simple">
-   <li><a class="reference external" href="/current/user-guide_role_based/sales-tools/salessales-index">Sales Tools</a></li>
-   <li><a class="reference external" href="/current/user-guide_role_based/marketing-tools/marketing-index">Marketing Tools</a></li>
-   <li><a class="reference external" href="/current/user-guide_role_based/support-tools/support-index">Support Tools</a></li>
+   <li><a class="reference external" href="/current/user-guide_role_based/sales-tools/index">Sales Tools</a></li>
+   <li><a class="reference external" href="/current/user-guide_role_based/marketing-tools/index>Marketing Tools</a></li>
+   <li><a class="reference external" href="/current/user-guide_role_based/support-tools/index">Support Tools</a></li>
 
    </ul>
    </div>
    <div style="float: left;width: 33.3%;padding-right: 10px;height: 100%;">   
    <h3><a href="/current/admin-guide/index.rst">Administration Guide</h3></a>
    <ul class="simple">
-   <li><a class="reference external" href="/current/admin-guide/configuration/system_config">Configuration Settings</a></li>
-   <li><a class="reference external" href="/current/admin-guide/entities/entities">Enteties Management</a></li>
-   <li><a class="reference external" href="/current/admin-guide/user-managementint/user-management-overview">User Management</a></li>
-   <li><a class="reference external" href="/current/admin-guide/access-roles-management/access-roles-management">Access / Role Management</a></li>
-   <li><a class="reference external" href="/current/admin-guide/integrations/integrations-index">Integrations</a></li>
-   <li><a class="reference external" href="/current/admin-guide/other-tools/rfm-admin">Other Tools</a></li>
-   <li><a class="reference external" href="/current/admin-guide/system/system-index">System Tools</a></li>
+   <li><a class="reference external" href="/current/admin-guide/app_look_feel/index">Application Look and Feel</a></li>
+   <li><a class="reference external" href="/current/admin-guide/email/index">Email Configuration</a></li>
+   <li><a class="reference external" href="/current/admin-guide/entities/index">Enteties Management</a></li>
+   <li><a class="reference external" href="/current/admin-guide/security/index">Security</a></li>
+   <li><a class="reference external" href="/current/admin-guide/user_management/index">User Management</a></li>   
+   <li><a class="reference external" href="/current/admin-guide/sales_tools_config/index">Sales Tools Configuration</a></li>
+   <li><a class="reference external" href="/current/admin-guide/marketing_tools_config/index">Marketing Tools Configuration</a></li>
+   <li><a class="reference external" href="/current/admin-guide/system/index">System Tools</a></li>
    </ul>
    </div>
    </div>
@@ -99,7 +101,7 @@ Developer Guides
 
     user_guide/index
 
-    user_guide_role_based/index
+    user_guide_roles/index
 
     admin_guide/index
 

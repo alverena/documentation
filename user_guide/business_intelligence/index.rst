@@ -1,7 +1,7 @@
 .. _business-intelligence:
 
-Business Intelligence
-======================
+Business Intelligence Tools
+===========================
 
 OroCRM comes with a set of data analysis tools to help users make more informed decisions. 
 
@@ -10,10 +10,10 @@ track of any important changes and updates. For instance, reports provide an und
 related trends, and segmentation tools help users focus on a specific part of their data.
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 1
 
     business_intelligence_dashboards
     business_intelligence_segments
     business_intelligence_filters
     business_intelligence_reports
-    rfm_user
+

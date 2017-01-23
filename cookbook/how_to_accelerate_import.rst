@@ -190,7 +190,7 @@ The following example shows services that should be created to add a new import 
     orocrm_contact.importexport.processor.import.add:
         parent: oro_importexport.processor.import_abstract
         calls:
-            - [setStrategy, ["@orocrm_contact.importexport.strategy.contact.add"]]
+            - [setStrategy, [@orocrm_contact.importexport.strategy.contact.add]]
         tags:
             - { name: oro_importexport.processor, type: import, entity: "%orocrm_contact.entity.class%", alias: orocrm_contact.add }
             - { name: oro_importexport.processor, type: import_validation, entity: "%orocrm_contact.entity.class%", alias: orocrm_contact.add }

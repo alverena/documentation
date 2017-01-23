@@ -43,7 +43,7 @@ Create bundle automatically
 
 Also new bundle can be generated using `Symfony command generate:bundle`_:
 
-.. _Symfony command generate:bundle: http://symfony.com/doc/2.3/bundles/SensioGeneratorBundle/commands/generate_bundle.html
+.. _Symfony command generate:bundle: http://symfony.com/doc/2.4/bundles/SensioGeneratorBundle/commands/generate_bundle.html
 
 .. code-block:: bash
 
@@ -109,11 +109,11 @@ Now you can go to frontend in development mode (http://bap.tutorial/app_dev.php/
 
 .. _Symfony profiler: http://symfony.com/doc/current/book/internals.html#profiler
 
-.. image:: ./img/how_to_create_new_bundle/dashboard.png
+.. image:: ../img/how_to_create_new_bundle/dashboard.png
 
 Here you can find your new bundle in the list of active bundles:
 
-.. image:: ./img/how_to_create_new_bundle/profiler.png
+.. image:: ../img/how_to_create_new_bundle/profiler.png
 
 That's all - your bundle is registered and active!
 
@@ -123,10 +123,10 @@ References
 
 * `Symfony Best Practices for Structuring Bundles`_
 * `Generating a New Bundle Skeleton`_
-* `Symfony Internals`_
+* `Symfony Framework Events`_
 
 .. _Symfony Best Practices for Structuring Bundles: http://symfony.com/doc/2.3/cookbook/bundles/best_practices.html
 .. _Generating a New Bundle Skeleton: http://symfony.com/doc/2.3/bundles/SensioGeneratorBundle/commands/generate_bundle.html
-.. _Symfony Internals: http://symfony.com/doc/2.3/book/internals.html
+.. _Symfony Framework Events: http://symfony.com/doc/2.3/reference/events.html
 
 

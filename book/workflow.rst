@@ -8,7 +8,7 @@ entity can perform the transition from one state to another.
 .. seealso::
 
     Simple workflows can be created in the user interface. Read more about this feature
-    :doc:`in the user guide </user_guide/productivity_tools/workflow_management>`.
+    :doc:`in the user guide </admin_guide/record_mgmt_config/workflow_management>`.
 
 .. sidebar:: Workflows, Steps, and Transitions
 
@@ -364,39 +364,39 @@ Example:
                 connected_definition: # Try to make call connected
                     # Check that timeout is set
                     conditions:
-                        "@not_blank": ["$call_timeout"]
+                        @not_blank: [$call_timeout]
                     # Set call_successfull = true
                     post_actions:
-                        - "@assign_value": ["$call_successfull", true]
+                        - @assign_value: [$call_successfull, true]
                     init_actions:
-                        - "@increment_value": ["$call_attempt"]
+                        - @increment_value: [$call_attempt]
                 not_answered_definition: # Callee did not answer
                     # Make sure that caller waited at least 60 seconds
                     conditions: # call_timeout not empty and >= 60
                         @and:
-                            - "@not_blank": ["$call_timeout"]
-                            - "@ge": ["$call_timeout", 60]
+                            - @not_blank: [$call_timeout]
+                            - @ge: [$call_timeout, 60]
                     # Set call_successfull = false
                     post_actions:
-                        - "@assign_value": ["$call_successfull", false]
+                        - @assign_value: [$call_successfull, false]
                 end_conversation_definition:
                     conditions:
                         # Check required properties are set
                         @and:
-                            - "@not_blank": ["$conversation_result"]
-                            - "@not_blank": ["$conversation_comment"]
-                            - "@not_blank": ["$conversation_successful"]
+                            - @not_blank: [$conversation_result]
+                            - @not_blank: [$conversation_comment]
+                            - @not_blank: [$conversation_successful]
                     # Create PhoneConversation and set it's properties
                     # Pass data from workflow to conversation
                     post_actions:
                         - @create_entity: # create PhoneConversation
                             class: Acme\Bundle\DemoWorkflowBundle\Entity\PhoneConversation
-                            attribute: "$conversation"
+                            attribute: $conversation
                             data:
-                                result: "$conversation_result"
-                                comment: "$conversation_comment"
-                                successful: "$conversation_successful"
-                                call: "$phone_call"
+                                result: $conversation_result
+                                comment: $conversation_comment
+                                successful: $conversation_successful
+                                call: $phone_call
 
 .. note::
 
