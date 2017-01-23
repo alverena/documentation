@@ -47,8 +47,8 @@ check with your system administrator to see if this is the case.
 
 
 
-Logout
-------
+Log out
+--------
 
 Go to the User Menu in the top right corner of the page, and select the *"Logout"* item.
 

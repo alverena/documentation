@@ -21,15 +21,16 @@ when you get up to speed with the basics.
   
 
 .. toctree::
-    :hidden:
-    :maxdepth: 2
+    :maxdepth: 1
 
-    intro_company_structure_org_selector
     intro_navigation
     intro_nav_shortcuts
     intro_nav_search
+    intro_company_structure_org_selector
     intro_nav_pinned_pages
     intro_nav_user_menu
     intro_nav_history_fav_viewed
     intro_nav_sidebar
     intro_nav_popup
+
+    

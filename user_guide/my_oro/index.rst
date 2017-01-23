@@ -18,8 +18,8 @@ information about other menu items in the :ref:`User Menu <user-guide-getting-st
 
 .. _user-guide-getting-started-my-user-overview:
 
-My User Page Overview
-^^^^^^^^^^^^^^^^^^^^^
+My User Page 
+--------------
 
 This page provides you the full details of your user profile.
 
@@ -160,7 +160,8 @@ To learn more about the add-in, please refer to the :ref:`Integration with Outlo
 
 
 Get to the Edit Page of Your User Profile
-"""""""""""""""""""""""""""""""""""""""""    
+""""""""""""""""""""""""""""""""""""""""""
+
 Click the :guilabel:`Edit` button in the top left corner of the page to change and add the profile details, as described 
 in the section below.
 
@@ -213,13 +214,13 @@ Any custom details permitted for editing will be available in the *"Additional"*
 the *"Title"* field.
 
 .. note::
-
     Although the *"Status"* fields is displayed on the Edit user page, you cannot change it, as it is impossible to 
     deactivate a profile that you are using.
 
     
 Manage Your Contact Details
-^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
  
 You can define and update the contact information in  the *"General"* section. 
 
@@ -275,7 +276,7 @@ You can define and update the contact information in  the *"General"* section.
 .. _user-guide-getting-started-profile-password:
 
 Change Your Password
-^^^^^^^^^^^^^^^^^^^^
+---------------------
 
 To change your password, go to the *"Password"* section of the Edit page. 
 
@@ -334,7 +335,8 @@ Please note, that if SMTP synchronization has been enabled, your addressee will 
     both.
 
 Synchronize with any IMAP/SMTP Server
-"""""""""""""""""""""""""""""""""""""    
+"""""""""""""""""""""""""""""""""""""""
+
 
 The functionality can be used to synchronize any IMAP/SMTP server with your mailbox in OroCRM. 
 
@@ -472,7 +474,7 @@ same external mailbox for your user in different organizations.
 
 
 Save the Changes
-----------------
+^^^^^^^^^^^^^^^^^
 Click the :guilabel:`Save and Close` button in the top right corner to save the changes to your profile and return to 
 the *"My User"* page.
 
