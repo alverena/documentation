@@ -8,9 +8,6 @@ specialized areas (handling sales, marketing, and support-specific duties, etc.)
  
 
 .. toctree::
-    :hmaxdepth: 2 
-    :glob:
-
     sales_tools/index
     marketing_tools/index
     support_tools/index

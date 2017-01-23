@@ -42,7 +42,7 @@ How to Enable Activities for an Entity
 Activities can be enabled for the entity records in the *Communication & Collaboration* section of the
 :ref:`entity edit/create form <user-guide-entity-management-create>`.
 
-.. image:: ../img/entity_management/new_entity_communication_collaboration.png
+.. image:: ../../admin_guide/img/entity_management/new_entity_communication_collaboration.png
 
 - Check the activities that you want to enable for the entity.
                                    

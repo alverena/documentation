@@ -21,25 +21,32 @@ Please note that in many cases, the tools may be not available to the usual user
 
 * :doc:`/admin_guide/entities/index`
   * :doc:`/admin_guide/entities/entities`
+  
     * :doc:`/admin_guide/entities/entity_fields` 
 
 * :doc:`/admin_guide/security/index`
   * :doc:`/admin_guide/security/access_role_management`
+  
     * :doc:`/admin_guide/security/access_management_roles`
+    
       * :doc:`/admin_guide/security/admin_capabilities`
       * :doc:`/admin_guide/security/access_management_roles_interface`
       * :doc:`/admin_guide/security/access_management_roles_actions`
+      
     * :doc:`/admin_guide/security/access_management_access_levels`
     * :doc:`/admin_guide/security/access_management_ownership_type`
     * :doc:`/admin_guide/security/access_management_user_access_settings`
     * :doc:`/admin_guide/security/access_management_field_level_acl`
     * :doc:`/admin_guide/security/access_management_examples`
+    
   * :doc:`/admin_guide/security/security_data_audit`
 
 * :doc:`/admin_guide/user_management/index`
   * :doc:`/admin_guide/user_management/user_management_overview`
   * :doc:`/admin_guide/user_management/user_management_users`
+  
     * :doc:`/admin_guide/user_management/user_management_groups`
+    
   * :doc:`/admin_guide/user_management/user_management_bu`
   * :doc:`/admin_guide/user_management/user_management_organization`
   * :doc:`/admin_guide/user_management/multiple_organizations_support`  
@@ -67,15 +74,17 @@ Please note that in many cases, the tools may be not available to the usual user
 .. toctree::
     :hidden:
     :maxdepth: 2
+    :glob:
 
-    admin_capabilities
-    system_config
-    system_mailboxes
-    entities
-    entity_fields
-    processes
-    package_manager
-    user_management_index
-    rfm_admin
-    integrations_index
+
+    app_look_feel/index
+    record_mgmt_config/index
+    email/index
+    entities/index
+    security/index
+    user_management/index
+    sales_tools_config/index
+    marketing_tools_config/index
+    integrations/index
+    system/index
 

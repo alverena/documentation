@@ -22,7 +22,7 @@ API key
 An *API key* has been added to the platform in order to prevent usage of regular (raw) user passwords in third party software.
 It can be generated for every user on the *"user view"* page by users that have **EDIT** permissions granted.
 
-.. image:: ../img/how_to_use_wsse_authentication/user_api_key_generation.png
+.. image:: ./img/how_to_use_wsse_authentication/user_api_key_generation.png
 
 This key should be used for ``PasswordDigest`` generation on the client side.
 

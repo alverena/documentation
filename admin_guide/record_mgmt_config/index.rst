@@ -6,4 +6,5 @@ In this section you will learn how to configure tools that make record managemen
 
 .. toctree::
    :glob:
-      *
+      
+   *

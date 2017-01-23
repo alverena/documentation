@@ -58,7 +58,7 @@ The link to a specific record's history of changes is available in the top right
 
 |
 
-.. image:: ../img/data_management/view/view_history.png
+.. image:: ../../user_guide/img/data_management/view/view_history.png
 
 |
 
@@ -265,7 +265,7 @@ Outlook.
 
 |
 
-.. image:: ../img/intro/user_outlook.png
+.. image:: ../../user_guide/img/intro/user_outlook.png
 
 |
 

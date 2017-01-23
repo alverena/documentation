@@ -122,11 +122,11 @@ Then you have to reload navigation data and clear cache:
 
 Here you can see your new menu items in the default OroPlatform menu:
 
-.. image:: ../img/how_to_create_and_customize_application_menu/add_item_to_default_nav.png
+.. image:: ./img/how_to_create_and_customize_application_menu/add_item_to_default_nav.png
 
 And here is the page you'll see after a click on the menu item:
 
-.. image:: ../img/how_to_create_and_customize_application_menu/add_item_page_result_click.png
+.. image:: ./img/how_to_create_and_customize_application_menu/add_item_page_result_click.png
 
 
 
@@ -171,7 +171,7 @@ And reload navigation data and clear cache:
 
 Here you can see the new menu item "Acme link label" in the Sales section:
 
-.. image:: ../img/how_to_create_and_customize_application_menu/ov_item_in_default_nav.png
+.. image:: ./img/how_to_create_and_customize_application_menu/ov_item_in_default_nav.png
 
 
 References

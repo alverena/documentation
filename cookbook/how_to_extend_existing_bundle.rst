@@ -76,7 +76,7 @@ So, we need to create ``/src/Acme/Bundle/NewBundle/Resources/views/User/widget/i
 And now we can go to the user view page (e.g. http://bap.tutorial/app_dev.php/#url=/app_dev.php/user/view/1) and find
 that user info widget has changed:
 
-.. image:: ../img/how_to_extend_existing_bundle/user_info_widget.png
+.. image:: ./img/how_to_extend_existing_bundle/user_info_widget.png
 
 That's all - now our demo bundle extends OroUserBundle and can override its parts.
 

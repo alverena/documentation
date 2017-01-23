@@ -16,5 +16,4 @@ In the section, you can find more information about B2B channels and entities ad
     magento_channels
     magento_customers
     magento_carts_orders
-    magento_newsletter_subs
     magento_default_workflows

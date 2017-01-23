@@ -6,4 +6,5 @@ In this section you will learn how to configure entities—basic objects that ev
 
 .. toctree::
    :glob:
-      *
+      
+   *

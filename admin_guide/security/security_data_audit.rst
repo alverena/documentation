@@ -47,7 +47,7 @@ A link to a specific record's history of changes is available in the top right c
 
 |
 
-.. image:: ../img/data_management/view/view_history.png
+.. image:: ../../user_guide/img/data_management/view/view_history.png
 
 |
     

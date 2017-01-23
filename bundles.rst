@@ -98,7 +98,7 @@ related articles is provided below the description.
 
         * User guide: :doc:`/user_guide/customer_management/common_features_multi_channel_functionality`
         * User guide: :doc:`/user_guide/customer_management/common_features_channels`
-        * User guide: :doc:`//user_guide/customer_management/common_features_accounts`
+        * User guide: :doc:`/user_guide/customer_management/common_features_accounts`
         * User guide: :doc:`/user_guide_roles/sales_tools/b2b_channels`
         * User guide: :doc:`/user_guide_roles/sales_tools/magento_channels`
 
@@ -332,8 +332,7 @@ related articles is provided below the description.
 
         Read more about it in the following articles:
 
-        * User guide: :doc:`/user_guide_roles/marketing_tools/marketing_lists
-`
+        * User guide: :doc:`/user_guide_roles/marketing_tools/marketing_lists`
 
 `MigrationBundle`_ (OroPlatform)
     Allows to version the application's database.
@@ -395,7 +394,7 @@ related articles is provided below the description.
         Read more about it in the following articles:
 
         * Book: :doc:`/book/reports_configuration`
-        * User guide: :doc:`//user_guide/customer_management/common_features_accounts`
+        * User guide: :doc:`/user_guide/customer_management/common_features_accounts`
         * User guide: :doc:`/user_guide_roles/sales_tools/b2b_customers`
         * User guide: :doc:`/user_guide_roles/sales_tools/leads`
         * User guide: :doc:`/user_guide_roles/sales_tools/opportunities`

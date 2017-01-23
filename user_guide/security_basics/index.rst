@@ -28,10 +28,8 @@ guide.
 
 
 
-* :doc:`/admin_guide/security/access_role_management
-`
-* :doc:`/user_guide/security_basics/data_management_data_audit
-`
+* :doc:`/admin_guide/security/access_role_management`
+* :doc:`/user_guide/security_basics/data_management_data_audit`
   
 
 .. toctree::

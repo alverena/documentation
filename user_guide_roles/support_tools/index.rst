@@ -12,9 +12,3 @@ B2B enterprises.
 
 
 
-.. toctree::
-    :hidden:
-    :maxdepth: 2
-
-    zendesk_integration
-    activities_create_case

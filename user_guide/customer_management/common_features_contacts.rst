@@ -75,9 +75,9 @@ View and Manage a Contact Record
 All the contacts available are displayed in the contacts :ref:`grid <user-guide-ui-components-grid-action-icons>` 
 (*Customers → Contacts*).
 
-      |
+|
   
-.. image::  ./img/contacts/action_icons.png
+.. image:: ../img/contacts/action_icons.png
 
 |
 
@@ -104,5 +104,5 @@ From the grid you can:
 .. |IcView| image:: ../../img/buttons/IcView.png
    :align: middle
 
-.. |BulkDelete| image::  ./img/contacts/bulk_delete.png
+.. |BulkDelete| image:: ../img/contacts/bulk_delete.png
 

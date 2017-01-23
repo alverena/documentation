@@ -70,4 +70,4 @@ For examples on access configuration, see the `Access Configuration Examples <./
     access_management_ownership_type  
     access_management_access_levels 
     access_management_examples
-        admin_capabilities  
+    admin_capabilities  

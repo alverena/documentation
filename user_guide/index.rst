@@ -32,8 +32,24 @@ The :ref:`OroCRM Users and Their Benefits <oro-benefits>` page will help you fin
 
 
 .. toctree::
-     :maxdepth: 2
-        *
+   :maxdepth: 2
+
+   intro_users_and_benefits     
+   access_oro/index
+   my_oro/index
+   navigation/index
+   records/index
+   customer_management/index
+   activities/index
+   business_intelligence/index
+   security_basics/index
+   glossary
+
+
+
+
+
+     
 
 
     
