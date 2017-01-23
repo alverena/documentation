@@ -14,13 +14,13 @@ further explanation, you will find links to related documentation.
 .. toctree::
   :maxdepth: 1
 
-    records_overview
-    data_management_grids
-    data_management_view
-    data_management_form
-    data_management_tags
-    data_management_workflows
-    data_management_import_export
+  records_overview
+  data_management_grids
+  data_management_view
+  data_management_form
+  data_management_tags
+  data_management_workflows
+  data_management_import_export
 
 
 
