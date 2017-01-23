@@ -3,6 +3,16 @@
 Customer Management
 ======================
 
+.. toctree::
+    :maxdepth: 1
+
+    common_features_accounts
+    common_features_channels
+    common_features_multi_channel_functionality
+    common_features_contacts
+    common_features_contact_groups
+
+
 One of the main tasks of any CRM is the ability to aggregate the various details of a customer. 
 
 For example, say that you have a factory producing furniture, and you are selling it through a retail network, a 
@@ -51,7 +61,7 @@ In OroCRM, all of this data is tracked using three types of records: channels, c
 
 
 Understanding Accounts, Channels, and Customers
------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 For each :ref:`channel created <user-guide-channel-guide-create>`, there is a set of 
 :term:`entities <Entity>`  that are defined. These entities correspond to the various types of information collected 
@@ -125,7 +135,7 @@ current trends and opportunities.
 .. _user-guide-common-features-contacts:
 
 Contacts
---------
+^^^^^^^^
 
 While a Customer and Account may refer to either a company, an enterprise, or a person, a **Contact** entity represents 
 an actual person you are dealing with. It contains their personal information, details of their position in the 
@@ -137,16 +147,8 @@ functionality and use the contact details for the customer-related activities. M
 groups to simplify the search and filtration.
 
 Related Documents
------------------
+^^^^^^^^^^^^^^^^^^
 
 You can find more detailed descriptions of these features in the following documents:
 
-.. toctree::
-    :maxdepth: 1
 
-    common_features_accounts
-    common_features_channels
-    common_features_multi_channel_functionality
-    common_features_contacts
-    common_features_contact_groups
-    
