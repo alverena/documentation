@@ -21,36 +21,36 @@ User and Administrator Guides
 
    <div style="overflow: hidden;margin: 0 auto;width: 100%; height:100%;">
    <div style="float: left;width: 33.3%;padding-right: 10px;height: 100%;">   
-   <h3><a href="/current/user-guide/index.rst">User Guide</h3></a>
+   <h3><a href="/user-guide">User Guide</h3></a>
    <ul class="simple">
-   <li><a class="reference external" href="/current/user-guide/access_oro/index">Access Oro</a></li>
-   <li><a class="reference external" href="/current/user-guide/navigation/index">Navigation and Search</a></li>
-   <li><a class="reference external" href="/current/user-guide/my_oro/index">My Oro</a></li>
-   <li><a class="reference external" href="/current/user-guide/records/index">Work with Records</a></li>
-   <li><a class="reference external" href="/current/user-guide/customer_management/index">Customer Management</a></li>
-   <li><a class="reference external" href="/current/user-guide/business_intelligence/index">Business Intelligence</a></li>
+   <li><a class="reference external" href="/current/user-guide/access-oro/">Access Oro</a></li>
+   <li><a class="reference external" href="/current/user-guide/navigation/">Navigation and Search</a></li>
+   <li><a class="reference external" href="/current/user-guide/my-oro/">My Oro</a></li>
+   <li><a class="reference external" href="/current/user-guide/records/">Work with Records</a></li>
+   <li><a class="reference external" href="/current/user-guide/customer-management/">Customer Management</a></li>
+   <li><a class="reference external" href="/current/user-guide/business-intelligence/">Business Intelligence</a></li>
    </ul>
    </div>
    <div style="float: left;width: 33.3%;padding-right: 10px;height: 100%;">   
-   <h3><a href="/current/user-guide-role-based/index.rst">User Guide: Roles</h3>
+   <h3><a href="/current/user-guide-roles/">User Guide: Roles</h3>
    <ul class="simple">
-   <li><a class="reference external" href="/current/user-guide_role_based/sales-tools/index">Sales Tools</a></li>
-   <li><a class="reference external" href="/current/user-guide_role_based/marketing-tools/index>Marketing Tools</a></li>
-   <li><a class="reference external" href="/current/user-guide_role_based/support-tools/index">Support Tools</a></li>
+   <li><a class="reference external" href="/current/user-guide-roles/sales-tools/">Sales Tools</a></li>
+   <li><a class="reference external" href="/current/user-guide-roles/marketing-tools/>Marketing Tools</a></li>
+   <li><a class="reference external" href="/current/user-guide-roles/support-tools/">Support Tools</a></li>
 
    </ul>
    </div>
    <div style="float: left;width: 33.3%;padding-right: 10px;height: 100%;">   
-   <h3><a href="/current/admin-guide/index.rst">Administration Guide</h3></a>
+   <h3><a href="/current/admin-guide/">Administrator Guide</h3></a>
    <ul class="simple">
-   <li><a class="reference external" href="/current/admin-guide/app_look_feel/index">Application Look and Feel</a></li>
-   <li><a class="reference external" href="/current/admin-guide/email/index">Email Configuration</a></li>
-   <li><a class="reference external" href="/current/admin-guide/entities/index">Enteties Management</a></li>
-   <li><a class="reference external" href="/current/admin-guide/security/index">Security</a></li>
-   <li><a class="reference external" href="/current/admin-guide/user_management/index">User Management</a></li>   
-   <li><a class="reference external" href="/current/admin-guide/sales_tools_config/index">Sales Tools Configuration</a></li>
-   <li><a class="reference external" href="/current/admin-guide/marketing_tools_config/index">Marketing Tools Configuration</a></li>
-   <li><a class="reference external" href="/current/admin-guide/system/index">System Tools</a></li>
+   <li><a class="reference external" href="/current/admin-guide/app-look-feel/">Application Look and Feel</a></li>
+   <li><a class="reference external" href="/current/admin-guide/email/">Email Configuration</a></li>
+   <li><a class="reference external" href="/current/admin-guide/entities/">Enteties Management</a></li>
+   <li><a class="reference external" href="/current/admin-guide/security/">Security</a></li>
+   <li><a class="reference external" href="/current/admin-guide/user-management/">User Management</a></li>   
+   <li><a class="reference external" href="/current/admin-guide/sales-tools_config/">Sales Tools Configuration</a></li>
+   <li><a class="reference external" href="/current/admin-guide/marketing-tools-config/">Marketing Tools Configuration</a></li>
+   <li><a class="reference external" href="/current/admin-guide/system">System Tools</a></li>
    </ul>
    </div>
    </div>
@@ -61,7 +61,7 @@ Developer Guides
 
    <div style="overflow: hidden;margin: 0 auto;width: 100%; height:100%;">
    <div style="float: left;width: 33.3%;padding-right: 10px;height: 100%;">   
-   <h3><a class="reference external" href="book">The Book</a></h3>
+   <h3><a class="reference external" href="/current/book">The Book</a></h3>
    <p>This section provides information related the Oro application architecture and setup:
    <ul><li><a class="reference external" href="book/configuration">configuration</a>, <a class="reference external" href="localization">localization</a>, and <a class="reference external" href="security">securty</a>, and <a class="reference external" href="book/customization">customization</a></li>
    <li><a class="reference external" href="/current/book/data-api">Using Web Services API</a></li>

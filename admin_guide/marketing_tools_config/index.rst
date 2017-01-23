@@ -5,6 +5,7 @@ In this section you will learn how to configure marketing tools.
 
 
 .. toctree::
+   :maxdepth: 1
    :glob:
 
    *
