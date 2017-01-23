@@ -1,6 +1,6 @@
 .. _user-guide-data-management-basics:
 
-Data Management Basics
+Work with Records
 ======================
 
 With OroCRM, you can record, store, process, and analyze various customer-related data. This information may cover 
