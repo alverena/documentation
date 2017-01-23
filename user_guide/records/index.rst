@@ -183,16 +183,7 @@ details in order to make their work more efficient. More information can be foun
 Related Documents
 -----------------
   
-* :doc:`/user_guide/records/data_management_grids`  
-* :doc:`/user_guide/records/data_management_view`
-* :doc:`/user_guide/records/data_management_form`
-* :doc:`/user_guide/records/data_management_tags`
-* :doc:`/user_guide/records/data_management_workflows`
-* :doc:`/user_guide/records/data_management_import_export`
-* :doc:`/admin_guide/security/access_role_management`
- 
 .. toctree::
-    :hidden:
 
     data_management_grids
     data_management_view
