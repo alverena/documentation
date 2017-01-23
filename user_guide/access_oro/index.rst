@@ -1,7 +1,7 @@
 .. _user-guide-log-in:
 
-Log in, View Your User Page, and Set up Your Profile
-====================================================
+Access Oro
+==============
 
 To get to your OroCRM account, enter the OroCRM instance url.
 

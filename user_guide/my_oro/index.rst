@@ -1,7 +1,7 @@
 .. _user-guide-intro-log-in-edit-profile:
 
-View Your User Page, and Set up Your Profile
-==============================================
+My Oro
+========
 
 .. _user-guide-getting-started-my-user:
 

@@ -1,6 +1,6 @@
 .. _business-intelligence:
 
-Business Intelligence Tools
+Business Intelligence 
 ===========================
 
 OroCRM comes with a set of data analysis tools to help users make more informed decisions. 

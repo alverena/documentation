@@ -19,14 +19,12 @@ With OroCRM you can easily:
 * Engage into eCommerce using extensive Magento integration. 
 
 
-This guide will provide you with the detailed overview of all capabilities, tools, and functions of OroCRM. 
+This guide will provide you with the overview of all capabilities, tools, and functions of OroCRM. 
 
 It is divided into sections that gradually explain the system from the very basics (e.g. setting up a user profile and generic 
-data management tasks) to more advanced CRM concepts (e.g. the contact and account management) and then further into 
-specialized areas (handling sales, marketing, and support-specific duties, etc.). The final part of this guide is dedicated 
-to system administration and configuration.
+data management tasks) to more advanced CRM concepts (e.g. the contact and account management). The more 
+specialized areas (handling sales, marketing, and support-specific duties, etc.) are described in the `User Guide: Roles <../user-guide-roles>`__. 
 
-If you are reading it for the first time, we recommend that you begin with :ref:`Getting Started section <user-guide-getting-started>`, and then continue to :ref:`Data Management Basics <user-guide-data-management-basics>`. 
 
 The :ref:`OroCRM Users and Their Benefits <oro-benefits>` page will help you find out which sections of this guide are most relevant for your work duties.
 
