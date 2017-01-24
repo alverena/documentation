@@ -191,10 +191,5 @@ details in order to make their work more efficient. More information can be foun
    
 .. |BRefresh| image:: ../../img/buttons/BRefresh.png
    :align: middle
-   
-<<<<<<< HEAD:user_guide/records/records_overview.rst
+
 .. |BReset| image:: ../../img/buttons/BReset.png
-=======
-.. |BReset| image:: ./img/buttons/BReset.png
->>>>>>> refs/remotes/orocrm/master:user_guide/data_management.rst
-   :align: middle
