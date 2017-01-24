@@ -169,34 +169,6 @@ users will see the updated information. Throughout, stakeholders of customer rel
 details in order to make their work more efficient. More information can be found in the 
 :ref:`OroCRM Users and Their Benefits <oro-benefits>` guide.
     
-<<<<<<< HEAD:user_guide/records/records_overview.rst
-
-=======
-Related Documents
------------------ 
-  
-* :doc:`/user_guide/data_management_grids`  
-* :doc:`/user_guide/data_management_view`
-* :doc:`/user_guide/data_management_form`
-* :doc:`/user_guide/data_management_tags`
-* :doc:`/user_guide/data_management_workflows`
-* :doc:`/user_guide/data_management_data_audit`
-* :doc:`/user_guide/data_management_import_export`
-* :doc:`/user_guide/access_roles_management`
- 
-.. toctree::
-    :hidden:
-
-    data_management_grids
-    data_management_view
-    data_management_form
-    data_management_tags
-    data_management_workflows
-    data_management_data_audit
-    data_management_import_export
-    data_management_access_permissions_basic
-    access_roles_management
->>>>>>> refs/remotes/orocrm/master:user_guide/data_management.rst
 
  
 .. |IcDelete| image:: ../../img/buttons/IcDelete.png
