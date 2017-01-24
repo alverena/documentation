@@ -46,7 +46,6 @@ User and Administrator Guides
    <h3><a href="./admin-guide/">Administrator Guide</h3></a>
    <ul class="simple">
 
-  
    <li><a class="reference external" href="./admin-guide/app-look-feel/">Application Look and Feel</a></li>
    <li><a class="reference external" href="./admin-guide/email/">Email Configuration</a></li>
    <li><a class="reference external" href="./admin-guide/entities/">Enteties Management</a></li>
@@ -107,7 +106,6 @@ Developer Guides
 
     cookbook/index
 
-
     bundles
 
     user_guide/index
@@ -116,11 +114,9 @@ Developer Guides
 
     admin_guide/index
 
-
-        community/index
+    community/index
 
     reference/index
-
 
     system_requirements
 
