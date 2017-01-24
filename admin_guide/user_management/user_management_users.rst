@@ -155,11 +155,11 @@ With the :ref:`action buttons <user-guide-ui-components-view-page-actions>` on t
 
 - Enable: Enables the user to be able to access the system. In addition 'Auth status' may prevent the user from login.
 
-<<<<<<< HEAD:admin_guide/user_management/user_management_users.rst
+|
+
 .. image:: ../img/user_management/reset_password.png
-=======
-.. image:: ./img/user_management/reset_password.png
->>>>>>> refs/remotes/orocrm/master:user_guide/user_management_users.rst
+
+|
 
 General Information
 """""""""""""""""""
