@@ -61,7 +61,11 @@ To start using the API, you must take a few preliminary steps:
 .. image:: ./img/api/api_generateapikey_myuser.png
 
 For more details about how to generate an API Key and authentication header, please see the
+<<<<<<< HEAD
 `How to use WSSE authentication <../cookbook/how-to-use-wsse-authentication>`__ section of `The Oro Cookbook <../cookbook>`__ guide and the :ref:`View Your User Page, and Set up Your Profile <user-guide-intro-log-in-edit-profile>` section of the `User Guide <../user-guide>`__.
+=======
+`How to use WSSE authentication <../cookbook/how-to-use-wsse-authentication>`__ section of `The Oro Cookbook <../cookbook>`__ guide and the `Log in, View Your User Page, and Set up Your Profile <../user-guide/intro-log-in-and-edit-profile>`__ section of the `User Guide <../user-guide>`__.
+>>>>>>> refs/remotes/orocrm/master
 
 .. important::
 
@@ -673,7 +677,11 @@ Most common resource fields
 +--------------+--------------+-----------------------------------------------------------------------------------------------------+
 | owner        | user         | An owner record represents the ownership capabilities of the record. In other words,                |
 |              | or           | depending on the owner type, a different level of access applies.                                   |
+<<<<<<< HEAD
 |              | businessunit | For more details, see :ref:`Access / Role Management <user-guide-user-management-permissions>`.     |
+=======
+|              | businessunit | For more details, see `Access and Permissions Management <../user-guide/user-management-roles>`__.  |
+>>>>>>> refs/remotes/orocrm/master
 |              | or           |                                                                                                     |
 |              | organization |                                                                                                     |
 +--------------+--------------+-----------------------------------------------------------------------------------------------------+
@@ -1522,5 +1530,9 @@ Example. Invalid **Content-Type**
 
 For more information about the API client requirements, see the `JSON Specification <http://jsonapi.org/format/#content-negotiation-clients>`__.
 
+<<<<<<< HEAD
 .. |IcView| image:: ..//img/buttons/IcView.png
+=======
+.. |IcView| image:: ./img/buttons/IcView.png
+>>>>>>> refs/remotes/orocrm/master
    :align: middle

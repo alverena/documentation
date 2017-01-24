@@ -339,7 +339,11 @@ Reply
 Reply button with the *Forward* and *Reply all* options below it is available by default. The settings can be changed to 
 have "Reply all" shown at the top. 
 
+<<<<<<< HEAD:admin_guide/app_look_feel/system_config.rst
 .. image:: ../img/configuration/reply_selector.png
+=======
+.. image:: ./img/configuration/reply_selector.png
+>>>>>>> refs/remotes/orocrm/master:user_guide/system_config.rst
 
 .. _admin-configuration-email-notification:
 

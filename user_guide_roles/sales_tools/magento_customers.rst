@@ -27,7 +27,11 @@ In order to create a new Magento customer in the system:
 
   |
   
+<<<<<<< HEAD:user_guide_roles/sales_tools/magento_customers.rst
 .. image:: ../img/magento_entities/magento-customer_create.png
+=======
+.. image:: ./img/magento_entities/magento-customer_create.png
+>>>>>>> refs/remotes/orocrm/master:user_guide/magento_customers.rst
 
 The following fields are mandatory and **must** be defined:
 

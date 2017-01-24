@@ -22,7 +22,7 @@ for it. If something has changed (e.g., the phone number), the properties are up
 New records can be created and the existing record can be updated both manually and automatically 
 (as a result of integration with third-party systems). 
 
-With OroCRM's comprehensive :ref:`access settings <user-guide-user-management-permissions>` you can define what users 
+With OroCRM's comprehensive `access settings <./access-roles-management>`__ you can define what users 
 will be able to view, update, delete, and create records of specific entities.
 
 As soon as a property has been updated, all the system users who have access permission will see its new updated state.
@@ -169,7 +169,34 @@ users will see the updated information. Throughout, stakeholders of customer rel
 details in order to make their work more efficient. More information can be found in the 
 :ref:`OroCRM Users and Their Benefits <oro-benefits>` guide.
     
+<<<<<<< HEAD:user_guide/records/records_overview.rst
 
+=======
+Related Documents
+----------------- 
+  
+* :doc:`/user_guide/data_management_grids`  
+* :doc:`/user_guide/data_management_view`
+* :doc:`/user_guide/data_management_form`
+* :doc:`/user_guide/data_management_tags`
+* :doc:`/user_guide/data_management_workflows`
+* :doc:`/user_guide/data_management_data_audit`
+* :doc:`/user_guide/data_management_import_export`
+* :doc:`/user_guide/access_roles_management`
+ 
+.. toctree::
+    :hidden:
+
+    data_management_grids
+    data_management_view
+    data_management_form
+    data_management_tags
+    data_management_workflows
+    data_management_data_audit
+    data_management_import_export
+    data_management_access_permissions_basic
+    access_roles_management
+>>>>>>> refs/remotes/orocrm/master:user_guide/data_management.rst
 
  
 .. |IcDelete| image:: ../../img/buttons/IcDelete.png
@@ -193,5 +220,9 @@ details in order to make their work more efficient. More information can be foun
 .. |BRefresh| image:: ../../img/buttons/BRefresh.png
    :align: middle
    
+<<<<<<< HEAD:user_guide/records/records_overview.rst
 .. |BReset| image:: ../../img/buttons/BReset.png
+=======
+.. |BReset| image:: ./img/buttons/BReset.png
+>>>>>>> refs/remotes/orocrm/master:user_guide/data_management.rst
    :align: middle

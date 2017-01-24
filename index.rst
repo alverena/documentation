@@ -1,4 +1,5 @@
 
+
 Welcome to OroCRM Documentation!
 ================================
 
@@ -16,6 +17,7 @@ Check out the `Community Guide <./community>`__ if you want to participate in th
 
 User and Administrator Guides
 -----------------------------
+
 
 .. raw:: html
 
@@ -51,12 +53,15 @@ User and Administrator Guides
    <li><a class="reference external" href="/current/admin-guide/sales-tools_config/">Sales Tools Configuration</a></li>
    <li><a class="reference external" href="/current/admin-guide/marketing-tools-config/">Marketing Tools Configuration</a></li>
    <li><a class="reference external" href="/current/admin-guide/system">System Tools</a></li>
+
    </ul>
    </div>
    </div>
 
+
 Developer Guides
 -------------------
+
 .. raw:: html
 
    <div style="overflow: hidden;margin: 0 auto;width: 100%; height:100%;">
@@ -81,6 +86,7 @@ Developer Guides
    </div>
    </div>
    <div style="float: none;margin: 0 auto;width: 100%; height:100%;">
+
    <h3><a class="reference external" href="/current/community">Support and Contribution</a></h3>
    <p>Join Oro community and contribute to the open-source OroCRM Community Edition. The OroCRM Community Guide provides information, best practices and conventions for contributing into the OroCommerce <a class="reference external" href="/current/community/contributing">source code</a>, <a class="reference external" href="/current/community/translations">translation</a>, and <a class="reference external" href="/current/community/contributing#improving-documentation">documentation</a></p>
    </div>
@@ -97,6 +103,7 @@ Developer Guides
 
     cookbook/index
 
+
     bundles
 
     user_guide/index
@@ -105,8 +112,11 @@ Developer Guides
 
     admin_guide/index
 
-    community/index
+
+        community/index
 
     reference/index
 
+
     system_requirements
+

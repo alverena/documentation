@@ -123,5 +123,9 @@ The :ref:`View page <user-guide-ui-components-view-pages>` of a campaign contain
 .. |ViewEvents| image:: ../img/marketing/marketing_campaign_view_events.png
 
 
+<<<<<<< HEAD:user_guide_roles/marketing_tools/marketing_campaigns.rst
 .. |CampaignCode| image:: ../img/marketing/marketing_campaign_view_code.png
+=======
+.. |CampaignCode| image:: ./img/marketing/marketing_campaign_view_code.png
+>>>>>>> refs/remotes/orocrm/master:user_guide/marketing_campaigns.rst
   
