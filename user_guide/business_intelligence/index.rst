@@ -16,8 +16,3 @@ related trends, and segmentation tools help users focus on a specific part of th
     business_intelligence_segments
     business_intelligence_filters
     business_intelligence_reports
-<<<<<<< HEAD:user_guide/business_intelligence/index.rst
-
-=======
-    rfm_user
->>>>>>> refs/remotes/orocrm/master:user_guide/business_intelligence.rst
