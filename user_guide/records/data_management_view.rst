@@ -105,13 +105,8 @@ Review the Record History
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
 If the user is allowed to do this (i.e., the :ref:`Data Audit capabilty <admin-capabilities-data-audit>` has been
-<<<<<<< HEAD:user_guide/records/data_management_view.rst
-enabled for at least one of the user's :ref:`roles <user-guide-user-management-permissions>`
-, , there will be a 
-=======
-enabled for at least one of the user's :ref:`roles <user-guide-user-management-permissions-basic>`, , there will be a 
->>>>>>> refs/remotes/orocrm/master:user_guide/data_management_view.rst
-link to the history of operations performed with the record in the top right corner of the View page.
+enabled for at least one of the user's :ref:`roles <user-guide-user-management-permissions>`, there will be a 
+
 
 |
 
