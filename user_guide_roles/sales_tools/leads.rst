@@ -312,23 +312,23 @@ OroCRM comes with a pre-implemented B2B-oriented \ `Sales Processes Workflow <ht
  
 
 
-.. |BCrLOwnerClear| image:: ../img/buttons/BCrLOwnerClear.png
+.. |BCrLOwnerClear| image:: ../../img/buttons/BCrLOwnerClear.png
    :align: middle
 
-.. |Bdropdown| image:: ../img/buttons/Bdropdown.png
+.. |Bdropdown| image:: ../../img/buttons/Bdropdown.png
    :align: middle
 
-.. |BGotoPage| image:: ../img/buttons/BGotoPage.png
+.. |BGotoPage| image:: ../../img/buttons/BGotoPage.png
    :align: middle
 
-.. |Bplus| image:: ../img/buttons/Bplus.png
+.. |Bplus| image:: ../../img/buttons/Bplus.png
    :align: middle
 
-.. |IcDelete| image:: ../img/buttons/IcDelete.png
+.. |IcDelete| image:: ../../img/buttons/IcDelete.png
    :align: middle
 
-.. |IcEdit| image:: ../img/buttons/IcEdit.png
+.. |IcEdit| image:: ../../img/buttons/IcEdit.png
    :align: middle
 
-.. |IcView| image:: ../img/buttons/IcView.png
+.. |IcView| image:: ../../img/buttons/IcView.png
    :align: middle

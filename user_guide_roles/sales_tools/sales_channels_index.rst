@@ -1,10 +1,10 @@
 Business-to-business Sales
 ==========================
 
-In this section, you can find more information about B2B channels and the entities added to them by default.
+In this section, you can find more information about Sales channels and the entities added to them by default.
 
-* :doc:`/user_guide_roles/sales_tools/b2b_channels`  
-* :doc:`/user_guide_roles/sales_tools/b2b_customers`
+* :doc:`/user_guide_roles/sales_tools/sales_channels`  
+* :doc:`/user_guide_roles/sales_tools/business_customers`
 * :doc:`/user_guide_roles/sales_tools/leads`
 * :doc:`/user_guide_roles/sales_tools/opportunities`
 * :doc:`/user_guide_roles/sales_tools/sales_processes_workflow`
@@ -14,8 +14,8 @@ In this section, you can find more information about B2B channels and the entiti
     :hidden:
     :maxdepth: 1
 
-    b2b_channels
-    b2b_customers
+    sales_channels
+    business_customers
     leads
     opportunities
     sales_processes_workflow

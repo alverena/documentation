@@ -778,47 +778,47 @@ help you filter customers based on previous campaigns.
 
 
   
-.. |IcDelete| image:: ../img/buttons/IcDelete.png
+.. |IcDelete| image:: ../../img/buttons/IcDelete.png
    :align: middle
 
-.. |IcEdit| image:: ../img/buttons/IcEdit.png
+.. |IcEdit| image:: ../../img/buttons/IcEdit.png
    :align: middle
 
-.. |IcMove| image:: ../img/buttons/IcMove.png
+.. |IcMove| image:: ../../img/buttons/IcMove.png
    :align: middle
 
-.. |IcView| image:: ../img/buttons/IcView.png
+.. |IcView| image:: ../../img/buttons/IcView.png
    :align: middle
 
-.. |IcSub| image:: ../img/buttons/IcSub.png
+.. |IcSub| image:: ../../img/buttons/IcSub.png
    :align: middle
 
-.. |IcUns| image:: ../img/buttons/IcUns.png
+.. |IcUns| image:: ../../img/buttons/IcUns.png
    :align: middle
 
-.. |IcRemove| image:: ../img/buttons/IcRemove.png
+.. |IcRemove| image:: ../../img/buttons/IcRemove.png
    :align: middle
 
-.. |UndoRem| image:: ../img/buttons/UndoRem.png
+.. |UndoRem| image:: ../../img/buttons/UndoRem.png
    :align: middle
       
-.. |BGotoPage| image:: ../img/buttons/BGotoPage.png
+.. |BGotoPage| image:: ../../img/buttons/BGotoPage.png
    :align: middle
    
-.. |Bdropdown| image:: ../img/buttons/Bdropdown.png
+.. |Bdropdown| image:: ../../img/buttons/Bdropdown.png
    :align: middle
 
-.. |BCrLOwnerClear| image:: ../img/buttons/BCrLOwnerClear.png
+.. |BCrLOwnerClear| image:: ../../img/buttons/BCrLOwnerClear.png
    :align: middle
 
-.. |BSchedule| image:: ../img/buttons/BSchedule.png
+.. |BSchedule| image:: ../../img/buttons/BSchedule.png
    :align: middle
    
-.. |acc_related_camp| image:: ../img/marketing/acc_related_camp.png
+.. |acc_related_camp| image:: ../../img/marketing/acc_related_camp.png
    :align: middle
    
-.. |MapML| image:: ../img/marketing/map_ml.png
+.. |MapML| image:: ../../img/marketing/map_ml.png
    :align: middle
 
-.. |acc_enable| image:: ../img/marketing/acc_enable.png
+.. |acc_enable| image:: ../../img/marketing/acc_enable.png
    :align: middle

@@ -78,25 +78,20 @@ Convert To Opportunity Form contains **Opportunity Information** and
 
 For Opportunity Information form, define the following fields:
 
-+--------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Field**                | **Description**                                                                                                                                                                                                                                                                                                                                          |
-+==========================+==========================================================================================================================================================================================================================================================================================================================================================+
-| **Owner\***              | Limits the list of users that can manage the opportunity to users, whose \ `roles <https://www.orocrm.com/documentation/index/current/user-guide/user-management-roles/#user-guide-user-management-permissions>`__ allow managing opportunities assigned to the owner (e.g. the owner, members of the same business unit, system administrator, etc.).   |
-|                          |                                                                                                                                                                                                                                                                                                                                                          |
-|                          | By default, the user creating the record is chosen.                                                                                                                                                                                                                                                                                                      |
-+--------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Opportunity Name\***   | The name used to refer to an opportunity in the system.                                                                                                                                                                                                                                                                                                  |
-+--------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Account\***            | Allows to select or create a customer account the opportunity will be related to.                                                                                                                                                                                                                                                                        |
-|                          |                                                                                                                                                                                                                                                                                                                                                          |
-|                          | -  Account field will be filled in with the company name if such name was entered when creating a lead.                                                                                                                                                                                                                                                  |
-|                          |                                                                                                                                                                                                                                                                                                                                                          |
-|                          | -  To create a new account, click **+** at the end of the Account field.                                                                                                                                                                                                                                                                                 |
-|                          |                                                                                                                                                                                                                                                                                                                                                          |
-|                          | -  Alternatively, use **write-in functionality** to enter a new account name. Type the name in the field and click **Add New**.                                                                                                                                                                                                                          |
-|                          |                                                                                                                                                                                                                                                                                                                                                          |
-|                          | -  Creating an account will automatically create a business customer with the same name.                                                                                                                                                                                                                                                                 |
-+--------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Field**            | **Description**                                                                                                                                                                                                                                                                                                                                       |
++======================+=======================================================================================================================================================================================================================================================================================================================================================+
+| **Owner**            | Limits the list of users that can manage the opportunity to users, whose  `roles <https://www.orocrm.com/documentation/index/current/user-guide/user-management-roles/#user-guide-user-management-permissions>`__ allow managing opportunities assigned to the owner (e.g. the owner, members of the same business unit, system administrator, etc.). |
+|                      | By default, the user creating the record is chosen.                                                                                                                                                                                                                                                                                                   |
++----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Opportunity Name** | The name used to refer to an opportunity in the system.                                                                                                                                                                                                                                                                                               |
++----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Account**          | Allows to select or create a customer account the opportunity will be related to.                                                                                                                                                                                                                                                                     |
+|                      | -  Account field will be filled in with the company name if such name was entered when creating a lead.                                                                                                                                                                                                                                               |
+|                      | -  To create a new account, click **+** at the end of the Account field.                                                                                                                                                                                                                                                                              |
+|                      | -  Alternatively, use **write-in functionality** to enter a new account name. Type the name in the field and click **Add New**.                                                                                                                                                                                                                       |
+|                      | -  Creating an account will automatically create a business customer with the same name.                                                                                                                                                                                                                                                              |
++----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 |
 
@@ -105,11 +100,11 @@ For Opportunity Information form, define the following fields:
 |
 
 
-+----------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Contact**    | The person on the customer side who is directly related to the opportunity.                                                                                                       |
-+================+===================================================================================================================================================================================+
-| **Status\***   | A stage in the process of a sale. **Open, Closed Won and Closed Lost** are system statuses and cannot be deleted. Other statuses can be customized in the system configuration.   |
-+----------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++-------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Contact** | The person on the customer side who is directly related to the opportunity.                                                                                                     |
++-------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Status**  | A stage in the process of a sale. **Open, Closed Won and Closed Lost** are system statuses and cannot be deleted. Other statuses can be customized in the system configuration. |
++-------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 |
 
@@ -118,28 +113,26 @@ For Opportunity Information form, define the following fields:
 |
 
 
-+-------------------+--------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Probability**   | The perceived probability of an opportunity being successfully closed.                                                                           |
-|                   |                                                                                                                                                  |
-|                   | Probability is related to Status. For each status, there is a certain percentage of probability which is pre-configured automatically.           |
-|                   |                                                                                                                                                  |
-|                   | To configure percentage for each status (see the first screenshot below):                                                                        |
-|                   |                                                                                                                                                  |
-|                   | -  Go to **Systems>Configuration.**                                                                                                              |
-|                   |                                                                                                                                                  |
-|                   | -  Open **CRM** tab.                                                                                                                             |
-|                   |                                                                                                                                                  |
-|                   | -  Click **Opportunities.**                                                                                                                      |
-|                   |                                                                                                                                                  |
-|                   | -  Configure statuses in **Probabilities** section.                                                                                              |
-|                   |                                                                                                                                                  |
-|                   | Here, you can add new statuses, changes status names, their position and probability percentage.                                                 |
-|                   |                                                                                                                                                  |
-|                   | Note that you cannot change probability percentage for Open, Closed Won and Closed Lost. system statuses.                                        |
-|                   |                                                                                                                                                  |
-|                   | Probability percentage can be edited manually when filling in the Convert To Opportunity form (as illustrated in the second screenshot below).   |
-+===================+==================================================================================================================================================+
-+-------------------+--------------------------------------------------------------------------------------------------------------------------------------------------+
+.. csv-table::
+  :header: "Field", "Description"
+  :widths: 10, 30
+
+  "**Probability**", "The perceived probability of an opportunity being successfully closed. 
+
+  Probability is related to **Status**. For each status, there is a certain percentage of probability which is pre-configured automatically. 
+
+  To configure percentage for each status (see the first screenshot below):
+
+  -	Go to **Systems>Configuration**.
+  -	Open **CRM** tab.
+  -	Click :guilabel:`Opportunities`.
+  -	Configure statuses in the **Probabilities** section.
+  	
+  Here, you can add new statuses by clicking **+Add**, changes status names, their position and probability percentage.
+
+  **Note** that you cannot change probability percentage for **Open**, **Closed Won** and **Closed Lost** system statuses.
+
+  Probability percentage can be edited manually when filling in the **Convert To Opportunity form** (as illustrated in the second screenshot below)."
 
 |
 
@@ -156,7 +149,7 @@ For Opportunity Information form, define the following fields:
 
 +---------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+
 | **Budget Amount**         | Budget amount is potential deal value being discussed.                                                                                                  |
-+===========================+=========================================================================================================================================================+
++---------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+
 | **Expected Close Date**   | Expected close date of the deal.                                                                                                                        |
 +---------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+
 | **Close Revenue**         | The amount actually received as the result of the deal.                                                                                                 |
@@ -604,23 +597,23 @@ The report shows:
  
   
 
-.. |BCrLOwnerClear| image:: ../img/buttons/BCrLOwnerClear.png
+.. |BCrLOwnerClear| image:: ../../img/buttons/BCrLOwnerClear.png
    :align: middle
 
-.. |Bdropdown| image:: ../img/buttons/Bdropdown.png
+.. |Bdropdown| image:: ../../img/buttons/Bdropdown.png
    :align: middle
 
-.. |BGotoPage| image:: ../img/buttons/BGotoPage.png
+.. |BGotoPage| image:: ../../img/buttons/BGotoPage.png
    :align: middle
 
-.. |Bplus| image:: ../img/buttons/Bplus.png
+.. |Bplus| image:: ../../img/buttons/Bplus.png
    :align: middle
 
-.. |IcDelete| image:: ../img/buttons/IcDelete.png
+.. |IcDelete| image:: ../../img/buttons/IcDelete.png
    :align: middle
 
-.. |IcEdit| image:: ../img/buttons/IcEdit.png
+.. |IcEdit| image:: ../../img/buttons/IcEdit.png
    :align: middle
 
-.. |IcView| image:: ../img/buttons/IcView.png
+.. |IcView| image:: ../../img/buttons/IcView.png
    :align: middle
