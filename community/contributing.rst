@@ -488,7 +488,7 @@ Preview:
 
 |
 
-.. image:: ./img/contributing/write.png
+.. image:: ../img/contributing/write.png
 
 |
 
