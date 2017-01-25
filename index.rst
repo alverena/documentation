@@ -48,7 +48,7 @@ User and Administrator Guides
 
    <li><a class="reference external" href="./admin-guide/app-look-feel/">Application Look and Feel</a></li>
    <li><a class="reference external" href="./admin-guide/email/">Email Configuration</a></li>
-   <li><a class="reference external" href="./admin-guide/entities/">Enteties Management</a></li>
+   <li><a class="reference external" href="./admin-guide/entities/">Entities Management</a></li>
    <li><a class="reference external" href="./admin-guide/security/">Security</a></li>
    <li><a class="reference external" href="./admin-guide/user-management/">User Management</a></li>   
    <li><a class="reference external" href="./admin-guide/sales-tools_config/">Sales Tools Configuration</a></li>

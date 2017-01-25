@@ -97,7 +97,7 @@ In order to assign an entity to a channel and collect the data from the channel,
 
       |
   
-.. image:: ./img/channel_guide/channels_entities.png
+.. image:: ../img/channel_guide/channels_entities.png
 
 |
 
@@ -126,7 +126,7 @@ To add an entity to the channel, choose the entity and click the :guilabel:`Add`
 
       |
   
-.. image:: ./img/channel_guide/channels_entity_select.png
+.. image:: ../img/channel_guide/channels_entity_select.png
 
 |
 
@@ -135,7 +135,7 @@ from the system.
 
       |
   
-.. image:: ./img/channel_guide/channels_entities_delete.png
+.. image:: ../img/channel_guide/channels_entities_delete.png
 
 
 .. note::
@@ -154,7 +154,7 @@ From the :ref:`grid <user-guide-ui-components-grids>`
 
      |
 
-.. image:: ./img/channel_guide/channels_edit.png
+.. image:: ../img/channel_guide/channels_edit.png
 
 - Delete the channel: |IcDelete|
 
@@ -176,7 +176,7 @@ From the :ref:`View page <user-guide-ui-components-view-pages>`:
 
       |
   
-.. image:: ./img/channel_guide/channels_created_b2b_view.png
+.. image:: ../img/channel_guide/channels_created_b2b_view.png
 
 |
 
@@ -193,7 +193,7 @@ From the :ref:`View page <user-guide-ui-components-view-pages>`:
   
   - In the *"Actions"* column, click |IcView| to see the entity details or |IcEdit| to change the entity settings.
 
-.. image:: ./img/channel_guide/channels_created_b2b_view_edit_entity.png  
+.. image:: ../img/channel_guide/channels_created_b2b_view_edit_entity.png  
 
 |
   
@@ -209,13 +209,13 @@ Please refer to the :ref:`Entities <user-guide-entity-management-from-UI>` guide
 
 
 
-.. |IcDelete| image:: ./img/buttons/IcDelete.png
+.. |IcDelete| image:: ../../img/buttons/IcDelete.png
    :align: middle
 
-.. |IcEdit| image:: ./img/buttons/IcEdit.png
+.. |IcEdit| image:: ../../img/buttons/IcEdit.png
    :align: middle
 
-.. |IcView| image:: ./img/buttons/IcView.png
+.. |IcView| image:: ../../img/buttons/IcView.png
    :align: middle
 
 

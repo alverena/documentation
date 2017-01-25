@@ -14,8 +14,10 @@ All the Tracking and Email Campaign details can be treated independently or aggr
 
 * :doc:`/user_guide_roles/marketing_tools/marketing_lists`
 * :doc:`/user_guide_roles/marketing_tools/magento_abandoned_cart_campaigns`
+* :doc:`/user_guide_roles/marketing_tools/sending_abandoned_cart_campaigns`
 * :doc:`/user_guide_roles/marketing_tools/email_campaigns`
 * :doc:`/user_guide_roles/marketing_tools/marketing_tracking_website_records`
+* :doc:`/user_guide_roles/marketing_tools/magento_web_tracking`
 * :doc:`/user_guide_roles/marketing_tools/marketing_campaigns`  
 * :doc:`/user_guide_roles/marketing_tools/magento_newsletter_subs`  
 * :doc:`/user_guide_roles/marketing_tools/rfm_user`  
