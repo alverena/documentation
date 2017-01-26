@@ -5,7 +5,7 @@ In this section you will learn how to configure entities—basic objects that ev
 
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    
    entities 
    entity_grid
