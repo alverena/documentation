@@ -1,3 +1,5 @@
+.. _user-guide-magento-web-tracking:
+
 Magento Web Tracking 
 ====================
 

@@ -13,8 +13,8 @@ Understand the bundles used at the back-end to build and modify OroCRM using the
 
 Check out the `Community Guide <./community>`__ if you want to participate in the development process.
  
-.. note:: Caution! Oro Documentation is still a work in progress - learn how you can help.
-
+.. caution:: Oro Documentation is still a work in progress - :ref:`learn how you can help <contributing-to-oroplatform-orocommerce-orocr>`.
+  
 User and Administrator Guides
 -----------------------------
 
