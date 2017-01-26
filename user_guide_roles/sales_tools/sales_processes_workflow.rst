@@ -4,15 +4,14 @@
 Sales Processes Workflow
 ========================
 
-To manage sales processes of the company, OroCRM provides the **Sales Processes** entity records.
+As an alternative to direct manipulation of leads and opportunities, it is possible to manage the sales process following the steps of a Sales Process :ref:`Workflow <user-guide-workflow-management-basics>`.
 
-To provide consistent and unified approach within the company, in OroCRM, management of the Sales Processes is
-straightened by the steps of the **Sales Processes** :ref:`workflow <user-guide-workflow-management-basics>` that 
-involves the Lead and/or Opportunity records from a B2B Channel.
+Note, however, that the sales process entity is deprecated. The preferred way is direct manipulation of leads and opportunities as described in the :ref:`Leads <user-guide-system-channel-entities-leads>` and :ref:`Opportunities <user-guide-system-channel-entities-opportunities>` sections of the guide.
+
 
 According to the workflow, the following actions are available for a manager:
 
-1. Create a Sales Process record from a :term:`lead <Lead>` as soon as a potential :term:`opportunity <Opportunity>` has 
+1. Create a Sales Process record from a :term:`lead <Lead>` as soon as a potential :term:`opportuity <Opportunity>` has 
    appeared. 
    
    As the probability of the deal gets clear, the lead may be disqualified (if it is most likely that no deal 
@@ -22,6 +21,7 @@ According to the workflow, the following actions are available for a manager:
   
    If potential success level is high from the very start, it is also possible to skip the step and create a Sales 
    Process record from an opportunity.
+
 
 2. Develop an opportunity as new information appears (e.g. new agreements are reached or plans are approved), if 
    applicable.
@@ -39,7 +39,7 @@ According to the workflow, the following actions are available for a manager:
 
  
 
-.. image:: ../img/sales_process/sales_process_wf.png
+.. image:: ./img/sales_process/sales_process_wf.png
 
 This way, the workflow leads a manager step-by-step through  a sales process life-cycle from its start to the 
 completion.
