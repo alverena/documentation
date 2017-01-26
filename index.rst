@@ -13,7 +13,7 @@ Understand the bundles used at the back-end to build and modify OroCRM using the
 
 Check out the `Community Guide <./community>`__ if you want to participate in the development process.
  
-.. note:: Caution! Oro Documentation is still a work in progress - learn how you can help.
+.. note:: Caution! Oro Documentation is still a work in progress—learn how you can help.
 
 User and Administrator Guides
 -----------------------------
@@ -24,7 +24,7 @@ User and Administrator Guides
    <div style="overflow: hidden;margin: 0 auto;width: 100%; height:100%;">
 
    <div style="float: left;width: 33.3%;padding-right: 10px;height: 100%;">   
-   <a href="./user-guide"><i class="fa fa-user fa-2x" aria-hidden="true" style="color:#FFC221;"></i><br/><h3>User Guide</h3></a>
+   <a href="./user-guide"><h3 style="text-align:center;"><i class="fa fa-user fa-2x" aria-hidden="true" style="color:#FFC221;"></i><br/>User Guide</h3></a>
    <ul class="simple">
    <li><a class="reference external" href="./user-guide/access-oro/">Access Oro</a></li>
    <li><a class="reference external" href="./user-guide/navigation/">Navigation and Search</a></li>
@@ -36,7 +36,7 @@ User and Administrator Guides
    </div>
 
    <div style="float: left;width: 33.3%;padding-right: 10px;height: 100%;">   
-   <a href="./user-guide-roles/"><i class="fa fa-user-plus fa-2x" aria-hidden="true" style="color:#FFC221;"></i><br/><h3>User Guide: Roles</h3></a>
+   <a href="./user-guide-roles/"><h3 style="text-align:center;"><i class="fa fa-user-plus fa-2x" aria-hidden="true" style="color:#FFC221;"></i><br/>User Guide: Roles</h3></a>
    <ul class="simple">
    <li><a class="reference external" href="./user-guide-roles/sales-tools/">Sales Tools</a></li>
    <li><a class="reference external" href="./user-guide-roles/marketing-tools/>Marketing Tools</a></li>
@@ -45,7 +45,7 @@ User and Administrator Guides
    </div>
 
    <div style="float: left;width: 33.3%;padding-right: 10px;height: 100%;">   
-   <a href="./admin-guide/"><i class="fa fa-cog fa-2x" aria-hidden="true" style="color:#FFC221;"></i><br/><h3>Administrator Guide</h3></a>
+   <a href="./admin-guide/"><h3 style="text-align:center;"><i class="fa fa-cog fa-2x" aria-hidden="true" style="color:#FFC221;"></i><br/>Administrator Guide</h3></a>
    <ul class="simple">
 
    <li><a class="reference external" href="./admin-guide/app-look-feel/">Application Look and Feel</a></li>
@@ -72,7 +72,7 @@ Developer Guides
 
    <div style="float: left;width: 33.3%;padding-right: 10px;height: 100%;">  
 
-   <a class="reference external" href="./book"><i class="fa fa-book fa-2x" aria-hidden="true" style="color:#FFC221;"></i><br/><h3>The Book</h3></a>
+   <a class="reference external" href="./book"><h3 style="text-align:center;"><i class="fa fa-book fa-2x" aria-hidden="true" style="color:#FFC221;"></i><br/>The Book</h3></a>
    <p>This section provides information related the Oro application architecture and setup:
 
    <ul>
@@ -86,7 +86,7 @@ Developer Guides
    </div>
 
    <div style="float: left;width: 33.3%;padding-right: 10px;height: 100%;">
-   <a class="reference external" href="./cookbook"><i class="fa fa-flask fa-2x" aria-hidden="true" style="color:#FFC221;"></i><br/><h3>The Cookbook</h3></a>
+   <a class="reference external" href="./cookbook"><h3 style="text-align:center;"><i class="fa fa-flask fa-2x" aria-hidden="true" style="color:#FFC221;"></i><br/>The Cookbook</h3></a>
    <p>This section provides a series of areticles with more detailed information for developers and integrators:
 
    <ul>
@@ -106,13 +106,13 @@ Developer Guides
    </div>
 
    <div style="float: none;margin: 0 auto;width: 100%; height:100%;">
-   <a class="reference external" href="./community"><i class="fa fa-flag fa-2x" aria-hidden="true" style="color:#FFC221;"></i> <h3>Support and Contribution</h3></a>
+   <a class="reference external" href="./community"><h3><i class="fa fa-flag fa-2x" aria-hidden="true" style="color:#FFC221;"></i> Support and Contribution</h3></a>
    <p>Join Oro community and contribute to the open-source OroCRM Community Edition. The OroCRM Community Guide provides information, best practices and conventions for contributing into the OroCommerce <a class="reference external" href="./community/contributing">source code</a>, <a class="reference external" href="./community/translations">translation</a>, and <a class="reference external" href="./community/contributing#improving-documentation">documentation</a></p>
 
    </div>
 
    <div style="float: none;margin: 0 auto;width: 100%; height:100%;">
-   <a class="reference external" href="./reference"><i class="fa fa-bookmark fa-2x" aria-hidden="true" style="color:#FFC221;"></i> <h3>Reference</h3></a>
+   <a class="reference external" href="./reference"><h3><i class="fa fa-bookmark fa-2x" aria-hidden="true" style="color:#FFC221;"></i> Reference</h3></a>
    <p>This section contains annotation and configuration format reference. </p>
    </div>
 
