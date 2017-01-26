@@ -1,3 +1,5 @@
+.. _doc-entity-fields:
+
 Entity Fields
 =============
 
@@ -19,6 +21,8 @@ This guide describes how to create and modify the fields.
 
 Actions
 --------
+
+.. _doc-entity-fields-create:
 
 Create a Custom Entity Field
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

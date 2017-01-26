@@ -22,14 +22,14 @@ How It Works
   to use for data received from the channel. 
 
   Currently there are two out-of-the-box channel types described in more details in the 
-  :ref:`B2B Channel guide <user-guide-b2b-channel>` and :ref:`Magento Channel guide <user-guide-magento-channel>`, 
+  :ref:`Sales Channel guide <user-guide-sales-channel>` and :ref:`Magento Channel guide <user-guide-magento-channel>`, 
   however new channel types can be added in the course of customization, subject to the specific client-needs.
 
 - Each channel is assigned a set of :term:`Entities <Entity>`. Records of these entities and their details can be 
   collected to OroCRM from the channel.
 
   - One of the entities defined for a channel must represent a :term:`customer identity <Customer Identity>` that suits 
-    the channel type. For example, a :term:`B2B Customer` or a :term:`Web Customer`. 
+    the channel type. For example, a :term:`Business Customer` or a :term:`Web Customer`. 
   
   - Some system entities are automatically assigned to channels of a related type. For example, details of
     :term:`opportunities <Opportunity>` and :term:`leads <Lead>` are usually collected from B2B channels, while 

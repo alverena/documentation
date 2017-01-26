@@ -7,6 +7,8 @@ Actions with Entities
 Actions
 --------
 
+.. _doc-entity-actions-create:
+
 Create an Entity
 ^^^^^^^^^^^^^^^^
 
@@ -124,7 +126,7 @@ Create an Entity
 
      .. image:: ../img/entity_management/entity_addattachment.png
 
-     |
+     
 
      |
 
@@ -392,6 +394,8 @@ To manage unique keys do the following:
 
 8. Click the **Save** button in the upper-right corner of the page.      
 
+
+.. _doc-entity-actions-edit:
 
 Edit an Entity
 ^^^^^^^^^^^^^^

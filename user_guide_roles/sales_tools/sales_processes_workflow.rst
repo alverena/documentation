@@ -41,6 +41,8 @@ According to the workflow, the following actions are available for a manager:
 
 .. image:: ../img/sales_process/sales_process_wf.png
 
+|
+
 This way, the workflow leads a manager step-by-step through  a sales process life-cycle from its start to the 
 completion.
 

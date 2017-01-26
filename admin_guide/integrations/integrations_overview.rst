@@ -9,7 +9,7 @@ OroCRM supports two types of integrations:
 
   These are:
 
-  - Pre-implemented :ref:`Google single sign-on functionality <admin-configuration-google-settings>`: Allows users to log in to OroCRM with their organization Google Apps for Work, Education or Government account, or their personal Google account if their Google account email address and OroCRM primary email address are the same.
+  - Pre-implemented :ref:`Google single sign-on functionality <user-guide-google-single-sign-on>`: Allows users to log in to OroCRM with their organization Google Apps for Work, Education or Government account, or their personal Google account if their Google account email address and OroCRM primary email address are the same.
 
   - Pre-implemented :ref:`Integration with Microsoft Exchange server <admin-configuration-ms-exchange>`: Allows OroCRM users to access contents of their mailboxes on the server directly in the OroCRM UI. (Available for enterprise edition only).
 

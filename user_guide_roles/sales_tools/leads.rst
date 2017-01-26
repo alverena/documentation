@@ -207,11 +207,11 @@ Manage Lead From the Grid
 
 The following actions can be performed for leads from the grid:
 
--  Delete a lead from the system: \ |IcDelete|
+-  Delete a lead from the system:  |IcDelete|
 
--  Get to the :ref:`edit form <user-guide-ui-components-create-pages>` of the lead: \ |IcEdit|
+-  Edit a lead:  |IcEdit|
 
--  Get to the :ref:`view page <user-guide-ui-components-create-pages>` of the lead: \ |IcView|
+-  View a lead:  |IcView|
 
 |
 
@@ -252,7 +252,7 @@ Inline editing within the grid can help you amend lead details without opening t
 
 |
 
-|
+
 
 .. image:: ../img/leads/edit_inline_editing_grid.png
 
@@ -264,7 +264,8 @@ Inline editing within the grid can help you amend lead details without opening t
 
 .. note:: Although multiple emails, phones and addresses can be added for leads, only one email, phone and address will be displayed in the grid.
  
-  
+
+.. _doc-leads-reports:  
 
 View Reports
 ------------
@@ -272,14 +273,14 @@ View Reports
 Lead By Date Report
 ~~~~~~~~~~~~~~~~~~~
 
-OroCRM provides a ready-to-use \ **Leads by Date** report. This is a
+OroCRM provides a ready-to-use **Leads by Date** report. This is a
 useful report that shows how many leads were created on a specific date
 for all of the channels.
 
-To see the report, go to \ **Reports and Segments>Reports>Leads>Leads By
-Date.**
+To see the report, go to **Reports and Segments>Reports>Leads>Leads By
+Date**.
 
-Leads by Date report shows:
+The **Leads by Date** report shows:
 
 -  The date leads were created on.
 
@@ -295,16 +296,14 @@ Leads by Date report shows:
 
 
 
-New custom reports can be added. For more details on the ways to create and customize the reports, see the \ `Reports guide <https://www.orocrm.com/documentation/index/current/user-guide/business-intelligence-reports/#user-guide-reports>`__.
+New custom reports can be added. For more details on the ways to create and customize the reports, see the :ref:`Reports guide <user-guide-reports>`.
 
 Using Leads in Workflows
 ------------------------
 
-You can use
-OroCRM’s \ `workflows <https://www.orocrm.com/documentation/index/current/user-guide/glossary/#term-workflow>`__ to
-define rules and guidelines on possible actions/updates of leads in the system. New customer-specific workflows can also be created, as described in the \ `Workflows guide <https://www.orocrm.com/documentation/index/current/user-guide/data-management-workflows/#user-guide-workflow-management-basics>`__.
+You can use OroCRM’s :term:`workflows <Workflow>` to define rules and guidelines on possible actions/updates of leads in the system. New customer-specific workflows can also be created, as described in the :ref:`Workflows guide <user-guide-workflow-management-basics>`.
 
-OroCRM comes with a pre-implemented B2B-oriented \ `Sales Processes Workflow <https://www.orocrm.com/documentation/index/current/user-guide/sales-processes-workflow/#user-guide-sales-processes>`__.
+OroCRM comes with a pre-implemented B2B-oriented :ref:`Sales Processes Workflow <user-guide-sales-processes>`.
 
 .. attention:: **The Sales Process entity is deprecated** and the preferred way is direct manipulation of leads.
  

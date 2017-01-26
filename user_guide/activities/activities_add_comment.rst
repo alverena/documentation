@@ -18,8 +18,9 @@ Create and View Comments
 ------------------------
 
 Once a record or an activity have been created, a comment can be added to it from:
-- :ref:`View page <user-guide-ui-components-view-pages>` of a record.
-- :ref:`Edit form <user-guide-ui-components-create-pages>` page of an activity
+
+- :ref:`Record view page <user-guide-ui-components-view-pages>`.
+- :ref:`Record edit page <user-guide-ui-components-create-pages>`.
 - View page of a record the activity is related to.
 
 .. caution::
@@ -40,16 +41,16 @@ On these pages, the user should:
 
 .. hint::
 
-    You can :ref:`edit <user-guide-entity-management-edit>` the *Comment* entity and add new fields, if required.
+    You can :ref:`edit <doc-entity-actions-edit>` the **Comment** entity and add new fields, if required.
 
 For example, Ellen Rowel was a task "Email change needed", which required her to change the email address of 
 Mr. Jeffrey Maynard.
 
-- First, Ellen Rowel opened the "My Tasks" grid.
+- First, Ellen Rowel opened the **My Tasks** grid.
 
 .. image:: ../img/activities/comments_01.png  
 
-- Then she went to the :ref:`View page <user-guide-ui-components-view-pages>` page of the task and left a comment.
+- Then she went to the :ref:`view page <user-guide-ui-components-view-pages>` page of the task and left a comment.
 
 .. image:: ../img/activities/comments_02.png  
 
@@ -70,7 +71,7 @@ Mr. Jeffrey Maynard.
 Case Comments
 -------------
 
-Case comments work in a similar manner, except there is an additional check-box - "Make Public". You can use it to 
-define if the comment shall be public on :ref:`Zendesk <user-guide-zendesk-integration>`. 
+Case comments work in a similar manner, except there is an additional **Make Public** check box. You can use it to 
+define if the comment must be public on :ref:`Zendesk <user-guide-zendesk-integration>`. 
 
   .. image:: ../img/activities/comments_case.png 

@@ -23,8 +23,7 @@ To define filters you can use any of the following filters or combine them:
 - **Activity**: select only the records to which a specific kind of :ref:`activity <user-guide-activities>` has 
   been/hasn't been assigned.
 
-- **Data Audit**: select on the records that have been modified in a specific way (available for 
-  :ref:`auditable <user-guide-entity-management-create-other>` entities only).
+- **Data Audit**: select on the records that have been modified in a specific way (available only when the correponding fuctionality is enabled for an entity; see step 6 of the :ref:`Create an Entity <doc-entity-actions-create>` action description).
 
 - **Conditions Groups**: sets of field conditions that combine requirements of several other filters in one group.
 
@@ -57,13 +56,13 @@ be selected.
 
 To define a field condition:
 
-- Drag *"Field condition"* to the box on the right 
+- Drag **Field condition** to the box on the right 
 
   |field_condition|
 
   |  
 
-- Click the *"Choose a field..."* link 
+- Click the **Choose a field** link 
 
   |field_condition_click|
 
@@ -72,7 +71,7 @@ To define a field condition:
 - A drop-down will appear. At the top of the drop-down menu, you can see the name of the :term:`entity <Entity>`, for 
   which the records are filtered. (In the example below it is a Contact). Below the entity name there is a list of all
   the  of the chosen entity. Below the list of fields, is a list of related entities (entities 
-  that have a :ref:`relation <user-guide-entity-management-create-relation>` with the filtered entity.)
+  that have a :ref:`relation <user-guide-entity-management-relation>` with the filtered entity.)
   
   |field_condition_fields|
 
@@ -120,12 +119,12 @@ To define a field condition:
 Activities
 ----------
 
-*"Activity"* filter specifies a rule for :ref:`activities <user-guide-activities>` assigned to the record. Only records 
+The **Activity** filter specifies a rule for :ref:`activities <user-guide-activities>` assigned to the record. Only records 
 that meet the condition will be selected. 
 
-To define the *"Activity"* setting:
+To define the activity setting:
 
-- Drag *"Activity"* to the box on the right.
+- Drag **Activity** to the box on the right.
 
 - There are three selector links:
   
@@ -153,10 +152,10 @@ For example, we will select only those records, for which a call has been logged
 Data Audit
 ----------
 
-*"Data audit"* filter specifies a rule for the record changes recorded in the system. Only records 
+The **Data audit** filter specifies a rule for the record changes recorded in the system. Only records 
 that meet the condition will be selected. 
 
-To define the *"Data audit"* setting:
+To define the data audit setting:
 
 - Choose the field for which condition is defined in the same way as described above for a Field Condition.
 
@@ -182,13 +181,13 @@ For example, we will select only the records, for which Job Title value has been
 Conditions Groups
 -----------------
 
-A Conditions Group is a set of  Activity and/or Data audit and/or Field Condition filters already joined with AND and OR 
-operators. Field Condition works as brackets in mathematics, so all the filters added to a condition group are 
+A conditions group is a set of activity and/or data audit and/or field condition filters already joined with AND and OR 
+operators. A field condition works as brackets in mathematics, so all the filters added to a condition group are 
 applied first. 
 
-To define a Condition Group filter:
+To define the **Condition Group** filter:
 
-- Drag the *"Conditions Group"* to the box on the right. 
+- Drag **Conditions Group** to the box on the right. 
 
 - Add Activity, Data audit and Field Condition filters to the section that has appeared. 
 
@@ -211,15 +210,15 @@ In other words, if you often need to use a specific set of conditions to filter 
 The ways to create and manage segments are described in more details in the 
 :ref:`Segments guide <user-guide-filters-segments>`.
 
-To add a Segment to the filters:
+To add a segment to the filters:
 
-- Drag "Apply segment" to the box on the right, 
+- Drag **Apply segment** to the box on the right.
   
   |segments|
   
   |
 
-- Click "Choose segment" link and choose one of the Segment predefined in the system. 
+- Click **Choose segment** link and choose one of the Segment predefined in the system. 
  
   |segments_choose|
 
@@ -227,9 +226,9 @@ To add a Segment to the filters:
   
 Subject to the conjunction with the rest of conditions the list will now contain:
 
-- Only the records from the segment that correspond to the rest of conditions (AND is used)
+- Only the records from the segment that correspond to the rest of conditions (AND is used).
 
-- The records that correspond to the rest of conditions and the segment (OR is used)
+- The records that correspond to the rest of conditions and the segment (OR is used).
      
    
 

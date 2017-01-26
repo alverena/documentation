@@ -36,7 +36,7 @@ for the {{system.appURL}} in the :ref:`email templates <user-guide-email-templat
 
 |
 
-The default value is http://localhost/oro/.
+The default value is ``http://localhost/oro/``.
 
 Localization
 ------------
@@ -158,7 +158,7 @@ The default value is "Top".
 WYSIWYG settings
 ^^^^^^^^^^^^^^^^
 
-In the  **WYSIWYG settings → Enable WYSIWYG Editor*** field, define whether text formatting tools must be available for 
+In the  **WYSIWYG settings → Enable WYSIWYG Editor** field, define whether text formatting tools must be available for 
 :ref:`emails <user-guide-activities-emails>`, :ref:`notes <user-guide-add-note>` and 
 :ref:`comments <user-guide-activities-comments>`. 
 
@@ -264,9 +264,9 @@ The following options are available:
   :header: "Option", "Description", "Default"
   :widths: 10, 30, 10
   
-  "**Enable Dynamic Tracking***","If enabled, tracking data will be processed in the real-time mode. Please note, this 
+  "**Enable Dynamic Tracking**","If enabled, tracking data will be processed in the real-time mode. Please note, this 
   may affect the performance.","Enabled"
-  "**Log Rotation Interval***","Defines how often log files must be processed if the *Dynamic Tracking* is 
+  "**Log Rotation Interval**","Defines how often log files must be processed if the *Dynamic Tracking* is 
   disabled.","1 hour"
   "**Piwik Host**","The field must be specified if you want the tracking data to be sent to a
   Piwik account. The value corresponds to the Piwik analytics URL of your account.","None"
@@ -290,8 +290,8 @@ default supported for attachments in the system.
 
 .. hint::
 
-    If :ref:`attachments are enabled for an entity <user-guide-entity-management-create-attachments>`, the settings will 
-    be applied only if that mime type list is empty.
+    If attachments are enabled for an entity (see steps 5 of the :ref:`Create an Entity <doc-entity-actions-create>` instruction), the settings will 
+    be applied only if entity's mime type list is empty.
     
 
 .. _admin-configuration-emails:
@@ -301,7 +301,7 @@ Email Configuration
 
 .. image:: ../img/configuration/email_settings_1_8.png
 
-In the Email Configuration section you can define options, applied to all the emails generated within the instance.
+In the **Email Configuration** section you can define options, applied to all the emails generated within the instance.
 
 The following settings are available:
 
@@ -341,7 +341,7 @@ have "Reply all" shown at the top.
 
 |
 
-.. image:: ./img/configuration/reply_selector.png
+.. image:: ../img/configuration/reply_selector.png
 
 |
 
@@ -385,10 +385,10 @@ In this section you can define rules applied to pre-implemented integrations.
 Google Settings
 ^^^^^^^^^^^^^^^
 
-The only integration by default available in the community editions is integration with Google. In the *"System →  
-Integrations  →  Google Settings"* you can define the details used for google single sing-on,  which enables user with 
-the same Google account email address and OroCRM primary email address to log-in only once in the session, as described
-in the relevant :ref:`guide <admin-configuration-google-settings>` 
+The only integration by default available in the community editions is integration with Google. In the **System> 
+Integrations>Google Settings** you can define the details used for google single sign-on,  which enables user with 
+the same Google account email address and OroCRM primary email address to log in only once in the session, as described
+in the relevant :ref:`guide <user-guide-google-single-sign-on>` 
 
 Email Settings
 ^^^^^^^^^^^^^^

@@ -49,8 +49,8 @@ and phone numbers, birthday, etc.
 
 .. note::
   
-    Any custom fields :ref:`added <user-guide-field-management-create>` to the User entity can be defined in the 
-    *"Additional"* section.
+    Any custom fields added to the **User** entity can be defined in the 
+    ***Additional** section.
 
 Groups
 ^^^^^^

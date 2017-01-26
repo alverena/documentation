@@ -1,8 +1,7 @@
 .. _contributing-to-oroplatform-orocommerce-orocrm:
 
-**************************************
 Contributing to OroPlatform and OroCRM
-**************************************
+========================================
 
 .. contents:: :local:
     :depth: 3
@@ -27,9 +26,9 @@ you can help us by submitting an issue to our GitHub repository.
 
 Before you submit your issue search on GitHub, maybe the same issue has already been reported.
 
-* `OroPlatform issue tracker <https://github.com/orocrm/platform/issues?q=>`_
-* `OroCommerce issue tracker <https://github.com/orocommerce/orocommerce/issues?q=>`_
-* `OroCRM issue tracker <https://github.com/orocrm/crm/issues?q=>`_
+* `OroPlatform issue tracker <https://github.com/orocrm/platform/issues>`_
+* `OroCommerce issue tracker <https://github.com/orocommerce/orocommerce/issues>`_
+* `OroCRM issue tracker <https://github.com/orocrm/crm/issues>`_
 
 .. caution::
 
@@ -83,7 +82,7 @@ PSR-2 is considered a code standard of the PHP code style.
 
 Default line break separator is LF (\n) - Unix and OS X style.
   
-  .. note:: To eliminate issues with this requirement, it is recommended to configure IDE and always use appropriate line break separator. How to configure this in PHPStorm could be found `here <https://www.jetbrains.com/help/phpstorm/2016.3/configuring-line-separators.html>`_
+  .. note:: To eliminate issues with this requirement, it is recommended to configure IDE and always use appropriate line break separator. How to configure this in PHPStorm could be found `on the JetBrains site <https://www.jetbrains.com/help/phpstorm/2016.3/configuring-line-separators.html>`_
 
 **DocBlock**
 
@@ -284,7 +283,7 @@ In all other cases, usage of the @SuppressWarnings MUST NOT be used.
 
 **php-cs-fixer usage**
 
-In order to reduce development time and automate part of the code preparation related to the code style fixes, it is suggested to use `PHP Coding Standard Fixer <http://cs.sensiolabs.org/>`_ (or on the `GitHub <https://github.com/FriendsOfPHP/PHP-CS-Fixer>`_) - automated tool that fixes most code style issues in the code.
+In order to reduce development time and automate part of the code preparation related to the code style fixes, it is suggested to use `PHP Coding Standard Fixer <http://cs.sensiolabs.org/>`_ (or `PHP Coding Standard Fixer on GitHub <https://github.com/FriendsOfPHP/PHP-CS-Fixer>`_)—automated tool that fixes most code style issues in the code.
 
 JavaScript Code Style
 ^^^^^^^^^^^^^^^^^^^^^
@@ -299,7 +298,7 @@ In Oro projects, JavaScript code style is controlled by the `JSCS <http://jscs.i
 
 It is highly recommended to configure appropriate code style inspections in the IDE or run these inspections manually before committing the changes and merging it to the project repository.
 
-.. important:: JavaScript code style checker in PHPStorm could be enabled in "Languages & Frameworks>JavaScript>Code Quality Tools>JSCS/JSHint" and select to use configuration from .jscsrc/.jshintrc accordingly. For JSCS define path to installed node and path to jscs (it is {{your_project_root}}/node_modules/jscs). For JSHint select the version that is defined in package.json (in root folder of project).
+.. important:: JavaScript code style checker in PHPStorm could be enabled in ``Languages & Frameworks>JavaScript>Code Quality Tools>JSCS/JSHint`` and select to use configuration from .jscsrc/.jshintrc accordingly. For JSCS define path to installed node and path to jscs (it is ``{{your_project_root}}/node_modules/jscs``). For JSHint select the version that is defined in package.json (in root folder of project).
 
 To run the check manually from the command line:
 
@@ -488,7 +487,7 @@ Preview:
 
 |
 
-.. image:: ../img/contributing/write.png
+.. image:: ./img/contributing/write.png
 
 |
 

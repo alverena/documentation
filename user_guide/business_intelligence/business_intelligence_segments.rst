@@ -17,9 +17,9 @@ Create Segments
 ----------------------
 
 Go to *"Reports & Segments → Manage Segments* and click the :guilabel:`Create Segment` button 
-in the top right corner of the grid.
+in the upper-right corner of the grid.
    
-The Create Segment :ref:`form <user-guide-ui-components-create-pages>` will emerge.
+The :ref:`Create Segment page <user-guide-ui-components-create-pages>` will emerge.
 
 Define the segment settings, as described in the sections below:
 
@@ -57,7 +57,7 @@ peculiarities of the segment in the future.
 Filters
 ^^^^^^^
 
-In the *"Filters"* section you can define  the Activity and/or Data audit and/or Field Condition and/or Condition Group 
+In the **Filters** section you can define  the Activity and/or Data audit and/or Field Condition and/or Condition Group 
 filters that will be used to select the records for the segment. 
 
 More information about the ways to define filters is provided in the 
@@ -68,9 +68,9 @@ More information about the ways to define filters is provided in the
 Columns
 ^^^^^^^
 
-In the "*Columns*" section, define the set of fields.
+In the **Columns** section, define the set of fields.
 The only goal of this set of fields is to visualise records included in the record.
-Values of the chosen fields will be displayed at the :ref:`View page <user-guide-ui-components-view-pages>` of the 
+Values of the chosen fields will be displayed on the :ref:`view page <user-guide-ui-components-view-pages>` of the 
 Segment.
 
 |
@@ -81,15 +81,14 @@ Segment.
 
 - In order to create add a column to the grid:
   
-  - Choose the fields from the drop-down in the *"Column*" section.
+  - Choose the fields from the drop-down in the **Column** section.
 
-  - Choose a label that will be used to refer to the field in the report in UI. 
-    The default field label, defined in the field's 
-    :ref:`general settings <user-guide-entity-management-general-common>` will be added but can be changed. 
+  - Choose a label that will be used to refer to the field in the report on the interface. 
+    By default, the field label will be added but can be changed. 
   
   - Define the sorting order if you want the whole segment View grid to be sorted by the field value.
 
-  - Click :guilabel:`Add` button
+  - Click :guilabel:`Add` button.
 
 |
 
@@ -121,11 +120,11 @@ The following actions are available for a segment from the :ref:`grid <user-guid
 
 - Delete the segment from the system : |IcDelete| 
 
-- Get to the :ref:`Edit form <user-guide-ui-components-create-pages>` of the segment : |IcEdit| 
+- Edit the segment : |IcEdit| 
 
-- Get to the :ref:`View page <user-guide-ui-components-view-pages>` of the segment :  |IcView| 
+- View the segment :  |IcView| 
  
-  The View page contains the grid of records, included in the segment and represented with the columns defined for the 
+  The view page contains the grid of records, included in the segment and represented with the columns defined for the 
   segment, as described above.
 
 

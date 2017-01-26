@@ -20,7 +20,7 @@ Create a Shopping Cart/Order
 
 To created a shopping cart of order: 
 
-- Go to the :ref:`View page <user-guide-ui-components-view-pages>` of a 
+- Go to the :ref:`view page <user-guide-ui-components-view-pages>` of a 
   :ref:`Magento customer <user-guide-magento-entities-customers>`.
 
 - Click the :guilabel:`Create Order`.
@@ -36,7 +36,7 @@ Convert Shopping Cart into and Order
 You can also convert a cart in an order. To do so:
 
 
-- Go to the :ref:`View page <user-guide-ui-components-view-pages>` of a Shopping Cart with status *"Open"*.
+- Go to the :ref:`view page <user-guide-ui-components-view-pages>` of a Shopping Cart with status *"Open"*.
   
 - Click the :guilabel:`Place and Order`.
 
@@ -59,16 +59,14 @@ Manage Shopping Carts and Orders
 --------------------------------
 
 The only action available from the :ref:`grid <user-guide-ui-components-grids>` of Shopping Carts and Orders 
-is to open the :ref:`View pages <user-guide-ui-components-view-pages>` of their records by 
+is to open the :ref:`view pages <user-guide-ui-components-view-pages>` of their records by 
 clicking the |IcView| icon.
 
 .. image:: ../img/magento_entities/view_carts.png
 
 From the View pages, you can convert carts into orders (as described above), and:
 
-- Perform actions specified in the 
-  :ref:`Communication &  Collaboration section <user-guide-entity-management-create-commun-collab>` of the Shopping
-  Cart entity (*System → Entities → Entity Management/Shopping Cart*).
+- Perform actions specified in the **Communication &  Collaboration** section of the **Shopping Cart** entity configuration. See step 4 of the :ref:`Create an Entity <doc-entity-actions-create>` action description..
 
 - Synchronize Data, i.e. upload the latest information for the cart/order from Magento and back (as defined by the
   synchronization settings).

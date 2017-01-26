@@ -288,11 +288,11 @@ This section contains information about the user filled in when creating the use
 +-------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Emails                  | A list of user's email addresses. The first one (formatted in bold) is the user's primary email address. Point to the email address and click the **Email** icon next to it to immediately compose an email to the user. |
 |                         |                                                                                                                                                                                                                          |
-|                         | image:: ../img/user_management/user_email_write.png                                                                                                                                                                       |
+|                         | image:: ../img/user_management/user_email_write.png                                                                                                                                                                      |
 +-------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Phone                   | A user's phone number. Point to the phone and click the **Phone** or **Hangouts** icon next to it to immediately start a call with the user.                                                                             |
 |                         |                                                                                                                                                                                                                          |
-|                         | image:: ../img/user_management/user_hangouts_call.png                                                                                                                                                                     |
+|                         | image:: ../img/user_management/user_hangouts_call.png                                                                                                                                                                    |
 +-------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Roles                   | A list of roles assigned to the user.                                                                                                                                                                                    |
 +-------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -302,7 +302,7 @@ This section contains information about the user filled in when creating the use
 +-------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Tags                    | A list of tags added to the user. Point to the the tags name (or **N/A** if no tags are defined) and click the **Edit** icon next to them to add a new tag.                                                              |
 |                         |                                                                                                                                                                                                                          |
-|                         | image:: ../img/user_management/user_tag_add.png                                                                                                                                                                           |
+|                         | image:: ../img/user_management/user_tag_add.png                                                                                                                                                                          |
 +-------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | LDAP Distinguished Name | A value of the **dn** LDAP field. This field is not empty for user only of their record has been imported from the LDAP server.                                                                                          |
 +-------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -692,7 +692,7 @@ Display settings
 +====================+====================================================================================================================================+
 | Show Recent Emails | Select this check box to display the recent emails on the user bar (they will appear next to the user name).                       |
 |                    |                                                                                                                                    |
-|                    | .. image:: ../img/user_management/user_configuration_showemailsuserbar.png                                                          |
+|                    | .. image:: ../img/user_management/user_configuration_showemailsuserbar.png                                                         |
 |                    |                                                                                                                                    |
 +--------------------+------------------------------------------------------------------------------------------------------------------------------------+
 
@@ -703,7 +703,7 @@ Display settings
 +=======================+===========================================================================================================+
 | Enable WYSIWYG Editor | Select this check box to enable text formatting tools for emails, notes and comments.                     |
 |                       |                                                                                                           |
-|                       | .. image:: ../img/user_management/user_configuration_wysiwyg.png                                           |
+|                       | .. image:: ../img/user_management/user_configuration_wysiwyg.png                                          |
 |                       |                                                                                                           |
 +-----------------------+-----------------------------------------------------------------------------------------------------------+
 
@@ -719,7 +719,7 @@ Display settings
 +---------------------------+----------------------------------------------------------------------------------------------------------------+
 | Record Pagination         | Select this check box to enable the user navigate to the previous or next grid record from a record view page. |
 |                           |                                                                                                                |
-|                           | .. image:: ../img/user_management/user_configuration_pagination.png                                             |
+|                           | .. image:: ../img/user_management/user_configuration_pagination.png                                            |
 |                           |                                                                                                                |
 +---------------------------+----------------------------------------------------------------------------------------------------------------+
 | Record Pagination Limit   | Type the maximum number of records that the user can navigate from a record view page.                         |
@@ -825,7 +825,7 @@ Email Configuration
  +======================+====================================================================================================================================================================================================+
  | Default Reply Button | Select which button will be default for replying to emails: **Reply** or **Reply All**. Other button will continue be available in the **Reply** menu, it will just not be on the top of the list. |
  |                      |                                                                                                                                                                                                    |
- |                      | .. image:: ../img/user_management/reply_selector.png                                                                                                                                                |
+ |                      | .. image:: ../img/user_management/reply_selector.png                                                                                                                                               |
  |                      |                                                                                                                                                                                                    |
  +----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 

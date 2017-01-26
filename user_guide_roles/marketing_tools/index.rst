@@ -28,8 +28,10 @@ All the Tracking and Email Campaign details can be treated independently or aggr
 
     marketing_lists
     magento_abandoned_cart_campaigns
+    sending_abandoned_cart_campaigns
     email_campaigns
-    marketing_tracking_website_records
     marketing_campaigns
+    marketing_tracking_website_records
+    magento_web_tracking
     magento_newsletter_subs
     rfm_user

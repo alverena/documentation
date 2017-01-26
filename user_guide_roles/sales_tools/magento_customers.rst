@@ -94,9 +94,7 @@ From the View page you can:
   :ref:`Magento Newsletter <user-guide-magento-entities-newsletters>`: click the :guilabel:`Subscribe` or 
   :guilabel:`Unubscribe` buttons.
   
-- The rest of the actions available from the View page depend on the system settings defined in the 
-  :ref:`Communication &  Collaboration section <user-guide-entity-management-create-commun-collab>`
-  for the Magento Customer entity.
+- The rest of the actions available from the View page depend on the system settings defined in the **Communication & Collaboration** section of the **Magento Customer** entity configuration. See step 4 of the :ref:`Create an Entity <doc-entity-actions-create>` action description.
 
 
 .. |IcView| image:: ../../img/buttons/IcView.png

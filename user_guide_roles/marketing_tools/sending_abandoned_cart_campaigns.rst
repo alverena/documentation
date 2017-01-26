@@ -72,14 +72,13 @@ Step 2: Create MailChimp Integration
 ------------------------------------
 
 It is necessary to have an active MailChimp Integration to be able to
-send an ACC. See the corresponding `section <https://www.orocrm.com/documentation/index/current/user-guide/sending-email-campaign-via-mailchimp>`_ of the guide for MailChimp
-Integration instructions.
+send an ACC. See the corresponding section of the `Sending Email Campaign via MailChimp <../../../admin-guide/sending-email-campaign-via-mailchimp>`_ guide for MailChimp integration instructions.
 
-Step 3: Add Abandoned Cart to the Channel 
-------------------------------------------
+Step 3: Add an Abandoned Cart to the Channel 
+---------------------------------------------
 
 Create a Magento Channel for which your ACC will be used. See how to
-create a Channel in the corresponding :ref:`section <user-guide-channels>`. Make sure that all
+create a Channel in the :ref:`Channels <user-guide-channels>` guide. Make sure that all
 channels that represent Magento stores contain the ACC entity:
 
 |
@@ -88,7 +87,6 @@ channels that represent Magento stores contain the ACC entity:
 
 |
 
-|
 
 .. image:: ../img/sending_abandoned_cart_campaigns/o_channel_magento_channel.jpg
 
@@ -106,26 +104,24 @@ Step 4: Create an Abandoned Cart Campaign
 
 -  Define the settings as described below:
 
-+-----------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Field**       | **Description**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-+=================+====================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================+
-| **Name**        | Name used to refer to the list of abandoned cart contacts in the system                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-+-----------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Owner**       | Limits the list of users who can manage the campaign. It is by default set to the user creating the ACC campaign.                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-+-----------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Description** | Optional field that can be filled in with details to help you and other users understand the peculiarities of the list in the future.                                                                                                                                                                                                                                                                                                                                                                                                                              |
-+-----------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Filters**     | By default, the **Status** field value is set to **Open**. If you do not apply any other conditions, all the carts abandoned during the checkout will be covered by the mailing.                                                                                                                                                                                                                                                                                                                                                                                   |
-|                 | You can use other filters to choose those abandoned cart records that fit your marketing purposes. For example, this could be carts the belong to customers from a specific state and/or with a birthday within a specific month, carts created after a certain date, or specified with other combinations of filter conditions. More information about the ways to define filters is provided in the \ `Filters Management <https://www.orocrm.com/documentation/index/current/user-guide/business-intelligence-filters/#user-guide-filters-management>`__ guide. |
-+-----------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Columns**     | Defines a set of fields that will be sent to MailChimp and used in the email template as variables. At least one contact information column **must** be specified. In our case, it is **Email.** The same fields will be displayed in the grid to visualize the carts that meet the conditions in OroCRM. Details such as names, URLs, etc. are transferred to MailChimp automatically.                                                                                                                                                                            |
-+-----------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++-----------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Field**       | **Description**                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
++=================+========================================================================================================================================================================================================================================================================================================================================================================================================================================================================+
+| **Name**        | Name used to refer to the list of abandoned cart contacts in the system                                                                                                                                                                                                                                                                                                                                                                                                |
++-----------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Owner**       | Limits the list of users who can manage the campaign. It is by default set to the user creating the ACC campaign.                                                                                                                                                                                                                                                                                                                                                      |
++-----------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Description** | Optional field that can be filled in with details to help you and other users understand the peculiarities of the list in the future.                                                                                                                                                                                                                                                                                                                                  |
++-----------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Filters**     | By default, the **Status** field value is set to **Open**. If you do not apply any other conditions, all the carts abandoned during the checkout will be covered by the mailing.                                                                                                                                                                                                                                                                                       |
+|                 | You can use other filters to choose those abandoned cart records that fit your marketing purposes. For example, this could be carts the belong to customers from a specific state and/or with a birthday within a specific month, carts created after a certain date, or specified with other combinations of filter conditions. More information about the ways to define filters is provided in the :ref:`Filters Management <user-guide-filters-management>` guide. |
++-----------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Columns**     | Defines a set of fields that will be sent to MailChimp and used in the email template as variables. At least one contact information column **must** be specified. In our case, it is **Email.** The same fields will be displayed in the grid to visualize the carts that meet the conditions in OroCRM. Details such as names, URLs, etc. are transferred to MailChimp automatically.                                                                                |
++-----------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
--  Once all the necessary fields have been completed, click :guilabel:`Save and
-   Close`. Your newly created ACC will appear in the grid.
+-  Once all the necessary fields have been completed, click :guilabel:`Save and Close`. Your newly created ACC will appear in the grid.
 
-As an illustration, we have created a sample ACC and named it *Demo
-ACC*. You can see it in the screenshots below.
+As an illustration, we have created a sample ACC and named it *Demo ACC*. You can see it in the screenshots below.
 
 |
 
@@ -133,7 +129,6 @@ ACC*. You can see it in the screenshots below.
 
 |
 
-|
 
 .. image:: ../img/sending_abandoned_cart_campaigns/oro_created_acc_campaign.jpg
 
@@ -165,13 +160,11 @@ is recommended to use *today, today-X*, etc. as a variable.
 
 The following actions are available for an ACC from the grid:
 
--  \ **Delete** the campaign from the system : |IcDelete|
+-  Delete campaign from the system : |IcDelete|
 
--  Get to the \ **Edit** page of the campaign : |IcEdit|  
+-  Edit campaign : |IcEdit|  
 
--  Get to the \ `View
-   page <https://www.orocrm.com/documentation/index/current/user-guide/data-management-view/#user-guide-ui-components-view-pages>`_ of
-   the campaign: |IcView|
+-  View campaign: |IcView|
 
  |
 
@@ -193,7 +186,7 @@ created ACC in the grid.
 
 
 
-The View Page of an ACC contains the following sections:
+The view page of an ACC contains the following sections:
 
 
 
@@ -202,7 +195,7 @@ The View Page of an ACC contains the following sections:
 +==============================+=====================================================================================================================================================================================================================================================================================================================================================================+
 | **General Information**      | General details of the campaign, such as Name, Description, Segment and Owner.                                                                                                                                                                                                                                                                                      |
 +------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Magento Shopping Carts**   | Contains a grid of all abandoned shopping carts that are included in the campaign. Initially, all users on the list are marked subscribed, therefore the value in the **Subscribed** column is **Yes.** If a user unsubscribes during one of the email campaigns, the value will change into **No** and this user will be excluded from the next email campaigns.   |
+| **Magento Shopping Carts**   | Contains a grid of all abandoned shopping carts that are included in the campaign. Initially, all users on the list are marked subscribed, therefore the value in the **Subscribed** column is **Yes**. If a user unsubscribes during one of the email campaigns, the value will change into **No** and this user will be excluded from the next email campaigns.   |
 +------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | **Removed Items**            | This grid will contain carts that have been removed from the list. A cart may be removed from OroCRM and/or from MailChimp after synchronization.                                                                                                                                                                                                                   |
 +------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -288,7 +281,7 @@ Here, you will see the code of your campaign.
 
 You can assign a tracking website record to your campaign in two steps.
 
-1) You can add the code from the `View Page of the
+1. You can add the code from the `View Page of the
    Campaign <https://www.orocrm.com/documentation/index/current/user-guide/marketing-campaigns/#user-guide-marketing-campaigns-view-page>`__
    (see the screenshot above) to the tracking script from the \ `View
    Page of the Website Tracking record <https://www.orocrm.com/documentation/index/current/user-guide/marketing-tracking-website-records#user-guide-marketing-tracking-websites-view-page>`__
@@ -307,19 +300,18 @@ You can assign a tracking website record to your campaign in two steps.
 
      
       
-2) Add the piece of code from the \ `View Page of the Campaign <https://www.orocrm.com/documentation/index/current/user-guide/marketing-campaigns/#user-guide-marketing-campaigns-view-page>`__ (e.g.
-   **?pk\_campaign=Demo\_ACC2**) to the Magento store’s URL and use this modified URL as a link in your MailChimp automation emails. Each time a user reaches a page with such a URL, an event will be logged within the campaign (e.g. http://XXXX/checkout/cart/?pk\_campaign=Demo\_ACC2).
+2. Add the piece of code from the :ref:`campaign view page <user-guide-marketing-campaigns-view-page>` (e.g. ``?pk\_campaign=Demo\_ACC2``) to the Magento store’s URL and use this modified URL as a link in your MailChimp automation emails. Each time a user reaches a page with such a URL, an event will be logged within the campaign (e.g. ``http://XXXX/checkout/cart/?pk_campaign=Demo_ACC2``).
 
    This tracking code will be automatically passed to MailChimp and can be used as a variable in emails. When we start designing our email in MailChimp automation, the campaign code variable will be available on the list of **Merge Tags** (\|E\_CMPGN\_CD\| variable). This code will be synced to MailChimp during synchronization with Oro (see Step 7).
 
 Step 6: Prepare Data For Automation
 -----------------------------------
 
--  Log in to your MailChimp account.
+-  Log into your MailChimp account.
 
 -  Navigate to **Lists** and click :guilabel:`Create a List`.
 
--  Complete the required fields and :guilabel:`Save` the list.
+-  Complete the required fields and click :guilabel:`Save`.
    
  |
 
@@ -342,14 +334,14 @@ To map the list to a segment:
 
 -  Open your ACC.
 
--  Click :guilabel:`Connect to MailChimp` in the top right corner.
+-  Click :guilabel:`Connect to MailChimp` in the upper-right corner.
 
 -  Select your MailChimp Integration and the list segment on the
    MailChimp side.
 
 -  Click :guilabel:`Connect`.
 
--  Once connected, navigate to MailChimp button in the top right corner.
+-  Once connected, navigate to MailChimp button in the upper-right corner.
 
 -  Click :guilabel:`Synchronize`.
    
@@ -360,13 +352,13 @@ To map the list to a segment:
 
  |
 
- |
+ 
 
  .. image:: ../img/sending_abandoned_cart_campaigns/oro_connect_to_mc_sync.jpg
 
  |
  
- |
+ 
 
  .. image:: ../img/sending_abandoned_cart_campaigns/oro_connect_to_mc_sync_up_to_date.jpg
 
@@ -395,9 +387,9 @@ Step 7: Create Automated Campaign
 
 It is time to create automation for your campaign in MailChimp:
 
--  Click on the :guilabel:`Automation` tab in the upper menu.
+-  Click the :guilabel:`Automation` tab in the upper menu.
 
--  Click :guilabel:`Add Automation` in the upper right corner.
+-  Click :guilabel:`Add Automation` in the upper-right corner.
  
 
 |
@@ -557,7 +549,7 @@ example below:
 
 |
 
-|
+
 
 .. image:: ../img/sending_abandoned_cart_campaigns/mc_merge_tags.jpg
 
@@ -814,11 +806,11 @@ help you filter customers based on previous campaigns.
 .. |BSchedule| image:: ../../img/buttons/BSchedule.png
    :align: middle
    
-.. |acc_related_camp| image:: ../../img/marketing/acc_related_camp.png
+.. |acc_related_camp| image:: ../img/marketing/acc_related_camp.png
    :align: middle
    
-.. |MapML| image:: ../../img/marketing/map_ml.png
+.. |MapML| image:: ../img/marketing/map_ml.png
    :align: middle
 
-.. |acc_enable| image:: ../../img/marketing/acc_enable.png
+.. |acc_enable| image:: ../img/marketing/acc_enable.png
    :align: middle

@@ -3,14 +3,13 @@
 Data Audit
 ==========
 
-With this functionality, users can see the full history of changes made to any record of an 
-:ref:`auditable entity <user-guide-entity-management-create-other>`, as well as the out-of-the-box report of all such 
+With this functionality, users can see the full history of changes made to any record of an ``auditable entity``, as well as the out-of-the-box report of all such 
 actions.
 
 .. hint::
 
     System administrator defines what entities will be available for audit. Any entity can be 
-    :ref:`set as auditable <user-guide-entity-management-create-other>`.
+    set as auditable. For how to do it, see step 6 of the :ref:`Create an Entity <doc-entity-actions-create>` action description
     
     
 Data Audit Report

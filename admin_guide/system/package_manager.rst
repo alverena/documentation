@@ -25,14 +25,14 @@ Lower, you can see detailed description, release notes, reviews, as well as info
 Add an Extension to the Package
 -------------------------------
 
-In order to add an extension, go to *System → Package Manager*.
+In order to add an extension, navigate **System>Package Manager**.
 
-You will see the *"Installed Packages"* page.
+You will see the **Installed Packages** page.
 
 .. image:: ../img/extension/installed_packages.png
 
 You can see details of all the packages currently available in the system. If a newer version of the extension is 
-available, the :guilabel:`Update` link will be available in the LATEST VERSION column.
+available, the **Update** link will be available in the **LATEST VERSION** column.
 
 In order to add a new extension: 
 
@@ -42,10 +42,10 @@ In order to add a new extension:
   |InstallPack|
 
 - Confirm the package installation. Uncheck the *"Load demo data"* box, if you don't need demo data. Click 
-  :guilabel:`Continue`
+  :guilabel:`Continue`.
   
 When installation is over, the package will be added to the Installed Packages list. Relevant 
-:ref:`processes <user-guide-processes>` and :ref:`entities <user-guide-entity-management-from-UI>` will be added to the 
+:ref:`processes <user-guide-processes>` and :ref:`entities <doc-entities>` will be added to the 
 system and the functionality can be used.
 
 

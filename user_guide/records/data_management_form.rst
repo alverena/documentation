@@ -1,7 +1,7 @@
 .. _user-guide-ui-components-create-pages:
 
-Create a New Record and Edit the Record Details Pages
-=====================================================
+Create a Record and Edit the Record Pages
+============================================
 
 .. contents:: :local:
     :depth: 3
@@ -23,7 +23,7 @@ Create a Record
 
    .. note::
 
-    The default list of fields available on the page can be modified by an administrator. For more information,  see the description of the **Show on Form** field in the :ref:`Show on Form <user-guide-entity-management-other-common>` guide. 
+    The default list of fields available on the page can be modified by an administrator. For more information, see the description of the **Show on Form** field in the :ref:`Entity Field Properties <doc-entity-field-properties>` guide. 
 
 
 

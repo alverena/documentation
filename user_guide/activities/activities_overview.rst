@@ -39,8 +39,8 @@ business needs. Follow the links to learn more about the following activities av
 How to Enable Activities for an Entity
 --------------------------------------
 
-Activities can be enabled for the entity records in the *Communication & Collaboration* section of the
-:ref:`entity edit/create form <user-guide-entity-management-create>`.
+Activities can be enabled for the entity records. For how to do it, see step 5 of the 
+:ref:`Create an Entity <doc-entity-actions-create>` action description.
 
 .. image:: ../../admin_guide/img/entity_management/new_entity_communication_collaboration.png
 
@@ -59,13 +59,11 @@ Once such an activity has been enabled, it will appear in the
 - Contact requests are always available and can be added to the system as described in the relevant 
   :ref:`guide <user-guide-activities-requests>`.  
 
-- Attachments are enabled in the *Attachments* section of the 
-  :ref:`entity edit/create form <user-guide-entity-management-create>`.
+- Attachments are enabled in the **Attachments** section of an entity edit page. (See step 5 of the :ref:`Create an Entity <doc-entity-actions-create>` action description.)
 
 .. note::
 
-   The ability to enable, view and edit the activities depends on specific roles and permissions defined for them in 
-   the system. 
+   The ability to enable, view, and edit activities depends on specific roles and permissions defined for them in the system. 
 
    
  

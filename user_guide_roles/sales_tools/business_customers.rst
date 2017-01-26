@@ -18,9 +18,9 @@ In order to create a new business customer in the system:
 
 - The **Create Business Customer** :ref:`form <user-guide-ui-components-create-pages>` will appear:
 
-      |
+|
   
-.. image:: ./img/business_customers/business_customers_create.png
+.. image:: ../img/business_customers/business_customers_create.png
 
 |
 
@@ -45,7 +45,7 @@ The rest of the fields are **optional**. The fields are added to the system base
 processes and keep additional details of the customer. The optional fields may be left empty.
   
 If you need to collect and process any other details of business customers, 
-:ref:`custom fields can be created <user-guide-field-management-create>`. Their values will be displayed in the 
+:ref:`custom fields can be created <doc-entity-fields-create>`. Their values will be displayed in the 
 **Additional** section.
   
 Once all the necessary fields have been defined, click :guilabel:`Save and Close` in the right top corner of the page to save the 
@@ -61,17 +61,17 @@ The following actions can be performed with business customer records:
 
 From the :ref:`grid <user-guide-ui-components-grids>`:
 
-      |
+|
 
-.. image:: ./img/business_customers/customers_grid.png
+.. image:: ../img/business_customers/customers_grid.png
 
 |
 
 - Delete a customer from the system : |IcDelete|
   
-- Get to the :ref:`Edit form <user-guide-ui-components-create-pages>` of the customer : |IcEdit|
+- Edit the customer : |IcEdit|
   
-- Get to the :ref:`View page <user-guide-ui-components-view-pages>` of the customer : |IcView| 
+- View the customer : |IcView| 
   
       |
   
@@ -82,12 +82,12 @@ From the view page you can:
 - Delete the customer from the system.
   
 - The rest of the available actions  depend on the system settings defined in the 
-  :ref:`Communication &  Collaboration settings <user-guide-entity-management-create-commun-collab>`
-  of the business customer entity.
+  **Communication &  Collaboration** section of the **Business Customer** entity configuration. See step 4 of the :ref:`Create an Entity <doc-entity-actions-create>` action description.
+  
 
 |
 
-.. image:: ./img/business_customers/business_customers_viewpage.png
+.. image:: ../img/business_customers/business_customers_viewpage.png
 
 |
 
@@ -103,24 +103,24 @@ From the view page you can:
 
 
 
-.. |BCrLOwnerClear| image:: ./img/buttons/BCrLOwnerClear.png
+.. |BCrLOwnerClear| image:: ../../img/buttons/BCrLOwnerClear.png
    :align: middle
 
-.. |Bdropdown| image:: ./img/buttons/Bdropdown.png
+.. |Bdropdown| image:: ../../img/buttons/Bdropdown.png
    :align: middle
 
-.. |BGotoPage| image:: ./img/buttons/BGotoPage.png
+.. |BGotoPage| image:: ../../img/buttons/BGotoPage.png
    :align: middle
 
-.. |Bplus| image:: ./img/buttons/Bplus.png
+.. |Bplus| image:: ../../img/buttons/Bplus.png
    :align: middle
 
-.. |IcDelete| image:: ./img/buttons/IcDelete.png
+.. |IcDelete| image:: ../../img/buttons/IcDelete.png
    :align: middle
 
-.. |IcEdit| image:: ./img/buttons/IcEdit.png
+.. |IcEdit| image:: ../../img/buttons/IcEdit.png
    :align: middle
 
-.. |IcView| image:: ./img/buttons/IcView.png
+.. |IcView| image:: ../../img/buttons/IcView.png
    :align: middle
 

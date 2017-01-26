@@ -8,7 +8,7 @@ Overview
 
 Opportunities are highly probable potential or actual sales to a new or established customer. Request for proposal, invitation for a bidding, agreement of intentions or order for a delivery can be saved as opportunities.
 
-In order to add and process details of opportunities in OroCRM, you need to have at least one `channel <https://www.orocrm.com/documentation/index/current/user-guide/glossary/#term-channel>`__ to which the opportunity entity `can be assigned <https://www.orocrm.com/documentation/index/current/common-features-channels/#user-guide-channel-guide-entities>`__.
+In order to add and process details of opportunities in OroCRM, you need to have at least one :term:`channel <Channel>` to which the opportunity entity :ref:`can be assigned <user-guide-channel-guide-entities>`.
 
 Create Opportunities
 --------------------
@@ -46,7 +46,7 @@ This can be done by:
 
 
 
-More information on leads can be found in :ref:`this <user-guide-system-channel-entities-leads>` this section of the guide.
+More information on leads can be found in the :ref:`Leads <user-guide-system-channel-entities-leads>` guide.
 
 Create Opportunity Manually
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -78,20 +78,24 @@ Convert To Opportunity Form contains **Opportunity Information** and
 
 For Opportunity Information form, define the following fields:
 
-+----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Field**            | **Description**                                                                                                                                                                                                                                                                                                                                       |
-+======================+=======================================================================================================================================================================================================================================================================================================================================================+
-| **Owner**            | Limits the list of users that can manage the opportunity to users, whose  `roles <https://www.orocrm.com/documentation/index/current/user-guide/user-management-roles/#user-guide-user-management-permissions>`__ allow managing opportunities assigned to the owner (e.g. the owner, members of the same business unit, system administrator, etc.). |
-|                      | By default, the user creating the record is chosen.                                                                                                                                                                                                                                                                                                   |
-+----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Opportunity Name** | The name used to refer to an opportunity in the system.                                                                                                                                                                                                                                                                                               |
-+----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Account**          | Allows to select or create a customer account the opportunity will be related to.                                                                                                                                                                                                                                                                     |
-|                      | -  Account field will be filled in with the company name if such name was entered when creating a lead.                                                                                                                                                                                                                                               |
-|                      | -  To create a new account, click **+** at the end of the Account field.                                                                                                                                                                                                                                                                              |
-|                      | -  Alternatively, use **write-in functionality** to enter a new account name. Type the name in the field and click **Add New**.                                                                                                                                                                                                                       |
-|                      | -  Creating an account will automatically create a business customer with the same name.                                                                                                                                                                                                                                                              |
-+----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Field**            | **Description**                                                                                                                                                                                                                                                   |
++======================+===================================================================================================================================================================================================================================================================+
+| **Owner**            | Limits the list of users that can manage the opportunity to users whose :ref:`roles <user-guide-user-management-permissions>` allow managing opportunities assigned to the owner (e.g. the owner, members of the same business unit, system administrator, etc.). |
+|                      | By default, the user creating the record is chosen.                                                                                                                                                                                                               |
++----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Opportunity Name** | The name used to refer to an opportunity in the system.                                                                                                                                                                                                           |
++----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Account**          | Allows to select or create a customer account the opportunity will be related to.                                                                                                                                                                                 |
+|                      |                                                                                                                                                                                                                                                                   |
+|                      | -  Account field will be filled in with the company name if such name was entered when creating a lead.                                                                                                                                                           |
+|                      |                                                                                                                                                                                                                                                                   |
+|                      | -  To create a new account, click **+** at the end of the Account field.                                                                                                                                                                                          |
+|                      |                                                                                                                                                                                                                                                                   |
+|                      | -  Alternatively, use **write-in functionality** to enter a new account name. Type the name in the field and click **Add New**.                                                                                                                                   |
+|                      |                                                                                                                                                                                                                                                                   |
+|                      | -  Creating an account will automatically create a business customer with the same name.                                                                                                                                                                          |
++----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 |
 
@@ -140,7 +144,7 @@ For Opportunity Information form, define the following fields:
 
 |
 
-|
+
 
 .. image:: ../img/opportunities/probability_edited.png
 
@@ -165,7 +169,7 @@ For Opportunity Information form, define the following fields:
 | **Additional Comments**   | Enter additional comments if necessary.                                                                                                                 |
 +---------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-**New Contact Information Form** contains General, **Contact Details** and **Addresses** sections with a number of fields to fill in.
+**New Contact Information Form** contains **General**, **Contact Details**, and **Addresses** sections with a number of fields to fill in.
 
 Since the lead has fulfilled its purpose and is no longer needed, a new contact will be created based on lead data entered in this form.
 
@@ -200,13 +204,13 @@ Create an Opportunity Form
 Instead of converting a lead to an opportunity, you can manually create
 a new opportunity:
 
--  Navigate to **Sales>Opportunities.**
+-  Navigate to **Sales>Opportunities**.
 
 -  Click **Create Opportunity** in the top right corner of the page.
 
 -  A **Create Opportunity form** will open with fields to define.
 
-.. note:: Note that the **Create an Opportunity Form** is essentially the same as **Convert To Opportunity form** but it does not contain **New Contact Information** section.
+.. note:: Note that the **Create an Opportunity** page is essentially the same as **Convert To Opportunity** page but it does not contain **New Contact Information** section.
 
 
 
@@ -228,13 +232,13 @@ Manage Opportunities
 
 The following actions can be performed for opportunities from the grid:
 
--  Export and import opportunity record details with Export and Import buttons as described in the `Export and Import Functionality <https://www.orocrm.com/documentation/index/current/user-guide/data-management-import-export/#user-guide-import>`__ guide.
+-  Export and import opportunity record details with Export and Import buttons as described in the :ref:`Export and Import Functionality <user-guide-import>` guide.
 
 -  Delete an opportunity from the system : |IcDelete|
 
--  Get to the `edit form <https://www.orocrm.com/documentation/index/current/user-guide/data-management-form/#user-guide-ui-components-create-pages>`__ of the opportunity : |IcEdit|
+-  Edit the opportunity : |IcEdit|
 
--  Get to the `view page <https://www.orocrm.com/documentation/index/current/user-guide/data-management-view/#user-guide-ui-components-view-pages>`__ of the opportunity : |IcView|
+-  View the opportunity : |IcView|
 
 |
 
@@ -303,7 +307,7 @@ Kanban Board
 
 As an alternative to grid view, it is possible to view Opportunities in
 Kanban board. To change grid view to board view, open **Grid/Board
-menu** and click **Board.**
+menu** and click **Board**.
 
 |
 
@@ -338,9 +342,9 @@ Within the board, you can:
 
 -  Delete an opportunity from the system : |IcDelete|
 
--  Get to the \ `edit form <https://www.orocrm.com/documentation/index/current/user-guide/data-management-form/#user-guide-ui-components-create-pages>`__ of the opportunity : |IcEdit|
+-  Edit an opportunity : |IcEdit|
 
--  Get to the \ `view page <https://www.orocrm.com/documentation/index/current/user-guide/data-management-view/#user-guide-ui-components-view-pages>`__ of the opportunity : |IcView|
+-  View an opportunity : |IcView|
 
 |
 
@@ -356,14 +360,14 @@ Within the board, you can:
 Manage Opportunity Workflow
 ---------------------------
 
-You can use OroCRM’s `workflows <https://www.orocrm.com/documentation/index/current/user-guide/glossary/#term-workflow>`__ to define rules and guidelines on possible actions/updates of opportunities in the system. You can read more on workflows :ref:`here <user-guide-workflow-management>`.
+You can use OroCRM’s :term:`workflows <Workflow>` to define rules and guidelines on possible actions/updates of opportunities in the system. You can read more on :ref:`workflows <user-guide-workflow-management>`.
 
 Activate Opportunity Management Flow
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 To ensure data consistency and reasoned opportunity management by a
-sales manager, you can **activate Opportunity Management Flow** in
-**System>Workflows.** This can be done in two ways:
+sales manager, you can activate Opportunity Management Flow in
+**System>Workflows**. This can be done in two ways:
 
 -  From the grid: click **V** in the ellipsis menu
 
@@ -490,7 +494,7 @@ Develop
 
 |
 
-
+.. _user-guide-opportunities-reports:
 
 Reports with Opportunities
 --------------------------
@@ -518,7 +522,7 @@ Opportunities by Status
 opportunities with a specific status are available in the system, what
 their total close revenue and budget amount are.
 
-In order to see the report, go to **Reports and Segments>Reports>Opportunities> Opportunities By Status.**
+In order to see the report, go to **Reports and Segments>Reports>Opportunities>Opportunities By Status.**
 
 Opportunities by Status report shows:
 

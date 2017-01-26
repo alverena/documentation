@@ -99,7 +99,7 @@ related articles is provided below the description.
         * User guide: :doc:`/user_guide/customer_management/common_features_multi_channel_functionality`
         * User guide: :doc:`/user_guide/customer_management/common_features_channels`
         * User guide: :doc:`/user_guide/customer_management/common_features_accounts`
-        * User guide: :doc:`/user_guide_roles/sales_tools/b2b_channels`
+        * User guide: :doc:`/user_guide_roles/sales_tools/sales_channels`
         * User guide: :doc:`/user_guide_roles/sales_tools/magento_channels`
 
 `ChartBundle`_ (OroPlatform)
@@ -395,7 +395,7 @@ related articles is provided below the description.
 
         * Book: :doc:`/book/reports_configuration`
         * User guide: :doc:`/user_guide/customer_management/common_features_accounts`
-        * User guide: :doc:`/user_guide_roles/sales_tools/b2b_customers`
+        * User guide: :doc:`/user_guide_roles/sales_tools/business_customers`
         * User guide: :doc:`/user_guide_roles/sales_tools/leads`
         * User guide: :doc:`/user_guide_roles/sales_tools/opportunities`
         * User guide: :doc:`/user_guide/business_intelligence/business_intelligence_reports`
@@ -555,7 +555,7 @@ related articles is provided below the description.
 
         * Book: :doc:`/book/workflow`
         * Reference: :doc:`/reference/format/workflows`
-        * User guide: :doc:`/user_guide_roles/sales_tools/b2b_customers`
+        * User guide: :doc:`/user_guide_roles/sales_tools/business_customers`
         * User guide: :doc:`/user_guide_roles/sales_tools/leads`
         * User guide: :doc:`/user_guide_roles/sales_tools/opportunities`
         * User guide: :doc:`/user_guide_roles/sales_tools/sales_processes_workflow`

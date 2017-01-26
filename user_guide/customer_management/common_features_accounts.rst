@@ -41,8 +41,8 @@ and related :term:`contacts <Contact>`) and may be left empty.
 - In order to add a contact, click the :guilabel:`+Add` button in the *Contacts* section. 
 
 If you need to record and process any other details of accounts, 
-:ref:`custom fields <user-guide-field-management-create>` can be created. Their values will 
-be displayed in the *Additional* section.
+:ref:`custom fields <doc-entity-fields-create>` can be created. Their values will 
+be displayed in the **Additional** section.
   
 Once all the necessary information has been defined, click the button in the right top corner of the page to save the 
 account in the system.
@@ -59,7 +59,7 @@ Manage Account Records
 Accounts View Page
 ^^^^^^^^^^^^^^^^^^
 
-The :ref:`View page <user-guide-ui-components-view-pages>` consists of several sections, namely:
+The :ref:`view page <user-guide-ui-components-view-pages>` consists of several sections, namely:
 
 - **Page Header**: date of the account creation and its latest update, as well as its 
   :term:`lifetime sales value <Lifetime Sales Value>`.
@@ -123,8 +123,8 @@ The following actions can be performed for the accounts from the :ref:`View page
   the :ref:`Export and Import Functionality <user-guide-import>` guide. 
 
 - The rest of the actions available depend on the system settings defined in the
-  :ref:`Communication & Collaboration settings <user-guide-entity-management-create-commun-collab>` of the 
-  *"Accounts"* entity.
+  **Communication & Collaboration** settings section of the 
+  **Accounts** entity (see step 4 of the :ref:`Create an Entity <doc-entity-actions-create>` action description).
 
 .. image:: ../img/accounts/accounts_view_actions.png
 
@@ -142,9 +142,9 @@ From the :ref:`grid <user-guide-ui-components-grids>` you can:
 
 - Delete the account from the system : |IcDelete|
   
-- Get to the :ref:`Edit form <user-guide-ui-components-create-pages>` of the account : |IcEdit|
+- Edit the account : |IcEdit|
   
-- Get to the :ref:`View page <user-guide-ui-components-view-pages>` of the account : |IcView| 
+- View the account : |IcView| 
 
 - Merge Accounts
 
