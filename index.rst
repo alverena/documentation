@@ -22,6 +22,7 @@ User and Administrator Guides
 .. raw:: html
 
    <div style="overflow: hidden;margin: 0 auto;width: 100%; height:100%;">
+
    <div style="float: left;width: 33.3%;padding-right: 10px;height: 100%;">   
    <a href="./user-guide"><i class="fa fa-user fa-2x" aria-hidden="true" style="color:#FFC221;"></i><br/><h3>User Guide</h3></a>
    <ul class="simple">
@@ -33,17 +34,18 @@ User and Administrator Guides
    <li><a class="reference external" href="./user-guide/business-intelligence/">Business Intelligence</a></li>
    </ul>
    </div>
+
    <div style="float: left;width: 33.3%;padding-right: 10px;height: 100%;">   
    <a href="./user-guide-roles/"><i class="fa fa-user-plus fa-2x" aria-hidden="true" style="color:#FFC221;"></i><br/><h3>User Guide: Roles</h3></a>
    <ul class="simple">
    <li><a class="reference external" href="./user-guide-roles/sales-tools/">Sales Tools</a></li>
    <li><a class="reference external" href="./user-guide-roles/marketing-tools/>Marketing Tools</a></li>
    <li><a class="reference external" href="./user-guide-roles/support-tools/">Support Tools</a></li>
-
    </ul>
    </div>
+
    <div style="float: left;width: 33.3%;padding-right: 10px;height: 100%;">   
-   <a href="./admin-guide/"><h3><i class="fa fa-cog fa-2x" aria-hidden="true" style="color:#FFC221;"><br/><h3>Administrator Guide</h3></a>
+   <a href="./admin-guide/"><i class="fa fa-cog fa-2x" aria-hidden="true" style="color:#FFC221;"></i><br/><h3>Administrator Guide</h3></a>
    <ul class="simple">
 
    <li><a class="reference external" href="./admin-guide/app-look-feel/">Application Look and Feel</a></li>
@@ -69,6 +71,7 @@ Developer Guides
    <div style="overflow: hidden;margin: 0 auto;width: 100%; height:100%;">
 
    <div style="float: left;width: 33.3%;padding-right: 10px;height: 100%;">  
+
    <a class="reference external" href="./book"><i class="fa fa-book fa-2x" aria-hidden="true" style="color:#FFC221;"></i><br/><h3>The Book</h3></a>
    <p>This section provides information related the Oro application architecture and setup:
 
@@ -77,7 +80,9 @@ Developer Guides
    <li><a class="reference external" href="./book/data-api">Using Web Services API</a></li>
    <li><a class="reference external" href="./book/scale-nodes">Scaling</a> Oro application</li>
    </ul>
+
    </p>
+
    </div>
 
    <div style="float: left;width: 33.3%;padding-right: 10px;height: 100%;">
