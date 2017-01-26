@@ -39,7 +39,7 @@ User and Administrator Guides
    <a href="./user-guide-roles/"><h3 style="text-align:center;"><i class="fa fa-user-plus fa-2x" aria-hidden="true" style="color:#FFC221;"></i><br/>User Guide: Roles</h3></a>
    <ul class="simple">
    <li><a class="reference external" href="./user-guide-roles/sales-tools/">Sales Tools</a></li>
-   <li><a class="reference external" href="./user-guide-roles/marketing-tools/>Marketing Tools</a></li>
+   <li><a class="reference external" href="./user-guide-roles/marketing-tools/">Marketing Tools</a></li>
    <li><a class="reference external" href="./user-guide-roles/support-tools/">Support Tools</a></li>
    </ul>
    </div>
