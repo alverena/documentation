@@ -99,20 +99,20 @@ Developer Guides
    </div>
 
    <div style="float: left;width: 33.3%;padding-right: 10px;height: 100%;">
-   <a class="reference external" href="./bundles"><i class="fa fa-puzzle-piece fa-2x" aria-hidden="true" style="color:#FFC221;"></i><br/><h3>The Oro Bundles</h3></a>
+   <a class="reference external" href="./bundles"><h3 style="text-align:center;"><i class="fa fa-puzzle-piece fa-2x" aria-hidden="true" style="color:#FFC221;" ></i><br/>The Oro Bundles</h3></a>
    <p>This section contains information about OroPlatform and OroCRM bundles, overview of system capabilities they introduce, and guidance  and advice on customization and extension of the out-of-the box capabilities.<br><br></p>
    </div>
 
    </div>
 
    <div style="float: none;margin: 0 auto;width: 100%; height:100%;">
-   <a class="reference external" href="./community"><i class="fa fa-flag fa-2x" aria-hidden="true" style="color:#FFC221;"></i><br/><h3>Support and Contribution</h3></a>
+   <a class="reference external" href="./community"><i class="fa fa-flag fa-2x" aria-hidden="true" style="color:#FFC221;"></i> <h3>Support and Contribution</h3></a>
    <p>Join Oro community and contribute to the open-source OroCRM Community Edition. The OroCRM Community Guide provides information, best practices and conventions for contributing into the OroCommerce <a class="reference external" href="./community/contributing">source code</a>, <a class="reference external" href="./community/translations">translation</a>, and <a class="reference external" href="./community/contributing#improving-documentation">documentation</a></p>
 
    </div>
 
    <div style="float: none;margin: 0 auto;width: 100%; height:100%;">
-   <a class="reference external" href="./reference"><i class="fa fa-bookmark fa-2x" aria-hidden="true" style="color:#FFC221;"></i><br/><h3>Reference</h3></a>
+   <a class="reference external" href="./reference"><i class="fa fa-bookmark fa-2x" aria-hidden="true" style="color:#FFC221;"></i> <h3>Reference</h3></a>
    <p>This section contains annotation and configuration format reference. </p>
    </div>
 
