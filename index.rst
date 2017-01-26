@@ -23,7 +23,7 @@ User and Administrator Guides
 
    <div style="overflow: hidden;margin: 0 auto;width: 100%; height:100%;">
    <div style="float: left;width: 33.3%;padding-right: 10px;height: 100%;">   
-   <h3><a href="./user-guide">User Guide</h3></a>
+   <a href="./user-guide"><i class="fa fa-user fa-2x" aria-hidden="true" style="color:#FFC221;"></i><br/><h3>User Guide</h3></a>
    <ul class="simple">
    <li><a class="reference external" href="./user-guide/access-oro/">Access Oro</a></li>
    <li><a class="reference external" href="./user-guide/navigation/">Navigation and Search</a></li>
@@ -34,7 +34,7 @@ User and Administrator Guides
    </ul>
    </div>
    <div style="float: left;width: 33.3%;padding-right: 10px;height: 100%;">   
-   <h3><a href="./user-guide-roles/">User Guide: Roles</h3>
+   <a href="./user-guide-roles/"><i class="fa fa-user-plus fa-2x" aria-hidden="true" style="color:#FFC221;"></i><br/><h3>User Guide: Roles</h3></a>
    <ul class="simple">
    <li><a class="reference external" href="./user-guide-roles/sales-tools/">Sales Tools</a></li>
    <li><a class="reference external" href="./user-guide-roles/marketing-tools/>Marketing Tools</a></li>
@@ -43,7 +43,7 @@ User and Administrator Guides
    </ul>
    </div>
    <div style="float: left;width: 33.3%;padding-right: 10px;height: 100%;">   
-   <h3><a href="./admin-guide/">Administrator Guide</h3></a>
+   <a href="./admin-guide/"><h3><i class="fa fa-cog fa-2x" aria-hidden="true" style="color:#FFC221;"><br/><h3>Administrator Guide</h3></a>
    <ul class="simple">
 
    <li><a class="reference external" href="./admin-guide/app-look-feel/">Application Look and Feel</a></li>
@@ -67,34 +67,47 @@ Developer Guides
 .. raw:: html
 
    <div style="overflow: hidden;margin: 0 auto;width: 100%; height:100%;">
-   <div style="float: left;width: 33.3%;padding-right: 10px;height: 100%;">   
-   <h3><a class="reference external" href="./book">The Book</a></h3>
+
+   <div style="float: left;width: 33.3%;padding-right: 10px;height: 100%;">  
+   <a class="reference external" href="./book"><i class="fa fa-book fa-2x" aria-hidden="true" style="color:#FFC221;"></i><br/><h3>The Book</h3></a>
    <p>This section provides information related the Oro application architecture and setup:
-   <ul><li><a class="reference external" href="./book/configuration">configuration</a>, <a class="reference external" href="localization">localization</a>, and <a class="reference external" href="./book/security">securty</a>, and <a class="reference external" href="./book/customization">customization</a></li>
+
+   <ul>
+   <li><a class="reference external" href="./book/configuration">configuration</a>, <a class="reference external" href="localization">localization</a>, and <a class="reference external" href="./book/security">securty</a>, and <a class="reference external" href="./book/customization">customization</a></li>
    <li><a class="reference external" href="./book/data-api">Using Web Services API</a></li>
-   <li><a class="reference external" href="./book/scale-nodes">Scaling</a> Oro application</li></ul></p>
-   </div>
-   <div style="float: left;width: 33.3%;padding-right: 10px;height: 100%;">
-   <h3><a class="reference external" href="./cookbook">The Cookbook</a></h3>
-   <p>This section provides a series of areticles with more detailed information for developers and integrators:
-   <ul><li><a class="reference external" href="./cookbook/entities">Entity customaization</a></li>
-   <li><a class="reference external" href="./cookbook/how-to-install-extension-from-command-line">Extension installation</a></li>
-   <li><a class="reference external" href="./cookbook/how-to-upgrade-to-new-version">Upgrade</a></li></ul><br>
+   <li><a class="reference external" href="./book/scale-nodes">Scaling</a> Oro application</li>
+   </ul>
    </p>
    </div>
+
    <div style="float: left;width: 33.3%;padding-right: 10px;height: 100%;">
-   <h3><a class="reference external" href="./bundles">The Oro Bundles</a></h3>
+   <a class="reference external" href="./cookbook"><i class="fa fa-flask fa-2x" aria-hidden="true" style="color:#FFC221;"></i><br/><h3>The Cookbook</h3></a>
+   <p>This section provides a series of areticles with more detailed information for developers and integrators:
+
+   <ul>
+   <li><a class="reference external" href="./cookbook/entities">Entity customaization</a></li>
+   <li><a class="reference external" href="./cookbook/how-to-install-extension-from-command-line">Extension installation</a></li>
+   <li><a class="reference external" href="./cookbook/how-to-upgrade-to-new-version">Upgrade</a>
+   </li>
+   </ul>
+   </p>
+   </div>
+
+   <div style="float: left;width: 33.3%;padding-right: 10px;height: 100%;">
+   <a class="reference external" href="./bundles"><i class="fa fa-puzzle-piece fa-2x" aria-hidden="true" style="color:#FFC221;"></i><br/><h3>The Oro Bundles</h3></a>
    <p>This section contains information about OroPlatform and OroCRM bundles, overview of system capabilities they introduce, and guidance  and advice on customization and extension of the out-of-the box capabilities.<br><br></p>
    </div>
-   </div>
-   <div style="float: none;margin: 0 auto;width: 100%; height:100%;">
 
-   <h3><a class="reference external" href="./community">Support and Contribution</a></h3>
+   </div>
+
+   <div style="float: none;margin: 0 auto;width: 100%; height:100%;">
+   <a class="reference external" href="./community"><i class="fa fa-flag fa-2x" aria-hidden="true" style="color:#FFC221;"></i><br/><h3>Support and Contribution</h3></a>
    <p>Join Oro community and contribute to the open-source OroCRM Community Edition. The OroCRM Community Guide provides information, best practices and conventions for contributing into the OroCommerce <a class="reference external" href="./community/contributing">source code</a>, <a class="reference external" href="./community/translations">translation</a>, and <a class="reference external" href="./community/contributing#improving-documentation">documentation</a></p>
 
    </div>
+
    <div style="float: none;margin: 0 auto;width: 100%; height:100%;">
-   <h3><a class="reference external" href="./reference">Reference</a></h3>
+   <a class="reference external" href="./reference"><i class="fa fa-bookmark fa-2x" aria-hidden="true" style="color:#FFC221;"></i><br/><h3>Reference</h3></a>
    <p>This section contains annotation and configuration format reference. </p>
    </div>
 
