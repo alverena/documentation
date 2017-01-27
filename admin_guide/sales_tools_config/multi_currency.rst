@@ -40,7 +40,6 @@ below. This conversion is calculated according to the currency rate, determined 
 
 With this example in mind, let us have a look at how you can configure
 your currencies and rates.
-
 .. note:: So far, opportunity is the only OroCRM entity to have received multi-currency functionality out of the box.
 
 
@@ -60,7 +59,7 @@ To configure currencies as an admin, navigate to **System>Configuration** in the
 
 |
 
-.. image:: ../img/buttons//multi_currency/system_config_highlighted.png
+.. image:: ../img/multi_currency/system_config_highlighted.png
 
 |
 
@@ -71,7 +70,7 @@ Next, open **System Configuration** dropdown list on your left, select
 
 |
 
-.. image:: ../img/buttons//multi_currency/system_config_currency_view_highlights.png
+.. image:: ../img/multi_currency/system_config_currency_view_highlights.png
 
 |
 
@@ -93,13 +92,13 @@ The following sections will be available within the **Currency** tab:
 
 |
 
-.. image:: ../img/buttons//multi_currency/allowed_currencies_dropdown.png
+.. image:: ../img/multi_currency/allowed_currencies_dropdown.png
 
 |
 
 |
 
-.. image:: ../img/buttons//multi_currency/display_format.png
+.. image:: ../img//multi_currency/display_format.png
 
 |
 
@@ -142,7 +141,7 @@ For the sales manager to be able to manage currencies, they would need to:
    
 |
 
-.. image:: ../img/buttons//multi_currency/temp_system_user_management_organizations.png
+.. image:: ../img/multi_currency/temp_system_user_management_organizations.png
 
 |
 
@@ -151,7 +150,7 @@ For the sales manager to be able to manage currencies, they would need to:
   
 |
 
-.. image:: ../img/buttons//multi_currency/organization.png
+.. image:: ../img/multi_currency/organization.png
 
 |
 
@@ -161,7 +160,7 @@ For the sales manager to be able to manage currencies, they would need to:
 
 |
 
-.. image:: ../img/buttons//multi_currency/temp_configuration_org_level.png
+.. image:: ../img/multi_currency/temp_configuration_org_level.png
 
 |
 
@@ -175,13 +174,13 @@ unlock the grid by unticking **Use System**.
 
 |
 
-.. image:: ../img/buttons//multi_currency/use_system.png
+.. image:: ../img/multi_currency/use_system.png
 
 |
 
 |
 
-.. image:: ../img/buttons//multi_currency/use_organization_level_highlighted.png
+.. image:: ../img/multi_currency/use_organization_level_highlighted.png
 
 |
 
@@ -200,7 +199,7 @@ constitute 1.2525.
 
 |
 
-.. image:: ../img/buttons//multi_currency/rate_recalculation.png
+.. image:: ../img/multi_currency/rate_recalculation.png
 
 |
 
@@ -225,13 +224,13 @@ necessary.
 
 |
 
-.. image:: ../img/buttons//multi_currency/delete.png
+.. image:: ../img/multi_currency/delete.png
 
 |
 
 |
 
-.. image:: ../img/buttons//multi_currency/deleted_currency_in_dropdown.png
+.. image:: ../img/multi_currency/deleted_currency_in_dropdown.png
 
 |
 
@@ -255,7 +254,7 @@ how this is displayed for opportunities:
 
 |
 
-.. image:: ../img/buttons//multi_currency/example_base_and_us_budget.png
+.. image:: ../img/multi_currency/example_base_and_us_budget.png
 
 |
 
@@ -272,7 +271,7 @@ currency.
 
 |
 
-.. image:: ../img/buttons//multi_currency/Rate_recalculation.gif
+.. image:: ../img/multi_currency/Rate_recalculation.gif
 
 |
 
@@ -281,13 +280,13 @@ Changing the base currency results in currency change for entities:
 
 |
 
-.. image:: ../img/buttons//multi_currency/base_currency_selected.png
+.. image:: ../img/multi_currency/base_currency_selected.png
 
 |
 
 |
 
-.. image:: ../img/buttons//multi_currency/example_budget_changed.png
+.. image:: ../img/multi_currency/example_budget_changed.png
 
 |
 
@@ -299,7 +298,7 @@ Changing the base currency results in currency change for entities:
 
 |
 
-.. image:: ../img/buttons//multi_currency/widgets_base_currency.png
+.. image:: ../img/multi_currency/widgets_base_currency.png
 
 |
 
@@ -315,7 +314,7 @@ When the rates are configured, you can use them to record multi-currency sales a
 
 |
 
-.. image:: ../img/buttons//multi_currency/mc_visualization.gif
+.. image:: ../img/multi_currency/mc_visualization.gif
 
 |
  

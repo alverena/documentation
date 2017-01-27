@@ -28,7 +28,7 @@ can be added to any website to collect requests to the OroCRM team.
 * :doc:`/admin_guide/integrations/embedded_forms`
 * :doc:`/admin_guide/integrations/hangouts`
 * :doc:`/admin_guide/integrations/zendesk_integration`
-* :doc:`/admin_guide/integration/commerce_integration`
+* :doc:`/admin_guide/integrations/commerce_integration`
 
 
 .. toctree::
