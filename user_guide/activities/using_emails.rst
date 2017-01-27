@@ -814,4 +814,3 @@ From this grid you can:
 .. |BCrLOwnerClear| image:: ../../img/buttons/BCrLOwnerClear.png
    :align: middle
    
-.. |email_template_create| image:: ../img/marketing/email_template_create.png
