@@ -10,7 +10,7 @@ We'd love for you to contribute to our source code and documentation to make our
 
 
 Submitting a Question
-=====================
+----------------------
 
 If you have questions about how to use, configure, extend or customize OroPlatform, OroCommerce or OroCRM, please direct these to our community forums :
 
@@ -19,7 +19,7 @@ If you have questions about how to use, configure, extend or customize OroPlatfo
 * `OroCRM community forum <http://www.orocrm.com/forums/forum/orocrm>`_
 
 Submitting a Bug
-=================
+----------------
 
 We are using GitHub as a bug tracker. If you find a bug in the source code or a mistake in the documentation,
 you can help us by submitting an issue to our GitHub repository.
@@ -58,22 +58,22 @@ Here is an example of a well defined issue: https://github.com/orocrm/platform/i
 
 
 Signing a Contributor License Agreement
-=======================================
+---------------------------------------
 
 In order to accept your pull request, we need you to sign the `Contributor License Agreement`_ (CLA). You only need to do this once, so if you've done this for any of our open source projects, you're good to go with all of them. If you are submitting a pull request for the first time, our friendly *orocla* robot will automatically add a reminder to your pull request.
 
 Contributing to Code
-====================
+--------------------
 
 Code style
-----------
+^^^^^^^^^^
 
 Code style is a set of conventions about how to write code. It is introduced for easier understanding of the large codebase by the wide-spread Oro community.
 
 The following code styles are used in all Oro projects, except for projects based on the frameworks, libraries or CMS where other conventions have been adopted.
 
 PHP Code Style
-^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~
 **Standard**
 
 PSR-2 is considered a code standard of the PHP code style.
@@ -286,7 +286,7 @@ In all other cases, usage of the @SuppressWarnings MUST NOT be used.
 In order to reduce development time and automate part of the code preparation related to the code style fixes, it is suggested to use `PHP Coding Standard Fixer <http://cs.sensiolabs.org/>`_ (or `PHP Coding Standard Fixer on GitHub <https://github.com/FriendsOfPHP/PHP-CS-Fixer>`_)—automated tool that fixes most code style issues in the code.
 
 JavaScript Code Style
-^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~
 
 **Standard**
 
@@ -321,25 +321,25 @@ To run the check manually from the command line:
     node_modules/.bin/jshint src/*/src/*/Bundle/*Bundle/Resources/public/js/** src/*/src/*/Bundle/*Bundle/Tests/JS/** --config=.jshintrc 
 
 .NET Code Style
-^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~
 
 .NET code MUST follow the Microsoft Managed Recommended Rules. This code style is controlled on the continuous integration with `StyleCop <https://stylecop.codeplex.com/>`_.
 
 CSS and HTML Code Style
-^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~
 There are no defined code styles for the CSS and HTML.
 
 It is recommended to use same code style that is used in `Bootstrap <http://getbootstrap.com/>`_.
 
 
 Code Version Control
---------------------
+^^^^^^^^^^^^^^^^^^^^
 
 The following is a set of conventions about code version control that strives to provide the best way to communicate enough context about every committed code change to fellow developers.
 These code version control conventions should be used in all Oro projects, except for the projects that adopted some other conventions.
 
 Git and Tools
-^^^^^^^^^^^^^
+~~~~~~~~~~~~~
 
 `Git <https://git-scm.com/>`_ is the official version control system used for the majority of the Oro projects. It allows for easy distribution of the source code and keeps each change under version control.
 
@@ -354,7 +354,7 @@ There is a number of tools to manage git repositories, for instance:
   
 
 Pull Request
-^^^^^^^^^^^^
+~~~~~~~~~~~~
 
 The best way to contribute a bug fix or enhancement is to submit a `pull request`_ to `OroCRM <http://github.com/orocrm/>`_. 
 
@@ -364,7 +364,7 @@ Before you submit your pull request consider the following guidelines:
 * Please sign our `Contributor License Agreement`_ (CLA) before submitting pull requests. The CLA must be signed for any code or documentation changes to be accepted.
   
 Commit message
-^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~
 
 The merge commit message contains the message from the author of the changes. This can help understand what the changes were about and the reasoning behind the changes. Therefore, commit messages should include a list of performed actions or changes in the code:
 
@@ -376,7 +376,7 @@ The merge commit message contains the message from the author of the changes. Th
 
 
 Contributing to Documentation
-=============================
+-----------------------------
 
 We use `reStructuredText`_ markup language to write the documentation and `Sphinx`_ generator to prepare it for the web publication at http://www.orocrm.com/documentation. You can find more information about the syntax on the Sphinx website by reading `reStructuredText Primer`_. The most important information is provided in the sections below.
 
@@ -391,7 +391,7 @@ If you are willing to contribute - you are totally welcome. The information belo
 
 
 Fork Documentation Project
---------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 If you're just making a small change, you can use the :guilabel:`Edit this file` button directly in the GitHub UI. It will automatically create a fork of our documentation repository and allow for the creation and submission of a new pull request with your modifications once you are done editing:
 
@@ -421,7 +421,7 @@ For large volume of  updates, fixes, and enhancements please use the following p
 .. _Sphinx:                  http://sphinx-doc.org/
 
 Update Documentation
---------------------
+^^^^^^^^^^^^^^^^^^^^
 
 This section is intended to provide you with the basic information of simple text formatting using reStructuredText (reST) markup language. Just enough to update and create new documentation files in OroCommerce documentation.
 
@@ -432,7 +432,7 @@ The most complete information is available in the `reStructureText specificaion 
 .. _reStructuredText Primer: http://sphinx-doc.org/rest.html
 
 Documentation Structure and Topic Organization
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 In OroCommerce, documentation is organized into the tree hierarchy of sections using toctree directive in the index.rst. Sections of the same level reside in the same folder which simplifies navigation and sibling reference.
 
@@ -457,10 +457,10 @@ Sample file structure:
     - index.rst
       
 Basic Rst Syntax
-^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~
 
 Headings
-~~~~~~~~
+""""""""
 
 Use the following markup for the headings to split your topic into sections, subsections, and more granular bits:
 
@@ -494,12 +494,12 @@ Preview:
 Preserve the same level of indentation for all lines of the paragraph. More information is available `here <http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#paragraphs>`_.
 
 Inline Markup
-~~~~~~~~~~~~~
+"""""""""""""
 
 Surround the text with one asterisk (\*) for *italic* text, with two asterisks (\*\*) for **bold** text, and with double back quotes (\`\`) for ``Preformatted`` text. to use these symbols in the text without affecting the text style, escape them with the backslash (\\).
 
 Bulleted List
-~~~~~~~~~~~~~
+"""""""""""""
 
 To form a bullet list, start the line with \*, +, or \- followed by whitespace:
 
@@ -526,7 +526,7 @@ Preview:
             + Item F
 
 Numbered List
-~~~~~~~~~~~~~
+"""""""""""""
 
 To form a numbered list, start the line with Arabic numerals (1,2,3), upper- or lowercase alphabet letters (A,B,C, or a,b,c), upper- or lowercase Roman numerals (I, II, III, or i, ii, iii). You can automatically enumerate the list by starting the lines with a hash sign (\#).
 
@@ -556,7 +556,7 @@ Preview:
               ii. Item F
 
 Auto enumerated List
-~~~~~~~~~~~~~~~~~~~~
+""""""""""""""""""""
 
 .. code-block:: none
 
@@ -582,9 +582,9 @@ Preview:
 
 
 Text Blocks
-~~~~~~~~~~~
-Attention Block
-"""""""""""""""
+"""""""""""
+**Attention Block**
+
 
 Syntax in Rst: `\.\. attention:: The message text.`
 
@@ -592,8 +592,8 @@ Preview:
 
 .. attention:: The message text.
 
-Caution Block
-"""""""""""""
+**Caution Block**
+
 
 Syntax in Rst: `\.\. caution:: The caution message.`
 
@@ -601,8 +601,8 @@ Preview:
 
 .. caution:: The caution message.
 
-Warning Block
-"""""""""""""
+**Warning Block**
+
 
 Syntax in Rst: `\.\. warning:: The warning message.`
 
@@ -610,8 +610,8 @@ Preview:
 
 .. warning:: The warning message.
 
-Hint Block
-""""""""""
+**Hint Block**
+
 
 Syntax in Rst: `\.\. hint:: The hint message.`
 
@@ -619,8 +619,8 @@ Preview:
 
 .. hint:: The hint message.
 
-Note Block
-""""""""""
+**Note Block**
+
 
 Syntax in Rst: `\.\. note:: The note message.`
 
@@ -628,8 +628,8 @@ Preview:
 
 .. note:: The note message.
 
-Tip Block
-"""""""""
+**Tip Block**
+
 
 Syntax in Rst: `\.\. tip:: The tip message.`
 
@@ -637,8 +637,8 @@ Preview:
 
 .. tip:: The tip message.
 
-Important Block
-"""""""""""""""
+**Important Block**
+
 
 Syntax in Rst: `\.\. important:: The important message.`
 
@@ -648,7 +648,7 @@ Preview:
 
 
 Tables
-~~~~~~
+""""""
 
 .. code-block:: none
 
@@ -671,7 +671,7 @@ Preview:
 +------------+------------+-----------+
 
 Advanced Rst Syntax
-^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~
 
 Temporarily, the information resides `on Confluence <https://magecore.atlassian.net/wiki/display/OD/RST+syntax+in+Oro+Documentation>`_. 
 
@@ -679,7 +679,7 @@ Temporarily, the information resides `on Confluence <https://magecore.atlassian.
 
 
 File Naming Conventions
-^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~
 
 Please follow the recommendations below when naming the new documenation file:
 
@@ -694,7 +694,7 @@ Please follow the recommendations below when naming the new documenation file:
 * Save the file with .rst extension
 
 Add a New Topic
-^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~
 
 1. Create topic contents using Restructured Text format and save it following the `File Naming Conventions`_.
 
