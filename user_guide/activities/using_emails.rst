@@ -428,7 +428,7 @@ Recent Emails Dashboard Widget
 
 Another way of reaching your emails is through a **Recent Emails
 widget** on your dashboard. You can find more information on Dashboard
-Widgets in the corresponding `section <widgets.html>`_ of the guide.
+Widgets in the corresponding :ref:`section <user-guide-widgets>` of the guide.
 
 The Recent Emails widget added to your dashboard will have the following
 features:
@@ -690,7 +690,7 @@ customers know that you have received their message, and that someone
 will be in touch soon.
 
 Refer to your administrator to enable this functionality. More
-information on auto-responses configuration can be found in the admin `guide <admin_email_guide.html>`_ to email. 
+information on auto-responses configuration can be found in the admin :ref:`guide <user-guide-email-admin>`to email. 
 
 How to set up email notifications
 ---------------------------------

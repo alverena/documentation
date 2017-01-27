@@ -273,7 +273,7 @@ The sample Opportunity Support Flow has been configured the following way:
 UI Limitations for Workflow Creation
 ------------------------------------
 
-OroCRM workflows can be created from both the server-side and the UI. However, there is a number of functions that can be defined for a workflow only from the server-side logics in the course of integration. More information on workflow implementation can be found `on this GitHub page <https://github.com/orocrm/platform/blob/master/src/Oro/Bundle/WorkflowBundle/Resources/doc/reference/workflow/index.md>`__   `and here <https://www.orocrm.com/documentation/index/current/book/workflow>`__
+OroCRM workflows can be created from both the server-side and the UI. However, there is a number of functions that can be defined for a workflow only from the server-side logics in the course of integration. More information on workflow implementation can be found `on this GitHub page <https://github.com/orocrm/platform/blob/master/src/Oro/Bundle/WorkflowBundle/Resources/doc/reference/workflow/index.md>`__   `and here <../../book/workflow>`__
 
 Workflow Visualization
 ----------------------
@@ -487,7 +487,7 @@ All workflow labels can be translated into other languages, providing better loc
 
 |
 
-You can find more information on translations in the `Manage Translation guide <../shared/common-actions/manage-translation.html>`_.
+You can find more information on translations in the Manage Translation guide.
 
 
 

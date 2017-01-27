@@ -95,4 +95,4 @@ A Commerce customer can be added to the Account field when creating a new opport
 Track and Forecast Commerce Sales
 ---------------------------------
 
-CRM opportunities can be related to any customer type, including Commerce customers. This allows sales representatives to track their ongoing deals and forecast future revenues for all sales that will be condicted via the Commerce website by relating the opportunity to the respective Commerce customer record.
+CRM opportunities can be related to any customer type, including Commerce customers. This allows sales representatives to track their ongoing deals and forecast future revenues for all sales that will be conducted via the Commerce website by relating the opportunity to the respective Commerce customer record.

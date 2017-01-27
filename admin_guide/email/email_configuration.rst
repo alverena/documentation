@@ -193,7 +193,7 @@ primary email address to log-in only once in the session.
 
 
 
-See how to configure Google Sign-on integration in the  `Google Integration guide <google_single_sign_on.html>`_.
+See how to configure Google Sign-on integration in the :ref:`Google Integration guide <user-guide-google-single-sign-on>`.
 
 MS Exchange integration
 -----------------------

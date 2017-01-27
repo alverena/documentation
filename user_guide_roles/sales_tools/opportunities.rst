@@ -410,7 +410,7 @@ Manage Opportunities
 
 The following actions can be performed for opportunities from the grid:
 
--	Export and import opportunity record details with Export and Import buttons as described in the `Export and Import Functionality <https://www.orocrm.com/documentation/index/current/user-guide/data-management-import-export/#user-guide-import>`__ guide.
+-	Export and import opportunity record details with Export and Import buttons as described in the :ref:`Export and Import Functionality <user-guide-import>` guide.
 
 -	Delete an opportunity from the system: |IcDelete|
 -	Get to the edit form of the opportunity: |IcEdit| 
@@ -703,7 +703,7 @@ Depending on their configuration, workflow steps can vary. Here is an example of
 Multi-currency Opportunities
 ----------------------------
 
-Multi-currency feature is available for OroCRM Enterprise Edition only. You can find a complete guide on multi-currency in the `multi-currency guide <multi_currency.html>`_.
+Multi-currency feature is available for OroCRM Enterprise Edition only. You can find a complete guide on multi-currency in :ref:`multi-currency guide <user-guide-multi-currency>`.
 
 Currency configuration allows to track and record sales made in different currencies, specifically:
 
@@ -786,6 +786,8 @@ If you change the currency exchange rate, the changes will be displayed for all 
 As you can see from the screenshots, the rate of Euro towards US dollar was changed from 1.09 to 1.15 consequently changing the value of the base currency for budget amount from $16350 to $17250.
 
 .. important:: If you are not using the **Opportunity Management Flow**, you will be able to edit the budget amount/close revenue for a closed opportunity.
+
+.. _user-guide-opportunities-reports:
 
 Reports with Opportunities
 --------------------------

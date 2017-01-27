@@ -258,6 +258,7 @@ Inline editing within the grid can help you amend lead details without opening t
 .. note:: Although multiple emails, phones and addresses can be added for leads, only one email, phone and address will be displayed in the grid.
  
   
+.. _doc-leads-reports: 
 
 View Reports
 ------------
